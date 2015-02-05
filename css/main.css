@@ -752,7 +752,7 @@ img {
 .ar3txt {
   bottom: 77px;
   color: #000;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
   position: fixed;
   text-align: center;
@@ -1246,43 +1246,50 @@ nav.slide-menu-left a, nav.slide-menu-right a, nav.push-menu-left a, nav.push-me
   color: #fff;
   padding: 40px 10px 20px 20px;
 }
+
 .rhc > img {
   padding-bottom: 11px;
   width: 35%;
 }
+
 .rhc > p {
   font-family: 'Quattrocento', serif;
   font-size: 14px;
   line-height: 19px;
 }
+
 .menu-top {
   color: #fff;
   font-family: 'Quattrocento', serif;
   font-size: 38px;
 }
+
 .menu-top > img {
   padding-left: 20px;
   padding-right: 2%;
 }
+
 nav.menu {
   background-color: #112f41;
   position: fixed;
   transition: all 0.3s ease 0s;
 }
 
-
 .contactform-newsletter > p {
   color: #112f41;
   font-family: 'Quattrocento', serif;
   font-size: 16px;
 }
+
 .slide6div {
   left: 42%;
   top: 5%;
 }
+
 .indicates-required {
   font-size: 0;
 }
+
 .mc-field-group  input {
   background: none repeat scroll 0 0 #112f41 !important;
   border: 0 none;
@@ -1300,6 +1307,7 @@ nav.menu {
   font-family: 'Quattrocento', serif;
   font-size: 13px;
 }
+
 #mc-embedded-subscribe {
   background-attachment: scroll !important;
   background-clip: border-box !important;
@@ -1315,32 +1323,45 @@ nav.menu {
   width: 14%!important;
   margin-bottom:0px!important;
   border-radius: 0 !important;
-    float: right !important;
-    height: 42px !important;
+  float: right !important;
+  height: 42px !important;
   margin-right:0px !important;
 }
+
 #mce-EMAIL {
     width: 75%!important;
   margin-bottom:0px!important;
 }
+
 .emaildiv {
   background: none repeat scroll 0 0 #112f41;
   float: left;
   padding: 0;
   width: 100%;
 }
+
 .emaildiv input {
   display: inline-block !important;
 }
+
 #mc_embed_signup .mc-field-group input {
   display: block;
   padding: 8px 0;
   text-indent: 2%;
   width: 92%;
 }
+
 #mce-FNAME, #mce-LNAME {
   width: 92% !important;
 }
+
 .indicates-required {
   display: none !important;
+}
+
+.cta-buy {
+  z-index: 1102;
+  position: fixed;
+  left: 83%;
+  top: 3%;
 }
