@@ -1,3 +1,4 @@
+// main.js
 $(document).ready(function() {
 
   var i = 0;

@@ -1,7 +1,5 @@
-/**
- * The nav stuff
- */
-(function( window ){
+// nav.js
+$(document).ready(function() {
   
   'use strict';
 
@@ -100,4 +98,4 @@
   });
 
 
-})( window );
+});

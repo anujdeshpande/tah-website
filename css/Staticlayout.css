@@ -1,0 +1,758 @@
+.rgbamonitor
+{
+display:none;
+}
+.slidinghandTahnew
+{
+display:none;
+}
+
+@media only screen and (max-width:800px) and (min-width:606px)
+{
+.motion {
+  border-bottom: 4px solid #112f41;
+}
+.canvas {
+    float: left;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+.container {
+  float: left;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+  position: relative;
+  width: 94.7%;
+  padding: 0 10px;
+}
+#main section {
+   float: left;
+  height: 100%;
+    position: relative;
+  width: 100%;
+  z-index: 1000;
+}
+.landinglogo {
+  float: left;
+  left: auto;
+  position: relative;
+  right: 0;
+  text-align: center;
+  top: auto;
+  width: 100%;
+}
+.playbg {
+  background: url("../img/playBG.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+  float: left;
+  height: 100%;
+  opacity: 1;
+  position: relative;
+  top: auto;
+  width: 100%;
+}
+.infobox {
+  max-width: 400px;
+  position: relative;
+  width: 27.77%;
+  z-index: 1002;
+}
+.rgbbg {
+  background: url("../img/rgbBG.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+  float: left;
+  height: 100%;
+  position: relative;
+  top: auto !important;
+  width: 100%;
+  z-index: 999;
+}
+.rgbaoverlay {
+   height: 100%;
+  max-height: 434px;
+  position: relative;
+  top: 10%;
+  width: 100%;
+  z-index: 999;
+}
+.rgbaoverlay1 {
+    position: relative;
+  }
+  .rgbaoverlay2 {
+    position: relative;
+  }
+  .rgb .bottomhands {
+  bottom: 0;
+  max-width: 490px;
+  position: relative;
+  right: 2.5%;
+}
+.infobox {
+    opacity: 1!important;
+}
+.motion .bottomhands {
+  bottom: 0;
+  max-width: 490px;
+  position: relative;
+  right: 0;
+}
+.infobox {
+   position: relative;
+ }
+ .arduino > .container > .infobox {
+  float: left;
+  left: 0;
+  margin: 0 auto;
+  position: relative;
+  right: 0;
+  top: auto;
+  width: 100%;
+}
+.Arduinoimgdiv {
+  position: relative;
+  right: 10%;
+  vertical-align: bottom;
+}
+.arduino > .container > .ar3 {
+    position: relative;
+ }
+ .logo-text1 {
+  left: 0;
+  position: relative;
+  right: 0;
+  top: auto;
+}
+.tagline1 {
+  left: 0;
+  position: relative;
+  right: 0;
+  top: auto;
+}
+.opa {
+  opacity: 1;
+}
+#slide1 {
+  margin-top: 30px;
+}
+.infobox {
+  width: 260px!important;
+  z-index: 1002;
+  float: left;
+}
+.infobox h2 {
+  font-size: 40px;
+  }
+  .infobox > p {
+  font-size: 14px !important;
+    line-height: 25px;
+}
+.canvas-mini {
+  background: url("../img/carton.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+  height: 173px;
+  margin-top: 4% !important;
+  max-width: none;
+  position: relative;
+  top: auto !important;
+  width: 200px !important;
+  margin-top: 4%;
+}
+.light_bulb{
+  display: none;
+}
+.monitor{
+  display: none;
+}
+.slidinghandTah {
+  float: right;
+  margin-left:200px;
+  margin-top: 40px;
+  width: 115px;
+}
+.slidinghandTah1 {
+  display: none;
+  }
+  .storebuttons li img {
+  width: 100px!important;
+}
+#main section {
+    padding-left: 0;
+ }
+ .bottomhands.opa {
+  float: right;
+  position: relative;
+  width: 100%;
+}
+#slide2 {
+  background: none repeat scroll 0 0 #0c3040 !important;
+  padding-top: 3%;
+}
+.bottomhands .img-responsive {
+  float: right;
+  width: 250px;
+  margin-top: 5%;
+}
+.motionbottomhands .img-responsive {
+  width: 180px !important;
+}
+.rgbamonitor
+{
+display:block;
+}
+.rgbamonitor {
+  background: url("../img/carton.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+  border: 0 none;
+  float: left;
+  height: 173px;
+  width: 200px;
+  margin-top: 4%;
+}
+#slide3 {
+  background-color: #b0e1ff !important;
+}
+.motionbottomhands .img-responsive {
+  width: 150px;
+}
+#slide4 {
+  background-color: #b0e1ff !important;
+  padding-top: 7%;
+}
+.sensor > .container > .bottomhands .toucheffect {
+  display: none;
+  }
+.sensor > .container > .bottomhands img {
+  float: left !important;
+  margin-bottom: 0;
+  margin-left: 14% !important;
+  width: 40% !important;
+}
+.sensor .bottomhands.opa > img {
+  width: 168px !important;
+}
+  .sensor > .container > .bottomhands .clickhand {
+  margin-left: -35px !important;
+margin-top: 65px;
+right: auto;
+width: 114px !important;
+}
+.clickhand {
+  bottom: 0;
+  position: relative;
+}
+.canvas-mini-sensor {
+  float: left;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  position: relative;
+  right: auto;
+  top: auto !important;
+  width: 50%;
+}
+.leftsection {
+  bottom: 0;
+  box-sizing: border-box;
+  float: left;
+  height: 100%;
+  left: auto;
+  margin-top: 11%;
+  max-width: none;
+  position: relative;
+  width: 250px;
+}
+.middlesection {
+   position: relative;
+  width: 100px;
+}
+#secBG {
+  bottom: 0;
+  position: relative;
+  width: 100%;
+}
+#ac-waves {
+  display: none;
+}
+#slide5 {
+  margin-top: 6%;
+}
+.Arduinoimgdiv {
+  position: relative;
+  right: auto;
+  vertical-align: bottom;
+  border: 0px;
+  bottom: auto;
+  float: left;
+  margin-top: 11%;
+}
+.toucheffect {
+  display: none;
+}
+.slidinghandTahnew {
+  float: none;
+  margin-left: 200px;
+  margin-top: 40px;
+  width: 115px;
+  display:block;
+
+}
+.bigarduinoimg img {
+  display: none;
+}
+.bigarduinoimg {
+  background: url("../img/ardiuno.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  height: 200px;
+  width: 293px;
+  background-position: left;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  float:right;
+  margin-top:0px;
+  margin-bottom: 25px;
+}
+.preset5 {
+  display: none;
+}
+.preset0 {
+  display: none;
+}
+.arduino > .container > .ar3 {
+  border: 0 none;
+bottom: 0;
+clear: both;
+float: none;
+margin: 0 auto!important;
+position: relative;
+right: 0 !important;
+text-align: center;
+width: 200px;
+}
+.ar3txt {
+  bottom: 0;
+  font-size: 19px;
+  right: 5%;
+  position: relative;
+   float: none !important;
+  margin-top: 3px !important;
+  padding-bottom: 25px;
+} 
+.arduino > .container > .ar3 > img {
+  float: none;
+margin-left: -40px !important;
+width: 200px;
+}
+
+#main {
+  float: left;
+  margin-bottom: 50px;
+    width: 100%;
+}
+.ar3big {
+  bottom: auto !important;
+  right: 1% !important;
+}
+#slide6 > .container > .infobox {
+  float: none !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  position: relative;
+  width: 100% !important;
+}
+.slide6div {
+  float: none !important;
+  left: 0!important;
+  margin: 0 auto !important;
+  width: 300px !important;
+}
+.infobox h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.contactform-newsletter > p {
+   text-align: center;
+}
+}
+
+@media only screen and (max-width:605px) and (min-width:360px)
+{
+.infobox h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.motion {
+  border-bottom: 4px solid #112f41;
+}
+.infobox.opa {
+  float: none;
+  width: 100%!important;
+  margin: 0 auto!important;
+   opacity: 1!important;
+   position:relative;
+}
+.slide6div {
+  float: none !important;
+  left: 0!important;
+  margin: 0 auto !important;
+  width: 300px !important;
+}
+.canvas {
+    float: left;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+.canvas-mini {
+  background: url("../img/carton.png") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+  float: none;
+  height: 173px;
+  margin: 0 auto;
+  max-width: none;
+  position: relative;
+  top: auto !important;
+  width: 200px !important;
+  margin-top: 40px !important;
+   }
+   
+   #slide1 {
+  background: none repeat scroll 0 0 #B0E1FF !important;
+}
+.container {
+  float: left;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+  position: relative;
+  width: 94.7%;
+  padding: 0 10px;
+}
+#main section {
+   float: left;
+  height: 100%;
+    position: relative;
+  width: 100%;
+  z-index: 1000;
+}
+.landinglogo {
+  float: left;
+  left: auto;
+  position: relative;
+  right: 0;
+  text-align: center;
+  top: auto;
+  width: 100%;
+}
+.playbg {
+  background: url("../img/playBG.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+  float: left;
+  height: 100%;
+  opacity: 1;
+  position: relative;
+  top: auto;
+  width: 100%;
+}
+
+.rgbbg {
+  background: url("../img/rgbBG.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+  float: left;
+  height: 100%;
+  position: relative;
+  top: auto !important;
+  width: 100%;
+  z-index: 999;
+}
+.rgbaoverlay {
+   height: 100%;
+  max-height: 434px;
+  position: relative;
+  top: 10%;
+  width: 100%;
+  z-index: 999;
+}
+.rgbaoverlay1 {
+    position: relative;
+  }
+  .rgbaoverlay2 {
+    position: relative;
+  }
+  .rgb .bottomhands {
+  bottom: 0;
+  max-width: 490px;
+  position: relative;
+  right: 2.5%;
+}
+
+.motion .bottomhands {
+  bottom: 0;
+  max-width: 490px;
+  position: relative;
+  right: 0;
+}
+
+ .arduino > .container > .infobox {
+  float: none;
+  left: 0;
+  margin: 0 auto;
+  position: relative;
+  right: 0;
+  top: auto;
+  width: 100%;
+}
+.Arduinoimgdiv {
+  position: relative;
+  right: 10%;
+  vertical-align: bottom;
+}
+.arduino > .container > .ar3 {
+    position: relative;
+ }
+ .logo-text1 {
+  left: 0;
+  position: relative;
+  right: 0;
+  top: auto;
+}
+.tagline1 {
+  left: 0;
+  position: relative;
+  right: 0;
+  top: auto;
+}
+.opa {
+  opacity: 1;
+}
+#slide1 {
+  margin-top: 30px;
+}
+.infobox {
+  width: 260px!important;
+  z-index: 1002;
+  float: left;
+}
+.infobox h2 {
+  font-size: 40px;
+  }
+  .infobox > p {
+  font-size: 14px !important;
+    line-height: 25px;
+}
+
+.light_bulb{
+  display: none;
+}
+.monitor{
+  display: none;
+}
+.slidinghandTah {
+  float: right;
+  margin-left:200px;
+  margin-top: 40px;
+  width: 115px;
+}
+.slidinghandTah1 {
+  display: none;
+  }
+  .storebuttons li img {
+  width: 100px!important;
+}
+#main section {
+    padding-left: 0;
+ }
+ .bottomhands.opa {
+  float: right;
+  position: relative;
+  width: 100%;
+}
+#slide2 {
+  background: none repeat scroll 0 0 #0c3040 !important;
+  padding-top: 3%;
+}
+.bottomhands .img-responsive {
+  float: none;
+  margin: 20px auto 0;
+  width: 250px;
+}
+.motionbottomhands .img-responsive {
+  width: 180px !important;
+}
+.rgbamonitor
+{
+display:block;
+}
+.rgbamonitor {
+  background: url("../img/carton.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+  border: 0 none;
+  float: left;
+  height: 173px;
+  width: 200px;
+  margin-top: 4%;
+}
+#slide3 {
+  background-color: #b0e1ff !important;
+}
+.motionbottomhands .img-responsive {
+  width: 150px;
+}
+#slide4 {
+  background-color: #b0e1ff !important;
+  padding-top: 7%;
+}
+.sensor > .container > .bottomhands .toucheffect {
+  display: none;
+  }
+  .sensor > .container > .infobox h2 {
+  padding-left: 0px;
+  text-align: center;
+}
+.sensor > .container > .infobox > p
+{
+  padding-left: 0px;
+  text-align: center;
+}
+.sensor > .container > .bottomhands img {
+  float: left !important;
+  margin-bottom: 0;
+  margin-left: 14% !important;
+  width: 40% !important;
+}
+.sensor .bottomhands.opa > img {
+  width: 168px !important;
+}
+  .sensor > .container > .bottomhands .clickhand {
+  margin-left: -35px !important;
+margin-top: 65px;
+right: auto;
+width: 114px !important;
+}
+.clickhand {
+  bottom: 0;
+  position: relative;
+}
+.canvas-mini-sensor {
+  float: none;
+  height: auto;
+  margin: 47px auto;
+  max-height: none;
+  max-width: none;
+  position: relative;
+  right: auto;
+  top: auto !important;
+  width: 360px;
+}
+.leftsection {
+  bottom: 0;
+  box-sizing: border-box;
+  float: left;
+  height: 100%;
+  left: auto;
+  margin-top: 11%;
+  max-width: none;
+  position: relative;
+  width: 360px;
+}
+.middlesection {
+   position: relative;
+  width: 100px;
+}
+#secBG {
+  bottom: 0;
+  position: relative;
+  width: 100%;
+}
+#ac-waves {
+  display: none;
+}
+#slide5 {
+  margin-top: 6%;
+}
+.Arduinoimgdiv {
+  position: relative;
+  right: auto;
+  vertical-align: bottom;
+  border: 0px;
+  bottom: auto;
+  float: left;
+  margin-top: 11%;
+}
+.toucheffect {
+  display: none;
+}
+.slidinghandTahnew {
+  float: none;
+  margin-left: 200px;
+  margin-top: 100px;
+  width: 115px;
+  display:block;
+
+}
+.bigarduinoimg img {
+  display: none;
+}
+.bigarduinoimg {
+    
+  background: url("../img/ardiuno.png") no-repeat scroll left center / 100% auto rgba(0, 0, 0, 0);
+float: none;
+height: 200px;
+margin: 0 auto;
+width: 293px;
+}
+.preset5 {
+  display: none;
+}
+.preset0 {
+  display: none;
+}
+.arduino > .container > .ar3 {
+  border: 0 none;
+bottom: 0;
+clear: both;
+float: none;
+margin: 0 auto!important;
+position: relative;
+right: 0 !important;
+text-align: center;
+width: 200px;
+}
+.ar3txt {
+  bottom: 0;
+  font-size: 19px;
+  right: 5%;
+  position: relative;
+   float: none !important;
+  margin-top: 3px !important;
+  padding-bottom: 25px;
+} 
+.arduino > .container > .ar3 > img {
+  float: none;
+margin-left: -40px !important;
+width: 200px;
+}
+.handapp {
+  margin-left: 102px !important;
+  width: 200px !important;
+}
+
+#main {
+  float: left;
+  margin-bottom: 50px;
+    width: 100%;
+}
+.ar3big {
+  bottom: auto !important;
+  right: 1% !important;
+}
+#slide6 > .container > .infobox {
+  float: none !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  position: relative;
+  width: 100% !important;
+}
+.rgbaouterdiv {
+  float: left;
+  margin: 40px 0 20px 100px;
+}
+}
