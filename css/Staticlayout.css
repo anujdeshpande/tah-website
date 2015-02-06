@@ -7,6 +7,35 @@ display:none;
 display:none;
 }
 
+
+@media only screen and (max-width:670px) and (min-width:600px)
+{
+.rgbamonitor
+ {
+height: 136px!important;
+width: 164px!important;
+}
+}
+@media only screen and (max-width:480px) and (min-width:410px)
+{
+.rgbaouterdiv {
+  float: left;
+  margin: 40px 0 20px 36px!important;
+}
+.rgbamonitor1 {
+  margin-left: 78px;
+}
+}
+@media only screen and (max-width:409px) and (min-width:360px)
+{
+.rgbaouterdiv {
+  float: left;
+  margin: 40px 0 20px 0px!important;
+}
+.rgbamonitor1 {
+  margin-left: 78px;
+}
+}
 @media only screen and (max-width:800px) and (min-width:606px)
 {
 .motion {
@@ -202,13 +231,24 @@ display:none;
 display:block;
 }
 .rgbamonitor {
-  background: url("../img/carton.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+  background: url("../img/11.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
   border: 0 none;
   float: left;
   height: 173px;
   width: 200px;
   margin-top: 4%;
 }
+.rgbamonitor1
+
+{
+  background: url("../img/rgb-2.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0)!important;
+   border: 0 none;
+  float: left;
+  height: 160px;
+  width: 104px;
+  margin-top: 29px;
+}
+
 #slide3 {
   background-color: #b0e1ff !important;
 }
@@ -290,9 +330,9 @@ width: 114px !important;
   display: none;
 }
 .slidinghandTahnew {
-  float: none;
-  margin-left: 200px;
-  margin-top: 40px;
+  float: left;
+margin-left: 0px;
+margin-top: 66px;
   width: 115px;
   display:block;
 
@@ -301,15 +341,12 @@ width: 114px !important;
   display: none;
 }
 .bigarduinoimg {
-  background: url("../img/ardiuno.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
-  height: 200px;
-  width: 293px;
-  background-position: left;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  float:right;
-  margin-top:0px;
-  margin-bottom: 25px;
+  background: url("../img/ardiuno.png") no-repeat scroll left center / 100% auto rgba(0, 0, 0, 0);
+  float: left;
+  height: 355px;
+  margin-bottom: 135px;
+  margin-top: 102px;
+  width: 65%;
 }
 .preset5 {
   display: none;
@@ -319,22 +356,22 @@ width: 114px !important;
 }
 .arduino > .container > .ar3 {
   border: 0 none;
-bottom: 0;
-clear: both;
-float: none;
-margin: 0 auto!important;
-position: relative;
-right: 0 !important;
-text-align: center;
-width: 200px;
+  bottom: 0;
+  float: left;
+  margin: 0 auto !important;
+  position: relative;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 32%;
+  height: 100px;
 }
 .ar3txt {
   bottom: 0;
   font-size: 19px;
   right: 5%;
   position: relative;
-   float: none !important;
-  margin-top: 3px !important;
+    margin-top: 3px !important;
   padding-bottom: 25px;
 } 
 .arduino > .container > .ar3 > img {
@@ -372,10 +409,55 @@ width: 200px;
 .contactform-newsletter > p {
    text-align: center;
 }
+.slidinghandTahnewrgb {
+  display: block;
+float: left;
+margin-left: 0px;
+margin-top: 114px;
+width: 115px;
+
+}
+.motion .infobox h2 {
+  font-size: 40px;
+  line-height: 35px;
+  margin-top: 30px;
+}
+.infobox.opa > p {
+  text-align: center;
+}
 }
 
 @media only screen and (max-width:605px) and (min-width:360px)
 {
+.infobox.opa > p {
+  text-align: center;
+}
+.contactform-newsletter > h2 {
+  padding-left: 0px;
+}
+.motion .infobox h2 {
+   font-size: 40px;
+  line-height: 35px;
+  margin-top: 30px;
+}
+.rgbamonitor {
+  background: url("../img/11.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+  border: 0 none;
+  float: left;
+  height: 173px;
+  width: 200px;
+  margin-top: 4%;
+}
+.rgbamonitor1
+
+{
+  background: url("../img/rgb-2.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0)!important;
+   border: 0 none;
+  float: left;
+  height: 160px;
+  width: 104px;
+  margin-top: 29px;
+}
 .infobox h2 {
   font-size: 40px;
   text-align: center;
@@ -582,14 +664,7 @@ width: 200px;
 {
 display:block;
 }
-.rgbamonitor {
-  background: url("../img/carton.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
-  border: 0 none;
-  float: left;
-  height: 173px;
-  width: 200px;
-  margin-top: 4%;
-}
+
 #slide3 {
   background-color: #b0e1ff !important;
 }
@@ -681,9 +756,17 @@ width: 114px !important;
   display: none;
 }
 .slidinghandTahnew {
-  float: none;
-  margin-left: 200px;
+  float: left;
+  margin-left: 0px;
   margin-top: 100px;
+  width: 115px;
+  display:block;
+
+}
+.slidinghandTahnewrgb {
+  float: left;
+  margin-left: 0px;
+  margin-top: 154px;
   width: 115px;
   display:block;
 

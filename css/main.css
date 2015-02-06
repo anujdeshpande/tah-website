@@ -77,16 +77,17 @@ img {
   max-width: 100%;
 }
 
-.img-center {
-  margin:0 auto;
+.img-center
+{
+margin:0 auto;
 }
 
 /* =General */
 #logo {
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../img/TahLogo.png");
-  background-size: 100% 100%;
+  background-image: url("../img/tah-new-logo-for-nav.png");
   background-repeat: no-repeat;
+  background-size: 61% auto;
   height: 90px;
   left: 5.208%;
   position: fixed;
@@ -752,7 +753,7 @@ img {
 .ar3txt {
   bottom: 77px;
   color: #000;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: bold;
   position: fixed;
   text-align: center;
@@ -1120,7 +1121,6 @@ nav.push-menu-left button.close-menu {
 }
 
 .nav-toggler.toggle-push-left > img {
-  top: -50px;
   left: 0;
   position: relative !important;
 }
@@ -1208,13 +1208,13 @@ nav.push-menu-left button.close-menu {
   width: 81px;
 }
 .follow {
-  background: url("../img/follow-button.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+  background: url("../img/follow-button.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
   height: 32px;
   margin-top: 20px;
   width: 81px;
 }
 .follow:hover {
-  background: url("../img/follow-icon-hover-position.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+  background: url("../img/follow-icon-hover-position.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
   height: 32px;
   margin-top: 20px;
   width: 81px;
@@ -1246,50 +1246,44 @@ nav.slide-menu-left a, nav.slide-menu-right a, nav.push-menu-left a, nav.push-me
   color: #fff;
   padding: 40px 10px 20px 20px;
 }
-
 .rhc > img {
   padding-bottom: 11px;
   width: 35%;
 }
-
 .rhc > p {
   font-family: 'Quattrocento', serif;
   font-size: 14px;
   line-height: 19px;
 }
-
 .menu-top {
   color: #fff;
   font-family: 'Quattrocento', serif;
   font-size: 38px;
 }
-
 .menu-top > img {
   padding-left: 20px;
   padding-right: 2%;
+  width:27%;
 }
-
 nav.menu {
   background-color: #112f41;
   position: fixed;
   transition: all 0.3s ease 0s;
 }
 
+
 .contactform-newsletter > p {
   color: #112f41;
   font-family: 'Quattrocento', serif;
   font-size: 16px;
 }
-
 .slide6div {
-  left: 42%;
+  
   top: 5%;
 }
-
 .indicates-required {
   font-size: 0;
 }
-
 .mc-field-group  input {
   background: none repeat scroll 0 0 #112f41 !important;
   border: 0 none;
@@ -1307,7 +1301,6 @@ nav.menu {
   font-family: 'Quattrocento', serif;
   font-size: 13px;
 }
-
 #mc-embedded-subscribe {
   background-attachment: scroll !important;
   background-clip: border-box !important;
@@ -1323,40 +1316,84 @@ nav.menu {
   width: 14%!important;
   margin-bottom:0px!important;
   border-radius: 0 !important;
-  float: right !important;
-  height: 42px !important;
+    float: right !important;
+    height: 42px !important;
   margin-right:0px !important;
 }
-
 #mce-EMAIL {
     width: 75%!important;
   margin-bottom:0px!important;
 }
-
 .emaildiv {
   background: none repeat scroll 0 0 #112f41;
   float: left;
   padding: 0;
   width: 100%;
 }
-
 .emaildiv input {
   display: inline-block !important;
 }
-
 #mc_embed_signup .mc-field-group input {
   display: block;
   padding: 8px 0;
   text-indent: 2%;
   width: 92%;
 }
-
 #mce-FNAME, #mce-LNAME {
   width: 92% !important;
 }
-
 .indicates-required {
   display: none !important;
+}
+
+
+
+ #menu-one span {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../img/updated-tah-nav-normal-button.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  float: left;
+  height: 40px;
+  width: 34px;
+}
+#menu-one span:hover {
+  background-image: url("../img/updated-tah-nav-hover-button.png");
+ }
+
+#menu-one .contactmenuitem
+{
+background-color: rgba(0, 0, 0, 0);
+  background-image: url("../img/2.png")!important;
+  background-position: left top;
+  background-repeat: no-repeat;
+  float: left;
+  height: 40px;
+  width: 34px;
+}
+#menu-one .contactmenuitem:hover
+{
+background-color: rgba(0, 0, 0, 0);
+  background-image: url("../img/1.png")!important;
+  background-position: left top;
+  background-repeat: no-repeat;
+  float: left;
+  height: 40px;
+  width: 34px;
+  }
+.menu ul li {
+  float: left;
+    width: 100%;
+}
+.secBG
+{
+display:none;
+}
+#ac-waves {
+  display: none;
+}
+#secBG{ 
+  display: none;
 }
 
 .cta-buy {

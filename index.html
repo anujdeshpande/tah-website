@@ -9,10 +9,19 @@
   <title>TAH By RHC V5- landing </title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/application.min.css">
-  <link href='http://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'>
 
-  <script src="js/application.min.js"></script>
+  <link rel="stylesheet" href="css/application.min.css">
+
+
+  <link href='http://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'>  
+  
+  <script src="js/jquery1.11.2.min.js"></script>
+  <script src="js/bootstrap3.1.1.min.js"></script>
+  <script src="js/modernizr.min.js"></script>  
+  <script src="js/jquery.onepage-scroll.min.js"></script>
+  <script src="js/jquery-scrollTo.js"></script>
+  <script src="js/main.js"></script>
+
   <script>
     function btnActive(){
       $('#menu-one').css('overflow', 'visible');
@@ -26,28 +35,36 @@
       document.getElementsByName("firstname").value=""; //don't forget to set the textbox id
       document.getElementsByName("comments").value="";
     }
+
+    var viewportWidth = $(window).width();
   </script>
 </head>
 <body>
+<ul id="menu">
+<li><a href="#" style="text-decoration:none;" ><span></span> Home</a></li>
+      <li><a href="#" style="text-decoration:none;"><span></span> About</a></li>
+      <li><a href="#" style="text-decoration:none;"><span></span> Team</a></li>
+      <li><a href="#" style="text-decoration:none;"><span></span> Blog</a></li>
+      <li><a href="#" style="text-decoration:none;"><span></span> Forum</a></li>
+      <li class="lastmenuitem"><a href="#" style="text-decoration:none;"><span class="contactmenuitem"></span> Contact</a></li>
+</ul>
   <nav class="menu push-menu-left" id="menu-one">
     <div class="menu-top"><img src="img/header-logo.png" />Tah</div>
     <div class="rhc"><img src="img/RHC-icon.png" />
-      <p>We’re a young startup based out of Pune. Know more about us <a href="revealinghour.in">here!</a>.</p>
+      <p>We’re a very young and small startup based out of Pune.We’re a very young and small startup based out of Pune.</p>
     </div>
-    <ul>
-      <li><a href="#" style="text-decoration:none;"><img src="img/menulist.png" /> Blog</a></li>
-      <li><a href="#" style="text-decoration:none;"><img src="img/menulist.png" /> Forum</a></li>
-      <li><a href="#" style="text-decoration:none;"><img src="img/small-tah-icon-for-navigation.png" /> Contact</a></li>
+    <ul>        
+      <li><a href="#" style="text-decoration:none;" ><span></span> Home</a></li>
+      <li><a href="#" style="text-decoration:none;"><span></span> About</a></li>
+      <li><a href="#" style="text-decoration:none;"><span></span> Team</a></li>
+      <li><a href="#" style="text-decoration:none;"><span></span> Blog</a></li>
+      <li><a href="#" style="text-decoration:none;"><span></span> Forum</a></li>
+      <li><a href="#" style="text-decoration:none;"><span class="contactmenuitem"></span> Contact</a></li>
     </ul>
 
     <ul class="socialbtns">
-      <li>
-        <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=https://www.facebook.com/pages/Tah/633568926721880&amp;p[images][0]=http://logicum.co/wp-content/uploads/2013/01/sharetweetbuttons.jpg&amp;p[title]=Tah&amp;p[summary]=A BLE enabled, open surce arduino">
-        <a target="_blank" href="https://www.facebook.com/pages/Tah/633568926721880"><img class="share" src="img/share-icon-normal-position.png"></a>
-      </li>
-      <li>
-        <a href="https://twitter.com/intent/follow?screen_name=tah_io"><img style="height: 32px; margin-top: 20px; width: 81px;" class="follow" src="img/follow-button.png" /></a>
-      </li>
+      <li><a href="#" class="share"></a></li>
+      <li><a href="#"  class="follow"></a></li>
       <li>
         <button class="close-menu" onclick="btnclose()" >
           <img src="img/cross-button-for-navigation.png" />
@@ -60,6 +77,7 @@
     <a href="http://crowdsupply.com/revealing-hour/tah-open-ble-arduino-board"><img src="img/buy-now-button.png" class="cta-buy"></a>
   </div>
 
+  <!-- Scroll position for debugging -->
   <!-- <div id="offset">10</div> -->
 
   <div id="progressBar"
@@ -67,17 +85,19 @@
     data-end="height: 100%"
   >
   </div>
-
-  <!-- Fixed Logo -->
+  
+  <!-- Top left logo -->
   <div id="logo"
   data--650-top="opacity:1; "
   data--300-top="opacity:0; "
   ></div>
-  
+
   <!-- Main Animation canvas starts here -->
+
   <div id="main" class="canvas">
 
-    <div class="container">
+  <!-- Sliding Menu -->
+    <div class="container" style="position: absolute;">
       <div class="buttons">
         <button class="nav-toggler toggle-slide-left">Slide Menu Left</button>
         <button class="nav-toggler toggle-slide-right">Slide Menu Right</button>
@@ -109,7 +129,7 @@
         data-top="opacity:1;"
         data--800-top="opacity:0;"
         >
-          <p>Control anything <br>from your smartphone.</p>
+          <p>A Bluetooth 4.0 device <br>that directly connects to your smartphone.</p>
         </div>
 
         <div class="logo-text1"
@@ -117,7 +137,7 @@
         data-top="opacity:1;"
         data--800-top="opacity:0;"
         >
-          <p>Tah is a open source, Bluetooth enabled, Arduino compatible<br> electronic prototyping board</p>
+          <p>It is now easier than ever to connect your smart devices<br> with everything around with Tah!</p>
         </div>
       </div>
     </section>
@@ -152,8 +172,8 @@
           data--400-top="opacity:0; "
           data--800-top="opacity:1; "
           >
-            <li><a href="#"><img src="img/apple-store-button.png" width="172" height="55"></a></li>
-            <li><a href="#"><img src="img/android-button.png" width="172" height="55"></a></li>
+            <li><a href="#"><img src="img/apple-store-button.png"></a></li>
+            <li><a href="#"><img src="img/android-button.png"></a></li>
           </ul>
         </div>
 
@@ -252,7 +272,7 @@
       </div>
     </section>
   
-    <!-- play section ends here -->
+  <!-- play section ends here -->
   
     <div class="rgbbg" 
     data--top="opacity:0; transform:translateY(2000px)"
@@ -304,11 +324,17 @@
           <p>Make a mood lamp and change the lighting on a bunch of LEDs with the Tah RGB app.</p>
           
           <ul class="storebuttons">
-            <li><a href="#"><img src="img/apple-store-button.png" width="172" height="55"></a></li>
+            <li><a href="#"><img src="img/apple-store-button.png"></a></li>
             <li><a href="#"><img src="img/android-button.png"></a></li>
           </ul>
         </div>
-        
+    <div class="rgbaouterdiv">
+        <div class="rgbamonitor1">
+    </div>
+    </div>
+     <div class="slidinghandTahnew slidinghandTahnewrgb">
+            <img src="img/hand-with-Tah.png" class="img-responsive">
+          </div>
         <div class="bottomhands opa"
         data--2100-top="opacity:0; transform: translateY(1900px) scale(1)"
         data--2200-top="opacity:1; transform: translateY(0px) scale(1)" 
@@ -344,14 +370,20 @@
         data--13000-top="opacity:0; transform:translateX(-500px)"
         >
           <h2>motion</h2>
-          <p>Swipe Gestures</p>
+          <p>Use swipe gestures to control your mac's desktop and audio</p>
           <ul class="storebuttons">
-            <li><a href="#"><img src="img/apple-store-button.png" width="172" height="55"></a></li>
+            <li><a href="#"><img src="img/apple-store-button.png"></a></li>
             <li><a href="#"><img src="img/android-button.png"></a></li>
           </ul>
         </div>
-
-        <div class="bottomhands opa rgbbottomhands"
+    <div class="rgbaouterdiv">
+ <div class="rgbamonitor motionmonitor">
+    </div>
+    </div>
+     <div class="slidinghandTahnew">
+            <img src="img/hand-with-Tah.png" class="img-responsive">
+          </div>
+        <div class="bottomhands opa rgbbottomhands motionbottomhands"
 
         data--7400-top="opacity:0; transform:translateX(1000px) rotate(0deg) rotateX(0deg) rotateY(0deg)"
         data--7600-top="opacity:1; transform:translateX(1000px) rotate(0deg) rotateX(0deg) rotateY(0deg)"
@@ -387,7 +419,7 @@
           view the data relayed from various
           sensors directly on your phone.</p>
           <ul class="storebuttons">
-            <li><a href="#"><img src="img/apple-store-button.png" width="172" height="55"></a></li>
+            <li><a href="#"><img src="img/apple-store-button.png"></a></li>
             <li><a href="#"><img src="img/android-button.png"></a></li>
           </ul>
         </div>
@@ -408,7 +440,7 @@
               data--17900-top="opacity:0;"
               data--18000-top="opacity:1;"
               >
-              <img src="img/sensor-3.png" id="secBG" class="img-responsive opa"
+              <img src="img/sensor-3.png" id="secBG secBG1" class="img-responsive opa"
               data--18100-top="opacity:0;"
               data--18200-top="opacity:1;"
               >
@@ -480,7 +512,7 @@
           </ul>
         </div>
 
-        <div class="Arduinoimgdiv ar2 opa"
+        <div class="Arduinoimgdiv ar2 opa bigarduinoimg"
         data-top="opacity:0; transform:translateY(-2000px)         translateX(-100px)"
         data--20000-top="opacity:0; transform:translateY(-2000px)  translateX(-100px)"
         data--21000-top="opacity:1; transform:translateY(0px)      translateX(-100px)"
@@ -491,7 +523,7 @@
           <img src="img/main-image-2.png" />
         </div>
 
-        <div class="Arduinoimgdiv ar2 opa"
+        <div class="Arduinoimgdiv ar2 opa presetimgdiv preset0"
         data-top="opacity:0; transform:translateY(-2000px)         translateX(-100px)"
         data--20300-top="opacity:0; transform:translateY(-2000px)  translateX(-100px)"
         data--21300-top="opacity:1; transform:translateY(0px)      translateX(-100px)"
@@ -502,7 +534,7 @@
           <img src="img/preset-0.png" />
         </div>
         
-        <div class="ar3 opa ar3big"
+        <div class="ar3 opa ar3big presetimgdiv"
         data--21000-top="opacity:0; transform:translateY(-2000px) translateX(-140px)  scale(1)"
         data--22600-top="opacity:1; transform:translateY(-10px)   translateX(-140px)  scale(1)"
         data--23000-top="opacity:1; transform:translateY(-10px)   translateX(-140px)  scale(1)"
@@ -513,7 +545,7 @@
           <img src="img/preset-2.png" />
         </div>
 
-        <div class="ar3 ar3txt opa"
+        <div class="ar3 ar3txt opa presetimgdiv"
         data--22500-top="opacity:0; transform:translateY(-90px) translateX(70px)"
         data--23000-top="opacity:1; transform:translateY(-90px) translateX(70px)"
         data--29700-top="opacity:1; transform:translateY(-90px) translateX(70px)"
@@ -523,7 +555,7 @@
         </div>
 
         <!-- Small Chip -->
-        <div class="ar3 opa"
+        <div class="ar3 opa presetimgdiv"
         data--23000-top="opacity:0; transform:translateY(-2000px) translateX(-90px)   scale(1)"
         data--24500-top="opacity:1; transform:translateY(0px)     translateX(-90px)   scale(1)" 
         data--25000-top="opacity:1; transform:translateY(0px)     translateX(-90px)   scale(1)"
@@ -565,7 +597,7 @@
         </div>
         
         <!-- Small Chip -->
-        <div class="ar3 opa ar3big"
+        <div class="ar3 opa ar3big preset5"
         data--28000-top="opacity:0; transform:translateY(-1000px) translateX(-100px) "
         data--29500-top="opacity:1; transform:translateY(0px)     translateX(-100px) "
         data--30000-top="opacity:1; transform:translateY(0px)     translateX(-100px) "
@@ -599,39 +631,69 @@
 
           <form class="newsletter">
             <div id="mc_embed_signup">
-              <form action="http://revealinghour.us8.list-manage.com/subscribe/post?u=bca3a340d44da6d9f4123ed9d&amp;id=00bbb728bf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <form action="http://iautomate.us10.list-manage.com/subscribe/post?u=a1b6639acad80fa1545ff9849&amp;id=380736d961" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 
                 <div id="mc_embed_signup_scroll">  
+                  <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                  <div class="mc-field-group">
+                    <input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First Name ">
+                  </div>
+
+                  <div class="mc-field-group">
+                    <input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last Name">
+                  </div>
+
                   <div id="mce-responses" class="clear">
                     <div class="response" id="mce-error-response" style="display:none"></div>
                     <div class="response" id="mce-success-response" style="display:none"></div>
-                  </div>
+                  </div> 
                   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                   <!-- <div style="position: absolute; left: -5000px;">
-                    <input type="text" name="b_bca3a340d44da6d9f4123ed9d_00bbb728bf" tabindex="-1" value="">
+                    <input type="text" name="b_a1b6639acad80fa1545ff9849_380736d961" tabindex="-1" value="">
                   </div>
 
                   <div class="mc-field-group">
                     <div class="emaildiv">
-                      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email">
+                      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address">
                       <input type="submit" value="" name="subscribe" id="mc-embedded-subscribe" class="button">
                     </div>
                   </div>
 
                 </div>
-              </form> 
+              </form>
             </div>
           </form>
-
         </div>
       </div>
-    </section>
- -->
+    </section> -->
+
   </div>
 
   <footer>
   </footer>
+  
+  <script src="js/skrollr.min.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/jquery.slicknav.js"></script>
+  <script src="js/application.min.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      // initialize skrollr if the window width is large enough
+      if ($(window).width() > 767) {
+        skrollr.init();
+      }
 
+      // disable skrollr if the window is resized below 768px wide
+      $(window).on('resize', function () {
+        if ($(window).width() <= 800) {
+          skrollr.init().destroy(); // skrollr.init() returns the singleton created above
+        }
+      });
+    });
+  </script>
+  
   <script type="text/javascript">
     var s = skrollr.init({
     render: function(data) {
@@ -643,37 +705,13 @@
     });
   </script>
 
-  <div id="fb-root"></div>
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-36872186-2', 'auto');
-    ga('require', 'displayfeatures');
-    ga('send', 'pageview');
-  </script>
 
-  <script>
-    (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=530380563690095&version=v2.0";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  </script>
-
-  <!-- Preloader -->
   <script type="text/javascript">
-    //<![CDATA[
-    $(window).load(function() { // makes sure the whole site is loaded
-    $('#status').fadeOut(); // will first fade out the loading animation
-    $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-    $('body').delay(350).css({'overflow':'visible'});
-    })
-    //]]>
+    $(document).ready(function(){
+      $('#menu').slicknav();
+    });
   </script>
+  
 </body>
 </html>
