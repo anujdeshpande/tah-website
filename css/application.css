@@ -3363,3 +3363,25 @@ min-height: 82px;
 		display:none;
 	}
 	}
+.newsletter-heading {
+  text-align: center;
+}
+
+#mc_embed_signup_scroll p {
+  font-size: 18px;
+  border-bottom: none;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.emaildiv {
+  background: none;
+}
+
+.response-custom {
+  color: rgb(22, 140, 158);
+}
+
+.mce-responses-custom {
+  width: 100% !important;
+}
