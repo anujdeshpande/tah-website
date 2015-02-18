@@ -1,5 +1,7 @@
-// nav.js
-$(document).ready(function() {
+/**
+ * The nav stuff
+ */
+(function( window ){
   
   'use strict';
 
@@ -98,4 +100,4 @@ $(document).ready(function() {
   });
 
 
-});
+})( window );
