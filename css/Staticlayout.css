@@ -26,7 +26,7 @@ width: 164px!important;
   margin-left: 78px;
 }
 }
-@media only screen and (max-width:409px) and (min-width:360px)
+@media only screen and (max-width:409px) and (min-width:300px)
 {
 .rgbaouterdiv {
   float: left;
@@ -382,7 +382,7 @@ width: 200px;
 
 #main {
   float: left;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
     width: 100%;
 }
 .ar3big {
@@ -427,7 +427,7 @@ width: 115px;
 }
 }
 
-@media only screen and (max-width:605px) and (min-width:360px)
+@media only screen and (max-width:605px) and (min-width:300px)
 {
 .infobox.opa > p {
   text-align: center;
@@ -838,4 +838,50 @@ width: 200px;
   float: left;
   margin: 40px 0 20px 100px;
 }
+}
+
+
+
+@media only screen and (max-width:800px) and (min-width:300px)
+{
+#offset {
+  left: 0;
+  right: auto !important;
+}
+.nav-toggler.toggle-push-left {
+  border: 0 none !important;
+  height: auto !important;
+  padding: 0 !important;
+  position: fixed !important;
+  right: 0;
+  top: 0;
+  left:auto!important;
+  bottom: auto !important;
+}
+.buttons {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+  border-left: 0 none !important;
+ }
+.close-menu {
+  bottom: auto !important;
+  float: right;
+  margin-right: -52px !important;
+  margin-top: -1px !important;
+  position: absolute;
+  top: 0 !important;
+}
+}
+
+
+@media only screen and (max-width:359px) and (min-width:200px)
+{
+.close-menu 
+{
+  float: right;
+  margin-right: 0px !important;
+ margin-left: 0px !important;
+  margin-top: -1px !important;
+
+}
+
 }

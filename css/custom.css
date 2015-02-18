@@ -20,3 +20,10 @@
 .mce-responses-custom {
   width: 100% !important;
 }
+
+.cta-buy {
+  z-index: 1102;
+  position: fixed;
+  left: 83%;
+  top: 3%;
+}

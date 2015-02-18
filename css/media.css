@@ -176,12 +176,17 @@
     }
 }
 
-@media only screen and (max-width:1053px) and (min-width:700px){
-.storebuttons li {
+
+
+@media only screen and (max-width:1053px) and (min-width:700px)
+{
+.storebuttons li 
+{
   float: left!important;
   width: 50%!important;
 }
-.storebuttons {
+.storebuttons 
+{
   float: left!important;
 }
 .storebuttons li img
@@ -193,7 +198,8 @@
   font-size: 19px!important;
 }
 }
-@media only screen and (max-width:699px) and (min-width:550px){
+@media only screen and (max-width:699px) and (min-width:550px)
+{
 .tagline1 {
   margin: 0 auto;
   padding: 0 10px 0 30px;
@@ -209,7 +215,8 @@
    width: 70%;
   margin: 0 auto;
 }
-.infobox {
+.infobox 
+{
   float: left;
   width: 100%!important;
     left: 0;
@@ -236,11 +243,13 @@
    line-height: 52px;
    padding-bottom: 0;
   }
-  .storebuttons li {
+  .storebuttons li 
+{
   float: none!important;
   width: 50%!important;
 }
-.storebuttons {
+.storebuttons 
+{
   float: none!important;
 }
 .storebuttons li img
@@ -261,7 +270,8 @@
 
   }
   
- @media only screen and (max-width:549px) and (min-width:200px){
+ @media only screen and (max-width:549px) and (min-width:200px)
+{
 .tagline1 {
   margin: 0 auto;
   padding: 0 10px 0 30px;
@@ -277,7 +287,8 @@
    width: 70%;
   margin: 0 auto;
 }
-.infobox {
+.infobox 
+{
   float: left;
   width: 100%!important;
     left: 0;
@@ -304,11 +315,13 @@
    line-height: 52px;
    padding-bottom: 0;
   }
-  .storebuttons li {
+  .storebuttons li 
+{
   float: none!important;
   width: 50%!important;
 }
-.storebuttons {
+.storebuttons 
+{
   float: none!important;
 }
 .storebuttons li img
@@ -330,16 +343,20 @@
   }
 /* canavs mini*/
 
-@media only screen and (max-width:1180px) and (min-width:941px){
+@media only screen and (max-width:1180px) and (min-width:941px)
+{
 .slidinghandTah {
   margin-left: 45%;
  }
-.canvas-mini {
+.canvas-mini 
+{
    width: 600px;
 }
 }
-@media only screen and (max-width:940px) and (min-width:700px){
-.canvas-mini {
+@media only screen and (max-width:940px) and (min-width:700px)
+{
+.canvas-mini 
+{
    width: 430px;
 }
 .slidinghandTah {
@@ -354,7 +371,8 @@
 }
 
 /* INFOBOX TXT*/
-@media only screen and (max-width:480px) and (min-width:200px){
+@media only screen and (max-width:480px) and (min-width:200px)
+{
 
 .infobox > p {
   font-size: 14px !important;
@@ -362,7 +380,8 @@
   padding-left: 13%;
   width: 68%;
 }
-.infobox h2 {
+.infobox h2 
+{
   font-size: 65px;
   line-height: 52px;
   padding-bottom: 0;
@@ -379,7 +398,8 @@
 }
 }
 
-@media only screen and (max-width:550px) and (min-width:450px){
+@media only screen and (max-width:550px) and (min-width:450px)
+{
 .logo-text1 {
   padding-left: 15%;
   text-align: center;
@@ -389,12 +409,14 @@
 
 /*============================RGB========================================= */
 
-@media only screen and (max-width:1350px) and (min-width:942px){
+@media only screen and (max-width:1350px) and (min-width:942px)
+{
 .rgbbottomhands {
   width: 24% !important;
 }
 }
-@media only screen and (max-width:941px) and (min-width:700px){
+@media only screen and (max-width:941px) and (min-width:700px)
+{
 .rgbbottomhands {
   width: 30% !important;
 }
@@ -403,7 +425,8 @@
   margin-top: 10.3%;
 }
 }
-@media only screen and (max-width:699px) and (min-width:475px){
+@media only screen and (max-width:699px) and (min-width:475px)
+{
 .rgb .bottomhands
  {
     width: 200px;
@@ -423,7 +446,8 @@
 }
 
 }
-@media only screen and (max-width:474px) and (min-width:300px){
+@media only screen and (max-width:474px) and (min-width:300px)
+{
 .rgb .bottomhands
  {
     width: 200px;
@@ -446,23 +470,30 @@
 
 /*============================ MOTION ========================================= */
 
-@media only screen and (max-width:890px) and (min-width:700px){
+@media only screen and (max-width:890px) and (min-width:700px)
+{
 .motion .infobox h2 {
     font-size: 59px;
   }
 }
-@media only screen and (max-width:699px) and (min-width:600px){
-.motion .bottomhands {
+@media only screen and (max-width:699px) and (min-width:600px)
+{
+.motion .bottomhands 
+{
   width: 22%;
 }
 }
-@media only screen and (max-width:599px) and (min-width:510px){
-.motion .bottomhands {
+@media only screen and (max-width:599px) and (min-width:510px)
+{
+.motion .bottomhands 
+{
   width: 26%;
 }
 }
-@media only screen and (max-width:509px) and (min-width:200px){
-.motion .bottomhands {
+@media only screen and (max-width:509px) and (min-width:200px)
+{
+.motion .bottomhands 
+{
   width: 32%;
 }
 .motion .infobox h2 {
@@ -472,12 +503,15 @@
 }
 
 /* ======================= Sensor =======================================*/
-@media only screen and (max-width:890px) and (min-width:700px){
-.sensor > .container >.infobox h2 {
+@media only screen and (max-width:890px) and (min-width:700px)
+{
+.sensor > .container >.infobox h2 
+{
   font-size: 47px;
   }
   }
-  @media only screen and (max-width:699px) and (min-width:600px){
+  @media only screen and (max-width:699px) and (min-width:600px)
+{
   .sensor > .container > .infobox 
   {
   text-align: left;
@@ -497,7 +531,8 @@
 }
 }
 
- @media only screen and (max-width:599px) and (min-width:500px){
+ @media only screen and (max-width:599px) and (min-width:500px)
+{
 .sensor > .container > .infobox {
   text-align: left;
 }
@@ -515,7 +550,8 @@
   width: 80%;
 }
 }
- @media only screen and (max-width:499px) and (min-width:200px){
+ @media only screen and (max-width:499px) and (min-width:200px)
+{
 .sensor > .container > .infobox {
   text-align: left;
 }
@@ -541,7 +577,8 @@
 }
 }
 
-@media only screen and (max-width:800px) and (min-width:700px){
+@media only screen and (max-width:800px) and (min-width:700px)
+{
 .sensor > .container > .bottomhands img {
   width: 46%!important;
   margin-bottom: 0px;
@@ -560,7 +597,8 @@
   top: -14%;
 }
 }
-@media only screen and (max-width:699px) and (min-width:499px){
+@media only screen and (max-width:699px) and (min-width:499px)
+{
 .leftsection {
   bottom: 0;
   box-sizing: border-box;
@@ -606,7 +644,8 @@
     top: 6%;
 }
 }
-@media only screen and (max-width:498px) and (min-width:200px){
+@media only screen and (max-width:498px) and (min-width:200px)
+{
 .leftsection {
   bottom: 0;
   box-sizing: border-box;
@@ -654,8 +693,10 @@
 
 
 /* ============================= ARDUINO ========================================= */
-@media only screen and (max-width:1250px) and (min-width:780px){
-.Arduinoimgdiv {
+@media only screen and (max-width:1250px) and (min-width:800px)
+{
+.Arduinoimgdiv 
+{
   bottom: 50px;
   position: fixed;
   right: 0;
@@ -664,22 +705,23 @@
 .arduino > .container > .ar3 {
   bottom: 24px;
   position: fixed;
-  right: 2%;
+  right: 20%;
 }
 .Arduinoimgdiv > img {
-  float: right;
-  width: 85%;
+  float: left;
+  width: 69%;
 }
 .arduino > .container >  .ar3 > img {
   float: right;
   width: 85%;
 }
 .ar3big {
-  bottom: 59px !important;
-  right: 1% !important;
+  bottom: 20px !important;
+  right: 20% !important;
 }
 }
-@media only screen and (max-width:779px) and (min-width:550px){
+@media only screen and (max-width:779px) and (min-width:550px)
+{
 .arduino > .container > .infobox {
   left: 0;
   margin: 0 auto;
@@ -692,7 +734,8 @@
   line-height: 52px;
   padding-bottom: 0;
 }
-.Arduinoimgdiv {
+.Arduinoimgdiv 
+{
   bottom: 0px;
 }
  .ar3big 
@@ -719,7 +762,8 @@
   right: 10%;
 }
 }
-@media only screen and (max-width:549px) and (min-width:300px){
+@media only screen and (max-width:549px) and (min-width:300px)
+{
 .arduino > .container > .infobox h2 {
   font-size: 40px;
   line-height: 52px;
@@ -738,7 +782,8 @@
   top: 25px;
   width: 100%;
 }
-.Arduinoimgdiv {
+.Arduinoimgdiv 
+{
   bottom: 0px;
 }
  .ar3big 
@@ -765,14 +810,33 @@
 }
 }
 
+@media only screen and (max-width:1150px) and (min-width:800px)
+{
+.arduino h2 {
+  font-size: 47px;
+  line-height: 40px;
+  padding-bottom: 0;
+}
+.arduino .infobox {
+  top: 19%;
+}
+.arduino .infobox > p {
+  font-size: 17px !important;
+  line-height: 24px;
+  margin-top: 0;
+  padding-bottom: 0;
+}
+}
 /* =============== Newsletter===================================== */
-@media only screen and (max-width:1100px) and (min-width:300px){
+@media only screen and (max-width:1100px) and (min-width:300px)
+{
 #slide6 > .container >.infobox {
   width: 100%;
   margin: 0 auto!important;
 }
 }
-@media only screen and (max-width:550px) and (min-width:300px){
+@media only screen and (max-width:550px) and (min-width:300px)
+{
 .contactform-newsletter {
   margin-top: 26% !important;
   float: left;
@@ -783,14 +847,4 @@
 
 .sensor > .container > .bottomhands {
   width: 100%!important;
-}
-
-/* ==================================================== */
-
-@media only screen and (max-width:500px) and (min-width: 350px){
-  .cta-buy {
-    left: 76%;
-    top: 17%;
-  }
-
 }
