@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="css/slicknav.css">
 
   <script src="js/jquery.min.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/bootstrap.js"></script>
   <script src="/js/modernizr.min.js"></script>
   <script src="js/jquery.onepage-scroll.min.js"></script>
   <script src="js/jquery-scrollTo.js"></script>
@@ -42,12 +42,6 @@
   </script>
 </head>
 <body>
-<!--<ul id="menu">
-    <li><a href="http://docs.tah.io" style="text-decoration:none;"><span></span> Docs</a></li>
-    <li><a href="http://blog.tah.io" style="text-decoration:none;"><span></span> Blog</a></li>
-    <li><a href="http://discuss.tah.io" style="text-decoration:none;"><span></span> Forum</a></li>
-    <li class="lastmenuitem"><a href="http://revealinghour.in" style="text-decoration:none;"><span></span> About Us</a></li>
-  </ul>-->
   <nav class="menu push-menu-left" id="menu-one">
   
     <div class="menu-top"><img src="img/tah-new-logo-for-nav.png" />Tah</div>
@@ -95,7 +89,7 @@
 
   <div id="main" class="canvas">
 
-    <div class="container" style="position: absolute;">
+    <div id="bigMenu" class="container" style="position: absolute;">
       <div class="buttons">
         <button class="nav-toggler toggle-slide-left">Slide Menu Left</button>
         <button class="nav-toggler toggle-slide-right">Slide Menu Right</button>
@@ -106,6 +100,20 @@
         <button class="nav-toggler toggle-push-top">Push Menu Top</button>
         <button class="nav-toggler toggle-push-bottom">Push Menu Bottom</button>
       </div><!-- /buttons -->
+    </div>
+
+    <div id="smallNav" >
+        <div id="nav-trigger">
+            <span class="">☰<!-- <img src="img/navicon.png"> --></div>
+        </span>
+        <nav id="nav-mobile">
+            <ul class="" style="display: none;">
+                <li><a href="http://docs.tah.io" style="text-decoration:none;"><span></span> Docs</a></li>
+                <li><a href="http://blog.tah.io" style="text-decoration:none;"><span></span> Blog</a></li>
+                <li><a href="http://discuss.tah.io" style="text-decoration:none;"><span></span> Forum</a></li>
+                <li class="lastmenuitem"><a href="http://revealinghour.in" style="text-decoration:none;"><span></span> About Us</a></li>
+            </ul>
+        </nav>        
     </div>
       
     <section id="intro" class="landing"
@@ -240,7 +248,7 @@
           data--12400-top="opacity:1; transform: translateX(0px)   translateY(-400px) scale(0.8)"
           data--12700-top="opacity:0; transform: translateX(500px) translateY(-400px) scale(0.8)"
           >
-            <img src="img/hand-with-Tah.png" class="img-responsive">
+            <img src="img/hand-with-tah.png" class="img-responsive">
           </div>
 
           <div class="slidinghandTah slidinghandTah1 opa"
@@ -250,7 +258,7 @@
           data--8400-top="opacity: 1; transform: translateX(-210px) translateY(-305px) scale(.6)"
           data--8600-top="opacity: 0; transform: translateX(0px)    translateY(-305px) scale(.6)"
           >
-            <img src="img/hand-with-Tah.png" class="img-responsive">
+            <img src="img/hand-with-tah.png" class="img-responsive">
           </div>
         </div>
 
@@ -673,7 +681,7 @@
   <script src="js/jquery.slicknav.js"></script>
 
   <script type="text/javascript">
-    $(window).load(function() {
+    $(window).load(function()  {
       // initialize skrollr if the window width is large enough
       if ($(window).width() > 800) {
       var s = skrollr.init({

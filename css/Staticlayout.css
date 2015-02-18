@@ -1,3 +1,5 @@
+
+
 .rgbamonitor
 {
 display:none;
@@ -6,6 +8,134 @@ display:none;
 {
 display:none;
 }
+
+
+
+
+
+/* SOURABH CHANGES 18-02-15  START HERE 
+-------------------------------------------------------------- */
+*{
+outline:none;
+}
+@media only screen and (max-width:800px) 
+{
+#bigMenu{
+display:none;
+}
+
+}
+
+nav#nav-mobile {
+  z-index: 20000;
+}
+.border-menu:before {
+  border-bottom: 0.125em solid #000;
+  border-top: 0.375em double #000;
+  content: "";
+  height: 0.125em;
+  left: 0;
+  position: absolute;
+  top: 0.25em;
+  width: 1em;
+}
+.border-menu {
+  padding-left: 1.25em;
+  position: relative;
+}
+#nav-trigger {
+  display: none;
+  text-align: right; 
+  background-color: #112f41;
+  border-bottom: 2px solid #168fa0;
+}
+#nav-trigger span {
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 25px;
+  text-transform: uppercase;
+}
+
+    #nav-trigger span:hover {
+      background-color: 03626e; }
+
+
+nav {
+  margin-bottom: 30px; }
+
+nav#nav-main {
+  background-color: #167581;
+  padding: 10px 0; }
+  nav#nav-main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+  nav#nav-main li {
+    display: inline-block;
+    border-right: solid 1px #ccc;
+    padding: 0 5px; }
+    nav#nav-main li:last-child {
+      border-right: none; }
+  nav#nav-main a {
+    display: block;
+    color: white;
+    padding: 10px 30px; }
+    nav#nav-main a:hover {
+      background-color: 03626e;
+      color: #fff; }
+
+nav#nav-mobile {
+  position: relative;
+  display: none; }
+  nav#nav-mobile ul {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #112f41; }
+  nav#nav-mobile li {
+    display: block;
+    padding: 5px 0;
+    border-bottom: solid 1px #168fa0; }
+    nav#nav-mobile li:last-child {
+      border-bottom: none; }
+nav#nav-mobile a {
+  color: white;
+  display: block;
+  padding: 0 5px;
+  text-align: left;
+  font-size: 14px;
+  text-decoration:none;
+}
+
+    nav#nav-mobile a:hover {
+      background-color: 03626e;
+      color: #fff; }
+
+/* =Media Queries
+-------------------------------------------------------------- */
+@media all and (max-width: 800px) {
+  #nav-trigger {
+    display: block; }
+
+  nav#nav-main {
+    display: none; }
+
+  nav#nav-mobile {
+    display: block; }
+}
+/* SOURABH CHANGES 18-02-15  ENDS HERE 
+-------------------------------------------------------------- */
+
+
+
+
 
 
 @media only screen and (max-width:670px) and (min-width:600px)
