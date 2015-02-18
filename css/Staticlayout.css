@@ -179,7 +179,7 @@ width: 164px!important;
     line-height: 25px;
 }
 .canvas-mini {
-  background: url("../img/carton.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+  background: url("../img/cartoon.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
   height: 173px;
   margin-top: 4% !important;
   max-width: none;
@@ -488,7 +488,7 @@ width: 115px;
   z-index: 1;
 }
 .canvas-mini {
-  background: url("../img/carton.png") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+  background: url("../img/cartoon.png") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
   float: none;
   height: 173px;
   margin: 0 auto;

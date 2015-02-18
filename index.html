@@ -6,93 +6,75 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>TAH By RHC V5- landing </title>
+  <title>TAH By RHC </title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Link to normalize style - CSS Resets -->
   <link rel="stylesheet" href="css/normalize.min.css">
-  <!-- Link to Main Style Sheet -->
   <link rel="stylesheet" href="css/main.css">
-  <!-- Link to Media Queries Style Sheet -->
   <link rel="stylesheet" href="css/media.css">
   <link rel="stylesheet" href="css/base.css" />
-  <link rel="stylesheet" href="css/Staticlayout.css" />
-  <link href='http://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'>
-  <!-- <link rel="stylesheet" href="css/style.css"> -->
-  
+  <link rel="stylesheet" href="css/custom.css" />
+  <link rel="stylesheet" href="css/staticlayout.css" />
+  <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/slicknav.css">
-  
-  <!-- Link to Modernizr -->
-  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-  <!-- Link to jquery -->
+
   <script src="js/jquery.min.js"></script>
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
-  <!-- Latest compiled and minified CSS 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-  -->
-  
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/modernizr.min.js"></script>
   <script src="js/jquery.onepage-scroll.min.js"></script>
   <script src="js/jquery-scrollTo.js"></script>
   <script src="js/main.js"></script>
 
   <script>
     function btnActive(){
-       $('#menu-one').css('overflow', 'visible');
-         }
-   function btnclose()
-   {
-   $('#menu-one').css('overflow', 'hidden');
-      }
-   
-   function clearform() {
-    document.getElementsByName("firstname").value=""; //don't forget to set the textbox id
-    document.getElementsByName("comments").value="";
+      $('#menu-one').css('overflow', 'visible');
     }
-  var viewportWidth = $(window).width();
+    function btnclose(){
+      $('#menu-one').css('overflow', 'hidden');
+    }
+   
+    function clearform() {
+      document.getElementsByName("firstname").value=""; //don't forget to set the textbox id
+      document.getElementsByName("comments").value="";
+    }
+    var viewportWidth = $(window).width();
 
   </script>
-  
-
-
-</script>
 </head>
 <body>
 <!--<ul id="menu">
-<li><a href="#" style="text-decoration:none;" ><span></span> Home</a></li>
-      <li><a href="#" style="text-decoration:none;"><span></span> About</a></li>
-      <li><a href="#" style="text-decoration:none;"><span></span> Team</a></li>
-      <li><a href="#" style="text-decoration:none;"><span></span> Blog</a></li>
-      <li><a href="#" style="text-decoration:none;"><span></span> Forum</a></li>
-      <li class="lastmenuitem"><a href="#" style="text-decoration:none;"><span class="contactmenuitem"></span> Contact</a></li>
-</ul>-->
+    <li><a href="http://docs.tah.io" style="text-decoration:none;"><span></span> Docs</a></li>
+    <li><a href="http://blog.tah.io" style="text-decoration:none;"><span></span> Blog</a></li>
+    <li><a href="http://discuss.tah.io" style="text-decoration:none;"><span></span> Forum</a></li>
+    <li class="lastmenuitem"><a href="http://revealinghour.in" style="text-decoration:none;"><span></span> About Us</a></li>
+  </ul>-->
   <nav class="menu push-menu-left" id="menu-one">
   
     <div class="menu-top"><img src="img/tah-new-logo-for-nav.png" />Tah</div>
+
     <div class="rhc"><img src="img/RHC-icon.png" />
-      <p>We’re a very young and small startup based out of Pune.We’re a very young and small startup based out of Pune.</p>
+      <p>We’re a very young and small startup based out of Pune</p>
     </div>
+
     <ul>        
-      <li><a href="#" style="text-decoration:none;" ><span></span> Home</a></li>
-      <li><a href="#" style="text-decoration:none;"><span></span> About</a></li>
-      <li><a href="#" style="text-decoration:none;"><span></span> Team</a></li>
-      <li><a href="#" style="text-decoration:none;"><span></span> Blog</a></li>
-      <li><a href="#" style="text-decoration:none;"><span></span> Forum</a></li>
-      <li><a href="#" style="text-decoration:none;"><span class="contactmenuitem"></span> Contact</a></li>
+      <li><a href="http://docs.tah.io" style="text-decoration:none;"><span></span> Docs</a></li>
+      <li><a href="http://blog.tah.io" style="text-decoration:none;"><span></span> Blog</a></li>
+      <li><a href="http://discuss.tah.io" style="text-decoration:none;"><span></span> Forum</a></li>
+      <li class="lastmenuitem"><a href="http://revealinghour.in" style="text-decoration:none;"><span></span> About Us</a></li>
     </ul>
 
     <ul class="socialbtns">
       <li><a href="#" class="share"></a></li>
       <li><a href="#"  class="follow"></a></li>
       <li>
-          <button class="close-menu" onclick="btnclose()" >
-  <img src="img/cross-button-for-navigation.png" />
-  </button>    </li>
+        <button class="close-menu" onclick="btnclose()" >
+          <img src="img/cross-button-for-navigation.png" />
+        </button>
+      </li>
     </ul>
   </nav>
 
-  <div id="offset">10</div>
+  <!-- <div id="offset">10</div> -->
 
   <div id="progressBar"
     data-0="height: 0%"
@@ -100,10 +82,10 @@
   >
   </div>
 
-<!--   <div id="navClick">
-    <img src="img/navicon.png">
-  </div> -->
-  
+  <div class="cta">
+    <a href="http://crowdsupply.com/revealing-hour/tah-open-ble-arduino-board"><img src="img/buy-now-button.png" class="cta-buy"></a>
+  </div>
+ 
   <div id="logo"
   data--650-top="opacity:1; "
   data--300-top="opacity:0; "
@@ -119,8 +101,7 @@
         <button class="nav-toggler toggle-slide-right">Slide Menu Right</button>
         <button class="nav-toggler toggle-slide-top">Slide Menu Top</button>
         <button class="nav-toggler toggle-slide-bottom">Slide Menu Bottom</button>
-        <button  class="nav-toggler toggle-push-left" onclick="btnActive()"><img src="img/navicon.png"></button>
-    
+        <button class="nav-toggler toggle-push-left" onclick="btnActive()"><img src="img/navicon.png"></button>
         <button class="nav-toggler toggle-push-right">Push Menu Right</button>
         <button class="nav-toggler toggle-push-top">Push Menu Top</button>
         <button class="nav-toggler toggle-push-bottom">Push Menu Bottom</button>
@@ -235,13 +216,13 @@
 
             <!-- Grey tab slides in as football screen slides out -->
             <img src="img/monitorscreen1.png" class="img-responsive img-center opa gamegif"
-            data--9560-top="opacity:1; transform: translateX(-800px)"
+            data--9560-top="opacity:1;  transform: translateX(-800px)"
             data--10160-top="opacity:1; transform: translateX(0px)"
             data--11400-top="opacity:1; transform: translateX(0px)"
             data--12000-top="opacity:1; transform: translateX(800px)"
             >
 
-            <img src="img/monitorscreen (2).png" class="img-responsive img-center opa gamegif "
+            <img src="img/monitorscreen2.png" class="img-responsive img-center opa gamegif "
             data--11060-top="opacity:1; transform: translateX(-800px)"
             data--11660-top="opacity:1; transform: translateX(0px)"
             >
@@ -249,34 +230,34 @@
 
           <div class="slidinghandTah opa"
 
-          data--400-top="opacity:0; transform: translateX(100px) translateY(-400px) scale(0.8)"
-          data--600-top="opacity:1; transform: translateX(0px) translateY(-400px) scale(0.8)"
-          data--1600-top="opacity:1; transform: translateX(0px) translateY(-400px) scale(0.8)"
+          data--100-top="opacity:0;  transform: translateX(100px) translateY(-400px) scale(0.8)"
+          data--300-top="opacity:1;  transform: translateX(0px)   translateY(-400px) scale(0.8)"
+          data--1600-top="opacity:1; transform: translateX(0px)   translateY(-400px) scale(0.8)"
           data--1800-top="opacity:0; transform: translateX(100px) translateY(-400px) scale(0.8)"
 
-          data--8700-top="opacity:0; transform: translateX(100px) translateY(-400px) scale(0.8)"
-          data--8900-top="opacity:1; transform: translateX(0px) translateY(-400px) scale(0.8)"
-          data--12400-top="opacity:1; transform: translateX(0px) translateY(-400px) scale(0.8)"
+          data--8700-top="opacity:0;  transform: translateX(100px) translateY(-400px) scale(0.8)"
+          data--8900-top="opacity:1;  transform: translateX(0px)   translateY(-400px) scale(0.8)"
+          data--12400-top="opacity:1; transform: translateX(0px)   translateY(-400px) scale(0.8)"
           data--12700-top="opacity:0; transform: translateX(500px) translateY(-400px) scale(0.8)"
           >
-            <img src="img/hand-with-tah.png" class="img-responsive">
+            <img src="img/hand-with-Tah.png" class="img-responsive">
           </div>
 
           <div class="slidinghandTah slidinghandTah1 opa"
 
-          data--2100-top="opacity: 0; transform: translateX(500px) translateY(-305px) scale(.6)"
-          data--2300-top="opacity: 1; transform: translateX(-200px) translateY(-300px) scale(.6)"
-          data--8400-top="opacity: 1; transform: translateX(-190px) translateY(-305px) scale(.6)"
-          data--8600-top="opacity: 0; transform: translateX(300px) translateY(-305px) scale(.6)"
+          data--1900-top="opacity: 0; transform: translateX(0px)    translateY(-305px) scale(.6)"
+          data--2100-top="opacity: 1; transform: translateX(-210px) translateY(-305px) scale(.6)"
+          data--8400-top="opacity: 1; transform: translateX(-210px) translateY(-305px) scale(.6)"
+          data--8600-top="opacity: 0; transform: translateX(0px)    translateY(-305px) scale(.6)"
           >
-            <img src="img/hand-with-tah.png" class="img-responsive" />
+            <img src="img/hand-with-Tah.png" class="img-responsive">
           </div>
         </div>
 
         <div class="bottomhands opa"
         data-top="opacity:0; transform: translateY(500px) scale(0.8)"
-        data--900-top="opacity:1; transform: translateY(0px) scale(1)"
-        data--1900-top="opacity:1; transform[bounce]: translateX(0px) scale(1)"
+        data--900-top="opacity:1;  transform:         translateY(0px)    scale(1)"
+        data--1900-top="opacity:1; transform[bounce]: translateX(0px)    scale(1)"
         data--2100-top="opacity:0; transform[bounce]: translateX(1500px) scale(0)"
         >       
           <img src="img/gamepad.png" class="img-responsive" />
@@ -289,14 +270,14 @@
       </div>
     </section>
   
-  <!-- play section ends here -->
+    <!-- play section ends here -->
   
     <div class="rgbbg" 
     data--top="opacity:0; transform:translateY(2000px)"
-    data--1900-top="opacity:1; transform:translateX(2000px)"
-    data--2500-top="opacity:1; transform:translateX(0px)"
-    data--9000-top="opacity:1; transform:translateX(0px)"
-    data--9600-top="opacity:1; transform:translateX(-2000px)"
+    data--1900-top="opacity:1; transform: translateX(2000px)"
+    data--2500-top="opacity:1; transform: translateX(0px)"
+    data--9000-top="opacity:1; transform: translateX(0px)"
+    data--9600-top="opacity:1; transform: translateX(-2000px)"
     >
     </div>
 
@@ -330,33 +311,36 @@
     >
       <div class="container">
 
-        <!-- Below text slides in and out -->
+          <!-- Below text slides in and out -->
         <div class="infobox opa"
-        data--2200-top="opacity:0; transform:translateX(-2000px)"
-        data--2400-top="opacity:1; transform:translateX(0px)"  
+        data--2200-top="opacity:0; transform: translateX(0px)"
+        data--2400-top="opacity:1; transform: translateX(0px)"  
         data--8900-top="opacity:1; transform: translateX(0px)"
-        data--9400-top="opacity:0; transform: translateX(-1500px)"
+        data--9400-top="opacity:0; transform: translateX(0px)"
         >
           <h2>rgb</h2>
           <p>Make a mood lamp and change the lighting on a bunch of LEDs with the Tah RGB app.</p>
-          
+            
           <ul class="storebuttons">
             <li><a href="#"><img src="img/apple-store-button.png"></a></li>
             <li><a href="#"><img src="img/android-button.png"></a></li>
           </ul>
         </div>
-    <div class="rgbaouterdiv">
-        <div class="rgbamonitor1">
-    </div>
-    </div>
-     <div class="slidinghandTahnew slidinghandTahnewrgb">
-            <img src="img/hand-with-tah.png" class="img-responsive" />
+
+        <div class="rgbaouterdiv">
+          <div class="rgbamonitor1">
           </div>
+        </div>
+
+        <div class="slidinghandTahnew slidinghandTahnewrgb">
+          <img src="img/hand-with-tah.png" class="img-responsive" />
+        </div>
+
         <div class="bottomhands opa"
         data--2100-top="opacity:0; transform: translateY(1900px) scale(1)"
-        data--2200-top="opacity:1; transform: translateY(0px) scale(1)" 
-        data--8600-top="opacity:1; transform:translateX(0px) scale(1)"
-        data--8800-top="opacity:1; transform:translateX(2000px) scale(1)"
+        data--2200-top="opacity:1; transform: translateY(0px)    scale(1)" 
+        data--8600-top="opacity:1; transform: translateX(0px)    scale(1)"
+        data--8800-top="opacity:1; transform: translateX(2000px) scale(1)"
         >
 
           <img src="img/rgb-hand-with-mobile.png" class="img-responsive handapp">
@@ -381,25 +365,28 @@
     <section id="slide3" class="motion">
       <div class="container">
         <div class="infobox opa"
-        data--9200-top="opacity:0; transform:translateX(-500px)"
-        data--9400-top="opacity:1; transform:translateX(0px)"  
+        data--9200-top="opacity:0;  transform:translateX(0px)"
+        data--9400-top="opacity:1;  transform:translateX(0px)"  
         data--12500-top="opacity:1; transform:translateX(0px)"
-        data--13000-top="opacity:0; transform:translateX(-500px)"
+        data--13000-top="opacity:0; transform:translateX(0px)"
         >
           <h2>motion</h2>
-          <p>Swipe Gestures</p>
+          <p>Use swipe gestures to control your mac's desktop and audio</p>
           <ul class="storebuttons">
             <li><a href="#"><img src="img/apple-store-button.png"></a></li>
             <li><a href="#"><img src="img/android-button.png"></a></li>
           </ul>
         </div>
-    <div class="rgbaouterdiv">
- <div class="rgbamonitor motionmonitor">
-    </div>
-    </div>
-     <div class="slidinghandTahnew">
-            <img src="img/hand-with-tah.png" class="img-responsive" />
+
+        <div class="rgbaouterdiv">
+          <div class="rgbamonitor motionmonitor">
           </div>
+        </div>
+
+        <div class="slidinghandTahnew">
+          <img src="img/hand-with-tah.png" class="img-responsive" />
+        </div>
+
         <div class="bottomhands opa rgbbottomhands motionbottomhands"
 
         data--7400-top="opacity:0; transform:translateX(1000px) rotate(0deg) rotateX(0deg) rotateY(0deg)"
@@ -426,10 +413,10 @@
     <section id="slide4" class="sensor">
       <div class="container">
         <div class="infobox opa"
-        data--13500-top="opacity:0; transform:translateX(-500px)"
-        data--14000-top="opacity:1; transform:translateX(0px)"
-        data--19000-top="opacity:1; transform:translateX(00px)"
-        data--19500-top="opacity:0; transform:translateX(-2000px)"
+        data--18000-top="opacity:0; transform:translateX(0px)"
+        data--18200-top="opacity:1; transform:translateX(0px)"
+        data--18750-top="opacity:1; transform:translateX(0px)"
+        data--19000-top="opacity:0; transform:translateX(0px)"
         >
           <h2>sensor</h2>
           <p>The Tah Sensor app makes it easy to
@@ -514,15 +501,15 @@
     <section id="slide5" class="arduino">
       <div class="container">
         <div class="infobox opa"
-        data--19500-top="opacity:0; transform:translateX(-500px)"
-        data--20000-top="opacity:1; transform:translateX(0px)"
-        data--31700-top="opacity:1; transform:translateX(0px)"
-        data--31900-top="opacity:0; transform:translateX(-500px)"
+        data--29300-top="opacity:0; transform:translateX(0px)"
+        data--29500-top="opacity:1; transform:translateX(0px)"
+        data--29900-top="opacity:1; transform:translateX(0px)"
+        data--30200-top="opacity:0; transform:translateX(0px)"
         >
           <h2>Arduino</h2>
-          <p>Use your existing shields with the help of the Breakout Shield </p>
+          <p>Use your existing Arduino shields with the help of the Breakout Shield </p>
           <ul class="storebuttons">
-            <li><a href="#"><img src="img/apple-store-button.png"></a></li>
+            <li><a href="#"><img src="img/apple-store-button.png" width="172" height="55"></a></li>
             <li><a href="#"><img src="img/android-button.png"></a></li>
           </ul>
         </div>
@@ -531,9 +518,9 @@
         data-top="opacity:0; transform:translateY(-2000px)         translateX(-100px)"
         data--20000-top="opacity:0; transform:translateY(-2000px)  translateX(-100px)"
         data--21000-top="opacity:1; transform:translateY(0px)      translateX(-100px)"
-        data--31800-top="opacity:1; transform:translateY(0px)      translateX(-100px)"
-        data--32500-top="opacity:0; transform:translateY(-2000px)  translateX(-100px)"
-        > 
+        data--30200-top="opacity:1; transform:translateY(0px)     translateX(-100px)"
+        data--31100-top="opacity:0; transform:translateY(-1000px) translateX(-100px)"
+        >
           <img src="img/main-image-2.png" />
         </div>
 
@@ -541,9 +528,9 @@
         data-top="opacity:0; transform:translateY(-2000px)         translateX(-100px)"
         data--20300-top="opacity:0; transform:translateY(-2000px)  translateX(-100px)"
         data--21300-top="opacity:1; transform:translateY(0px)      translateX(-100px)"
-        data--31800-top="opacity:1; transform:translateY(0px)      translateX(-100px)"
-        data--32500-top="opacity:0; transform:translateY(-2000px)  translateX(-100px)"
-        > 
+        data--30200-top="opacity:1; transform:translateY(0px)     translateX(-100px)"
+        data--31100-top="opacity:0; transform:translateY(-1000px) translateX(-100px)"
+        >
           <img src="img/preset-0.png" />
         </div>
         
@@ -552,9 +539,9 @@
         data--22600-top="opacity:1; transform:translateY(-10px)   translateX(-140px)  scale(1)"
         data--23000-top="opacity:1; transform:translateY(-10px)   translateX(-140px)  scale(1)"
         data--23300-top="opacity:1; transform:translateY(150px)   translateX(250px)  scale(0.5)"
-        data--30000-top="opacity:1; transform:translateY(150px)   translateX(250px)  scale(0.5)"
+        data--30000-top="opacity:1; transform:translateY(150px)   translateX(250px)  scale(0.5)"        
         data--31000-top="opacity:1; transform:translateY(150px)   translateX(1000px) scale(0.5)"
-        > 
+        >
           <img src="img/preset-2.png" />
         </div>
 
@@ -563,7 +550,7 @@
         data--23000-top="opacity:1; transform:translateY(-90px) translateX(70px)"
         data--29700-top="opacity:1; transform:translateY(-90px) translateX(70px)"
         data--30700-top="opacity:1; transform:translateY(-90px) translateX(900px)"
-        > 
+        >
           Gameduino Sheild
         </div>
 
@@ -575,8 +562,7 @@
         data--25500-top="opacity:1; transform:translateY(-30px)   translateX(300px) scale(0.5)"
         data--30000-top="opacity:1; transform:translateY(-30px)   translateX(300px) scale(0.5)"
         data--31000-top="opacity:1; transform:translateY(-30px)   translateX(900px) scale(0.5)"
-
-        > 
+        >
           <img src="img/preset-3.png" />
         </div>
 
@@ -585,7 +571,7 @@
         data--24000-top="opacity:1; transform:translateY(-280px) translateX(70px)"
         data--29700-top="opacity:1; transform:translateY(-280px) translateX(70px)"
         data--30700-top="opacity:1; transform:translateY(-280px) translateX(900px)"
-        > 
+        >
           Neo Pixel Shield
         </div>
         
@@ -597,7 +583,7 @@
         data--28000-top="opacity:1; transform:translateY(-230px)  translateX(250px)  scale(0.5)"
         data--30000-top="opacity:1; transform:translateY(-230px)  translateX(250px)  scale(0.5)"
         data--31000-top="opacity:1; transform:translateY(-230px)  translateX(900px)  scale(0.5)"
-        > 
+        >
           <img src="img/preset-4.png" />
         </div>
 
@@ -606,7 +592,7 @@
         data--26500-top="opacity:1; transform:translateY(-470px) translateX(70px)"
         data--29700-top="opacity:1; transform:translateY(-470px) translateX(70px)"
         data--30700-top="opacity:1; transform:translateY(-470px) translateX(900px)"
-        > 
+        >
           Ethernet Shield
         </div>
         
@@ -614,9 +600,10 @@
         <div class="ar3 opa ar3big preset5"
         data--28000-top="opacity:0; transform:translateY(-1000px) translateX(-100px) "
         data--29500-top="opacity:1; transform:translateY(0px)     translateX(-100px) "
-        data--30000-top="opacity:1; transform:translateY(0px)     translateX(-100px) "
-        data--31300-top="opacity:1; transform:translateY(0px)     translateX(900px) "
-        > 
+        data--30200-top="opacity:1; transform:translateY(0px)     translateX(-100px)"
+        data--31100-top="opacity:0; transform:translateY(-1000px) translateX(-100px)"
+
+        >
           <img src="img/preset-5.png" />
         </div>
 
@@ -636,101 +623,83 @@
     <section id="slide6">
       <div class="container">
         <div class="infobox opa slide6div"
-        data--31500-top="opacity: 0; transform:translateX(2000px)"
-        data--32500-top="opacity: 1; transform:translateX(1px)"
+        data--30600-top="opacity: 0; transform:translateX(1975px)"
+        data--31600-top="opacity: 1; transform:translateX(0px)"
         >
+          <!-- Begin MailChimp Signup Form -->
+          <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+          <style type="text/css">
+            #mc_embed_signup{}
+            /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+               We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+          </style>
+
           <div class="contactform-newsletter">
-          <h2><img src="img/news-letter-icon.png" /></h2>
-          <p>Subscribe to our Newsletter and keep yourself<br/> updated.</p>
-
-          <form class="newsletter">
+          <h2 class="newsletter-heading"><img src="img/news-letter-icon.png" /></h2>
             <div id="mc_embed_signup">
-              <form action="http://iautomate.us10.list-manage.com/subscribe/post?u=a1b6639acad80fa1545ff9849&amp;id=380736d961" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                
-                <div id="mc_embed_signup_scroll">  
-                  <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-                  <div class="mc-field-group">
-                    <input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First Name ">
-                  </div>
-
-                  <div class="mc-field-group">
-                    <input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last Name">
-                  </div>
-
-                  <div id="mce-responses" class="clear">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-                  </div> 
-                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;">
-                    <input type="text" name="b_a1b6639acad80fa1545ff9849_380736d961" tabindex="-1" value="">
-                  </div>
-
+              <form action="//tah.us8.list-manage.com/subscribe/post?u=bca3a340d44da6d9f4123ed9d&amp;id=00bbb728bf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                  <p>Stay updated. Sign up for our newsletter</p>
                   <div class="mc-field-group">
                     <div class="emaildiv">
                       <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address">
-                      <input type="submit" value="" name="subscribe" id="mc-embedded-subscribe" class="button">
+                      <input type="submit" value="" name="subscribe" id="mc-embedded-subscribe" class="button">                    
                     </div>
                   </div>
-
+                  <div id="mce-responses" class="clear mce-responses-custom">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                  </div>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;">
+                    <input type="text" name="b_bca3a340d44da6d9f4123ed9d_00bbb728bf" tabindex="-1" value="">
+                  </div>
                 </div>
               </form>
             </div>
-          </form>
+            <script type='text/javascript' src='/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+            <!--End mc_embed_signup-->
+          </div>
         </div>
       </div>
     </section>
-
   </div>
 
-  <footer>
-  </footer>
   
-<script type="text/javascript" src="js/skrollr.min.js"></script>
-   <script type="text/javascript">
- $(window).load(function()  {
-  // initialize skrollr if the window width is large enough
-  if ($(window).width() > 800) {
-  var s = skrollr.init({
-    render: function(data) {
-      //Log the current scroll position.
-      //console.log(data.curTop);
-      $('#offset').text(data.curTop);
-      forceHeight: true
-      }
-    });
-  }
-
-  // disable skrollr if the window is resized below 768px wide
-  $(window).on('resize', function () {
-    if ($(window).width() <= 800) {
-      skrollr.init().destroy(); // skrollr.init() returns the singleton created above
-    }
-  });
-});
-   </script>
+  <script type="text/javascript" src="js/skrollr.min.js"></script>
+  <script src="js/plugins.js"></script>
   <script src="js/classie.js"></script>
   <script src="js/nav.js"></script>
-  <script type="text/javascript">
-    
-  </script>
-  <!-- Preloader -->
-  <script type="text/javascript">
-    //<![CDATA[
-    $(window).load(function() { // makes sure the whole site is loaded
-    $('#status').fadeOut(); // will first fade out the loading animation
-    $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-    $('body').delay(350).css({'overflow':'visible'});
-    })
-    //]]>
-  </script>
   <script src="js/jquery.slicknav.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-  $('#menu').slicknav();
-});
-</script>
-  <script src="js/classie.js"></script>
-  <script src="js/plugins.js"></script>
+
+  <script type="text/javascript">
+    $(window).load(function() {
+      // initialize skrollr if the window width is large enough
+      if ($(window).width() > 800) {
+      var s = skrollr.init({
+        render: function(data) {
+          //Log the current scroll position.
+          //console.log(data.curTop);
+          $('#offset').text(data.curTop);
+          forceHeight: true
+          }
+        });
+      }
+
+      // disable skrollr if the window is resized below 768px wide
+      $(window).on('resize', function () {
+        if ($(window).width() <= 800) {
+          skrollr.init().destroy(); // skrollr.init() returns the singleton created above
+        }
+      });
+    });
+  </script>
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#menu').slicknav();
+    });
+  </script>
+  
 </body>
 </html>

@@ -27,3 +27,10 @@
   left: 83%;
   top: 3%;
 }
+
+@media only screen and (max-width:500px) and (min-width: 250px){
+  .cta-buy {
+    left: 82%;
+    top: 17%;
+    width: 60px;
+  }
