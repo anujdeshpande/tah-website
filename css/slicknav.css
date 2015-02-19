@@ -103,7 +103,7 @@
 }
 
 body {
-	font-family:Helvetica, Arial, sans-serif;
+	font-family: 'Quattrocento', serif;
 	margin:0;
 	padding:0;
 	font-size:100%;
@@ -160,7 +160,7 @@ display:none!important;
   }
 	.slicknav_nav a {
   color: #fff!important;
-  font-family: Arial !important;
+  font-family: 'Quattrocento', serif;
   font-size: 16px !important;
   margin: 0;
   padding-left: 19px !important;

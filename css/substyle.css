@@ -1,10 +1,5 @@
-
-
-
-
 /* #Forms (see formalize.css)
 ================= BLOG AND DOCS PAGE ================================= */
-
 
 label,legend {
 	font-weight: bold;font-size: 13px;
@@ -13,19 +8,17 @@ label,legend {
 
 input[type="checkbox"] {display: inline; }
 
-
-
-
 .entry-title {
   color: #000 !important;
-  font-family: Questrial !important;
+  font-family: 'Quattrocento', serif;
   font-size: 24px !important;
   font-weight: 300;
   padding: 10px 0;
 }
+
 .entry-content > p {
   color: #393737;
-  font-family: Questrial !important;
+  font-family: 'Quattrocento', serif;
   font-size: 14px;
 }
 
@@ -41,43 +34,51 @@ input[type="checkbox"] {display: inline; }
   float: right;
   width: auto;
 }
+
 .alignleft.scale-with-grid.wp-post-image {
   display: none;
 }
+
 .writtenby {
   padding-top: 15px;
   text-align: right;
 }
+
 .writtenby > h1 {
   color: #949494;
-  font-family: questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 0;
 }
+
 .authorname {
   border-top: 1px solid #1b91a1;
   padding-top: 4px;
 }
+
 .authorname a {
   color: #0e7582;
-  font-family: questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 25px;
   text-transform: capitalize;
 }
+
 .entry-date {
   color: #000;
   float: left;
   font-size: 14px;
   font-weight: 300;
 }
+
 abbr, acronym {
   border-bottom: 0px dotted #333 !important;
   cursor: alias;
 }
+
 #nav-below a {
   color: #3e3e3e;
-  font-family: questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 16px;
   text-decoration: none;
 }
@@ -90,32 +91,35 @@ abbr, acronym {
   background: url("http://127.0.0.1:4001/wordpress/wp-content/uploads/2014/12/next.png") no-repeat scroll right center rgba(0, 0, 0, 0);
 
 }
+
 code {
   background: none repeat scroll 0 0 #fff;
   border: 1px solid #d9d9d9;
   color: #1b91a1;
   float: left;
-  font-family: questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 14px;
   padding: 10px 10px;
   width: 96%;
 }
+
 .entry-meta, .entry-utility {
   border-bottom: 0 solid #eee !important;
-  
 }
+
 #nav-below {
-    padding: 20px 0 14px !important;
+  padding: 20px 0 14px !important;
 }
+
 .comment-reply-title {
   color: #000;
-  font-family: questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 25px;
   font-weight: 300;
   letter-spacing: 0;
 }
 .logged-in-as {
-  font-family: questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 13px;
 }
 .logged-in-as > a {
@@ -124,19 +128,19 @@ code {
   text-transform: capitalize;
 }
 .form-submit #submit {
- background: url("http://127.0.0.1:4001/wordpress/wp-content/uploads/2014/12/Untitled-4.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
-border: medium none;
-border-radius: 0;
-color: white !important;
-font-family: BigNoodleTitling;
-font-size: 18px !important;
-font-weight: normal;
-letter-spacing: 0;
-padding: 4px 10px!important;
+  background: url("http://127.0.0.1:4001/wordpress/wp-content/uploads/2014/12/Untitled-4.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+  border: medium none;
+  border-radius: 0;
+  color: white !important;
+  font-family: 'Quattrocento', serif;
+  font-size: 18px !important;
+  font-weight: normal;
+  letter-spacing: 0;
+  padding: 4px 10px!important;
   margin-right: 30%;
   float:right;
-  
 }
+
 .comment-form-comment > input {
   background: none repeat scroll 0 0 #f8f8f8;
   border-left: 2px solid #b6b6b6;
@@ -152,7 +156,7 @@ padding: 4px 10px!important;
   border-left: 2px solid #b6b6b6;
   border-radius: 0;
   border-top: 2px solid #b6b6b6 !important;
-   margin-bottom: 6px;
+  margin-bottom: 6px;
   color: #8d8d8d;
   padding: 4px 3px !important;
   width: 450px !important;
@@ -163,7 +167,7 @@ body {
 #comments h6 {
  background: none repeat scroll 0 0 #f0f0f0;
 color: #0e7582;
-font-family: questrial;
+font-family: 'Quattrocento', serif;
 font-size: 18px;
 font-weight: 300;
 letter-spacing: normal;
@@ -173,7 +177,7 @@ text-transform: capitalize;
 }
 .comment-meta.commentmetadata > p {
   color: #6a6a6a;
-font-family: questrial;
+font-family: 'Quattrocento', serif;
 font-size: 14px;
 font-weight: 300;
 margin-bottom: 10px ;
@@ -193,7 +197,7 @@ height: 64px !important;
 .comment-reply-link {
   color: #000 !important;
   float: right;
-  font-family: questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 15px;
   font-weight: 300;
   padding-left: 10px;
@@ -202,7 +206,7 @@ height: 64px !important;
 .comment-edit-link {
   color: #000 !important;
   float: right;
-  font-family: questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 15px;
   font-weight: 300;
   padding-left: 10px;
@@ -228,7 +232,7 @@ height: 64px !important;
 #comments h2 {
   border-bottom: 1px solid #eee;
   color: #000;
-  font-family: questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 22px;
   letter-spacing: 0;
   padding-bottom: 10px;
@@ -254,7 +258,7 @@ a:hover, a:focus, a:active {
 
 .entry-title > a {
   color: #0e7582 !important;
-  font-family: questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 22px;
   font-weight: 300;
   letter-spacing: 0;
@@ -262,14 +266,14 @@ a:hover, a:focus, a:active {
 
 .docshead3 {
   color: #0e7582;
-  font-family: questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 17px;
   font-weight: 300 !important;
 padding-bottom: 2px;
 }
 .docshead2 {
   color: #0e7582;
-  font-family: questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 17px;
   font-weight: 300 !important;
   text-transform: uppercase;
@@ -286,7 +290,7 @@ padding-bottom: 2px;
 body {
   background-color: #fff;
   color: #333333;
-  font-family: sans-serif;
+  font-family: 'Quattrocento', serif;
 }
 .page-id-87 .entry-title {
   display: none;
@@ -297,7 +301,7 @@ body {
 }
 .text-docs > p {
   color: #393737;
-  font-family: questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 15px;
   }
 
@@ -322,7 +326,7 @@ padding:15px 20px 40px !important;
 }
 .achive-datediv {
   color: #198fa0;
-  font-family: questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 13px;
   letter-spacing: 0;
   text-transform: uppercase;
@@ -334,7 +338,7 @@ padding:15px 20px 40px !important;
 .heading-blogs > h2 {
   background: url("http://127.0.0.1:4001/wordpress/wp-content/uploads/2014/12/Untitled-41.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
   color: #fff;
-  font-family: BigNoodleTitling;
+  font-family: 'Quattrocento', serif;
   font-size: 30px;
   letter-spacing: 0;
   margin: 0 auto;
@@ -373,82 +377,92 @@ body {
 /*Landing page*/
 
 .tagline1 p {
- color: #0e6f70 !important;
-font-family: arial !important;
-font-size: 30px !important;
-line-height: 36px;
-margin-bottom: 30px;
-margin-top: 10px;
-text-align: center;
+  color: #0e6f70 !important;
+  font-family: 'Quattrocento', serif;
+  font-size: 30px !important;
+  line-height: 36px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  text-align: center;
 }
+
 body {
   background-image: none !important;
   background-position: left top;
   background-repeat: repeat-x;
   line-height: 150%;
 }
+
 .logo {
   padding: 50px 0 30px;
   text-align: center;
 }
+
 .logo-text1 {
   text-align: center;
 }
+
 .logo-text1 > p {
   font-size: 16px;
   line-height: 24px;
   color:#242424;
-  font-family: Questrial;
+  font-family: 'Quattrocento', serif;
 }
+
 .row {
   margin-left: 0px !important;
   margin-right: 0px!important;
   padding: 0 40px;
 }
+
 .container {
   width: 100% !important;
   padding:0px !important;
   padding:0px !important
 }
+
 .heading h2 {
   color: #1b91a1;
-  font-family: COUTURE;
+  font-family: 'Quattrocento', serif;
   font-size: 40px;
   font-weight: bold;
   letter-spacing: 0;
   text-transform: uppercase;
 }
-.heading {
 
+.heading {
   padding: 50px 0 0px;
 }
+
 .heading > p {
   color: #303642 !important;
-  font-family: arial;
+  font-family: 'Quattrocento', serif;
   font-size: 16px;
   line-height: 24px;
-  margin-top: 6px;
-  
+  margin-top: 6px; 
 }
+
 .Tv img {
  
-  } 
+  }
 
 .Tv
 {
-   
   padding: 50px 0 0px;
   text-align:center;
   padding-right: 0 !important;
 }
+
 .bottomhands {
   text-align: right;
   margin-top: 8px;
 }
+
 .hand1 img {
   padding-top: 28px;
   width: 66%;
 }
+
 .bottomhands img {
   padding-top:28px;
   width: 38%;
@@ -460,6 +474,7 @@ body {
   margin-bottom: 0;
   width: auto;
 }
+
 .buttons1 {
   display: inline-flex;
   padding-left: 0px;
@@ -473,23 +488,23 @@ body {
   background: none repeat scroll 0 0 #0c3040;
   height: 323px;
 }
+
 .content1 p {
   color: #fff !important;
 }
 /* menubar */
 
 #wrapper {
-    position: relative;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+  position: relative;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
-
 
 /* ------------------------------------------------------------ *\
 |* ------------------------------------------------------------ *|
@@ -503,6 +518,7 @@ body {
 |* Globals
 |* ------------------------------------------------------------ *|
 \* ------------------------------------------------------------ */
+
 button {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
@@ -527,15 +543,15 @@ body {
     overflow-x: hidden
 }
 #wrapper {
-    position: relative;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+  position: relative;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 section {
     margin-bottom: 0px
@@ -576,8 +592,8 @@ section {
   margin-left: 0 !important;
 }
 section h1 {
-    font-family: "Oswald", sans-serif;
-    margin-bottom: 10px;
+  font-family: 'Quattrocento', serif;
+  margin-bottom: 10px;
 }
 section p {
     margin-bottom: 30px
@@ -935,7 +951,7 @@ padding-left: 30px;
 }
 form {
   color: #112f41 !important;
-  font-family: Questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 14px;
   padding-top: 2%;
 }
@@ -969,7 +985,7 @@ padding-top:10px;
 }
 .contactform-newsletter > p {
   color: #112f41;
-  font-family: questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 15px;
   margin-top: 15px;
 }
@@ -1012,7 +1028,7 @@ vertical-align: middle;
 }
 .menu-top {
   color: #fff;
-  font-family: Coolvetica;
+  font-family: 'Quattrocento', serif;
   font-size: 38px;
 }
 .menu-top {
@@ -1027,7 +1043,7 @@ vertical-align: middle;
   width: 35%;
 }
 .rhc > p {
-  font-family: quicksand;
+  font-family: 'Quattrocento', serif;
   font-size: 14px;
   line-height: 19px;
 }
@@ -1165,14 +1181,14 @@ background-color:#0c3040;
 
 .docshead3 {
   color: #0e7582;
-  font-family: questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 17px;
   font-weight: 300 !important;
 padding-bottom: 2px;
 }
 .docshead2 {
   color: #0e7582;
-  font-family: questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 17px;
   font-weight: 300 !important;
   text-transform: uppercase;
@@ -1186,18 +1202,18 @@ padding-bottom: 2px;
   border: 1px solid #e0e0e0;
   padding: 15px 10px 40px;
   color: #393737;
-  font-family: questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 15px;
 }
 body {
   background-color: #fff;
   color: #333333;
-  font-family: sans-serif;
+  font-family: 'Quattrocento', serif;
 }
 
 .text-docs > p {
   color: #393737;
-  font-family: questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 15px;
   }
 .text-docs {
@@ -1218,7 +1234,7 @@ width: 39% !important;
   .buynow-list li p
   {
  color: #282828;
-font-family: questrial;
+font-family: 'Quattrocento', serif;
 font-size: 14px;
 line-height: 19px;
 padding: 5px;
@@ -1227,7 +1243,7 @@ padding: 5px;
   {
  
   color: #2aa19e;
-  font-family: BigNoodleTitling;
+  font-family: 'Quattrocento', serif;
   font-size: 28px;
   }
    .buynow-list li img
@@ -1275,14 +1291,14 @@ padding: 5px;
 #contactform1 > p {
   border-bottom: 0 solid;
   color: #000;
-  font-family: questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 17px;
   margin-bottom: 9px;
 }
 #contactform1 h2 {
   border-bottom: 1px solid #eeeeee;
   color: #000;
-  font-family: questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 27px;
   margin-bottom: 34px;
   margin-top: 15px;
@@ -1362,7 +1378,7 @@ min-height: 290px !important;
 }
 .specificationdiv1-img2 > p {
   color: #112f41;
-  font-family: Questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 14px;
   line-height: 20px;
   padding: 10px 3px 20px;
@@ -1382,7 +1398,7 @@ background-color:#b0e1ff;
 }
 .bottomSpecDiv > p {
   color: #112f41;
-  font-family: Questrial;
+  font-family: 'Quattrocento', serif;
   font-size: 18px;
   line-height: 26px;
 }
@@ -1396,7 +1412,7 @@ width: 100%;
 .Modal-divone h2
 {
 color: #fff;
-  font-family: Myriad Pro;
+  font-family: 'Quattrocento', serif;
   font-size: 18px !important;
   font-weight:500!important;
   margin-top: 14px;
@@ -1404,7 +1420,7 @@ color: #fff;
 .Modal-divone
 {
 color: #fff;
-  font-family: Myriad Pro;
+  font-family: 'Quattrocento', serif;
   font-size: 13px;
   font-weight:300;
   line-height: 21px;
@@ -1412,7 +1428,7 @@ color: #fff;
 .Modal-divtwo h2
 {
 color: #fff;
-  font-family: Myriad Pro;
+  font-family: 'Quattrocento', serif;
   font-size: 18px !important;
   font-weight:500!important;
   margin-top: 24px;
@@ -1420,7 +1436,7 @@ color: #fff;
 .Modal-divtwo
 {
 color: #fff;
-  font-family: Myriad Pro;
+  font-family: 'Quattrocento', serif;
   font-size: 13px;
   font-weight:300;
   line-height: 21px;
@@ -1510,11 +1526,11 @@ padding-left:0px;
 }
 .remove > span {
   color: #198fa0;
-  font-family: Myriad Pro;
+  font-family: 'Quattrocento', serif;
 }
 .value > p {
   color: #112f41;
-  font-family: bignoodletitling;
+  font-family: 'Quattrocento', serif;
   font-size: 28px;
 }
 .value {
@@ -1525,7 +1541,7 @@ padding-left:0px;
 }
 .total1 > p {
   color: #198fa0;
-  font-family: bignoodletitling;
+  font-family: 'Quattrocento', serif;
   font-size: 28px;
 }
 .total1 {
@@ -1559,7 +1575,7 @@ padding-left:0px;
 }
 .ordertotaltxt1 > p {
   color: #157481;
-  font-family: bignoodletitling;
+  font-family: 'Quattrocento', serif;
   font-size: 32px;
 }
 .checkoutdiv-outerdiv

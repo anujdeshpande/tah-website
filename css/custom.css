@@ -24,13 +24,27 @@
 .cta-buy {
   z-index: 1102;
   position: fixed;
-  left: 83%;
+  left: 88%;
   top: 3%;
 }
 
 @media only screen and (max-width:500px) and (min-width: 250px){
   .cta-buy {
     left: 82%;
-    top: 17%;
+    top: 13%;
     width: 60px;
   }
+
+  #logo {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../img/TahLogo.png");
+  background-repeat: no-repeat;
+  background-size: 60px;
+  height: 60px;
+  left: 5.208%;
+  position: fixed;
+  top: 13%;
+  width: 60px;
+  z-index: 1101;
+  }
+}
