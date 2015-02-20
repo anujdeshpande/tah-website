@@ -30,7 +30,7 @@
 
 @media only screen and (max-width:500px) and (min-width: 250px){
   .cta-buy {
-    left: 82%;
+    left: 79%;
     top: 13%;
     width: 60px;
   }
@@ -46,5 +46,6 @@
   top: 13%;
   width: 60px;
   z-index: 1101;
+  visibility: hidden;
   }
 }

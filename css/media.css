@@ -835,20 +835,18 @@
 }
 }
 /* =============== Newsletter===================================== */
-@media only screen and (max-width:1100px) and (min-width:300px)
-{
+@media only screen and (max-width:1100px) and (min-width:300px){
 #slide6 > .container >.infobox {
   width: 100%;
   margin: 0 auto!important;
 }
 }
-@media only screen and (max-width:550px) and (min-width:300px)
-{
+@media only screen and (max-width:550px) and (min-width:300px){
 .contactform-newsletter {
   margin-top: 26% !important;
   float: left;
   width: 83%;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 }
 

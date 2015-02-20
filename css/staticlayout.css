@@ -1,29 +1,21 @@
-
-
-.rgbamonitor
-{
-display:none;
-}
-.slidinghandTahnew
-{
-display:none;
+.rgbamonitor {
+  display:none;
 }
 
-
-
-
+.slidinghandTahnew {
+display:none;
+}
 
 /* SOURABH CHANGES 18-02-15  START HERE 
 -------------------------------------------------------------- */
 *{
 outline:none;
 }
-@media only screen and (max-width:800px) 
-{
-#bigMenu{
-display:none;
-}
 
+@media only screen and (max-width:800px) {
+  #bigMenu{
+    display:none;
+  }
 }
 
 nav#nav-mobile {
@@ -57,122 +49,141 @@ nav#nav-mobile {
   text-transform: uppercase;
 }
 
-    #nav-trigger span:hover {
-      background-color: 03626e; }
-
+#nav-trigger span:hover {
+  background-color: 03626e;
+}
 
 nav {
-  margin-bottom: 30px; }
+  margin-bottom: 30px; 
+}
 
 nav#nav-main {
   background-color: #167581;
-  padding: 10px 0; }
-  nav#nav-main ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center; }
-  nav#nav-main li {
-    display: inline-block;
-    border-right: solid 1px #ccc;
-    padding: 0 5px; }
-    nav#nav-main li:last-child {
-      border-right: none; }
-  nav#nav-main a {
-    display: block;
-    color: white;
-    padding: 10px 30px; }
-    nav#nav-main a:hover {
-      background-color: 03626e;
-      color: #fff; }
+  padding: 10px 0; 
+}
+
+nav#nav-main ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav#nav-main li {
+  display: inline-block;
+  border-right: solid 1px #ccc;
+  padding: 0 5px; 
+}
+
+nav#nav-main li:last-child {
+  border-right: none; 
+}
+
+nav#nav-main a {
+  display: block;
+  color: white;
+  padding: 10px 30px; 
+}
+
+nav#nav-main a:hover {
+  background-color: 03626e;
+  color: #fff; 
+}
 
 nav#nav-mobile {
   position: relative;
-  display: none; }
-  nav#nav-mobile ul {
-    display: none;
-    list-style-type: none;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    background-color: #112f41; }
-  nav#nav-mobile li {
-    display: block;
-    padding: 5px 0;
-    border-bottom: solid 1px #168fa0; }
-    nav#nav-mobile li:last-child {
-      border-bottom: none; }
+  display: none; 
+}
+
+nav#nav-mobile ul {
+  display: none;
+  list-style-type: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #112f41; 
+}
+
+nav#nav-mobile li {
+  display: block;
+  padding: 3px 0px 2px 10px;
+  /*border-bottom: solid 1px #168fa0; */
+}
+
+nav#nav-mobile li:last-child {
+  border-bottom: none;
+}
+
 nav#nav-mobile a {
   color: white;
   display: block;
   padding: 0 5px;
   text-align: left;
-  font-size: 14px;
+  font-size: 17px;
   text-decoration:none;
 }
 
-    nav#nav-mobile a:hover {
-      background-color: 03626e;
-      color: #fff; }
+nav#nav-mobile a:hover {
+  background-color: 03626e;
+  color: #fff; 
+}
 
 /* =Media Queries
 -------------------------------------------------------------- */
 @media all and (max-width: 800px) {
   #nav-trigger {
-    display: block; }
+    display: block; 
+  }
 
   nav#nav-main {
-    display: none; }
+    display: none; 
+  }
 
   nav#nav-mobile {
-    display: block; }
+    display: block; 
+  }
 }
 /* SOURABH CHANGES 18-02-15  ENDS HERE 
 -------------------------------------------------------------- */
 
 
+@media only screen and (max-width:670px) and (min-width:600px){
+.rgbamonitor {
+  height: 136px!important;
+  width: 164px!important;
+  }
+}
 
+@media only screen and (max-width:480px) and (min-width:410px){
+  .rgbaouterdiv {
+    float: left;
+    margin: 40px 0 20px 36px !important;
+  }
+  .rgbamonitor1 {
+    margin-left: 78px;
+  }
+}
 
+@media only screen and (max-width:409px) and (min-width:250px){
+  .rgbaouterdiv {
+    float: left;
+    margin: 40px 0 20px 30px !important;
+  }
+  .rgbamonitor1 {
+    margin-left: 78px;
+  }
+}
 
-
-@media only screen and (max-width:670px) and (min-width:600px)
-{
-.rgbamonitor
- {
-height: 136px!important;
-width: 164px!important;
-}
-}
-@media only screen and (max-width:480px) and (min-width:410px)
-{
-.rgbaouterdiv {
-  float: left;
-  margin: 40px 0 20px 36px!important;
-}
-.rgbamonitor1 {
-  margin-left: 78px;
-}
-}
-@media only screen and (max-width:409px) and (min-width:300px)
-{
-.rgbaouterdiv {
-  float: left;
-  margin: 40px 0 20px 0px!important;
-}
-.rgbamonitor1 {
-  margin-left: 78px;
-}
-}
-@media only screen and (max-width:800px) and (min-width:606px)
-{
+@media only screen and (max-width:800px) and (min-width:606px){
 .motion {
   border-bottom: 4px solid #112f41;
 }
+
 .canvas {
-    float: left;
+  float: left;
   height: auto;
   margin: 0;
   padding: 0;
@@ -180,6 +191,7 @@ width: 164px!important;
   width: 100%;
   z-index: 1;
 }
+
 .container {
   float: left;
   height: 100%;
@@ -196,6 +208,7 @@ width: 164px!important;
   width: 100%;
   z-index: 1000;
 }
+
 .landinglogo {
   float: left;
   left: auto;
@@ -204,7 +217,9 @@ width: 164px!important;
   text-align: center;
   top: auto;
   width: 100%;
+  padding: 0px;
 }
+
 .playbg {
   background: url("../img/playBG.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
   float: left;
@@ -214,12 +229,14 @@ width: 164px!important;
   top: auto;
   width: 100%;
 }
+
 .infobox {
   max-width: 400px;
   position: relative;
   width: 27.77%;
   z-index: 1002;
 }
+
 .rgbbg {
   background: url("../img/rgbBG.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
   float: left;
@@ -229,6 +246,7 @@ width: 164px!important;
   width: 100%;
   z-index: 999;
 }
+
 .rgbaoverlay {
    height: 100%;
   max-height: 434px;
@@ -237,6 +255,7 @@ width: 164px!important;
   width: 100%;
   z-index: 999;
 }
+
 .rgbaoverlay1 {
     position: relative;
   }
@@ -249,15 +268,18 @@ width: 164px!important;
   position: relative;
   right: 2.5%;
 }
+
 .infobox {
     opacity: 1!important;
 }
+
 .motion .bottomhands {
   bottom: 0;
   max-width: 490px;
   position: relative;
   right: 0;
 }
+
 .infobox {
    position: relative;
  }
@@ -270,11 +292,13 @@ width: 164px!important;
   top: auto;
   width: 100%;
 }
+
 .Arduinoimgdiv {
   position: relative;
   right: 10%;
   vertical-align: bottom;
 }
+
 .arduino > .container > .ar3 {
     position: relative;
  }
@@ -284,23 +308,27 @@ width: 164px!important;
   right: 0;
   top: auto;
 }
+
 .tagline1 {
   left: 0;
   position: relative;
   right: 0;
   top: auto;
 }
+
 .opa {
   opacity: 1;
 }
 #slide1 {
   margin-top: 30px;
 }
+
 .infobox {
   width: 260px!important;
   z-index: 1002;
   float: left;
 }
+
 .infobox h2 {
   font-size: 40px;
   }
@@ -308,6 +336,7 @@ width: 164px!important;
   font-size: 14px !important;
     line-height: 25px;
 }
+
 .canvas-mini {
   background: url("../img/cartoon.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
   height: 173px;
@@ -318,18 +347,22 @@ width: 164px!important;
   width: 200px !important;
   margin-top: 4%;
 }
+
 .light_bulb{
   display: none;
 }
+
 .monitor{
   display: none;
 }
+
 .slidinghandTah {
   float: right;
   margin-left:200px;
   margin-top: 40px;
   width: 115px;
 }
+
 .slidinghandTah1 {
   display: none;
   }
@@ -348,18 +381,22 @@ width: 164px!important;
   background: none repeat scroll 0 0 #0c3040 !important;
   padding-top: 3%;
 }
+
 .bottomhands .img-responsive {
   float: right;
   width: 250px;
   margin-top: 5%;
 }
+
 .motionbottomhands .img-responsive {
   width: 180px !important;
 }
+
 .rgbamonitor
 {
 display:block;
 }
+
 .rgbamonitor {
   background: url("../img/11.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
   border: 0 none;
@@ -368,6 +405,7 @@ display:block;
   width: 200px;
   margin-top: 4%;
 }
+
 .rgbamonitor1
 
 {
@@ -382,6 +420,7 @@ display:block;
 #slide3 {
   background-color: #b0e1ff !important;
 }
+
 .motionbottomhands .img-responsive {
   width: 150px;
 }
@@ -389,8 +428,10 @@ display:block;
   background-color: #b0e1ff !important;
   padding-top: 7%;
 }
+
 .sensor > .container > .bottomhands .toucheffect {
   display: none;
+ 
   }
 .sensor > .container > .bottomhands img {
   float: left !important;
@@ -398,6 +439,7 @@ display:block;
   margin-left: 14% !important;
   width: 40% !important;
 }
+
 .sensor .bottomhands.opa > img {
   width: 168px !important;
 }
@@ -407,10 +449,12 @@ margin-top: 65px;
 right: auto;
 width: 114px !important;
 }
+
 .clickhand {
   bottom: 0;
   position: relative;
 }
+
 .canvas-mini-sensor {
   float: left;
   height: auto;
@@ -421,6 +465,7 @@ width: 114px !important;
   top: auto !important;
   width: 50%;
 }
+
 .leftsection {
   bottom: 0;
   box-sizing: border-box;
@@ -432,6 +477,7 @@ width: 114px !important;
   position: relative;
   width: 250px;
 }
+
 .middlesection {
    position: relative;
   width: 100px;
@@ -447,6 +493,7 @@ width: 114px !important;
 #slide5 {
   margin-top: 6%;
 }
+
 .Arduinoimgdiv {
   position: relative;
   right: auto;
@@ -456,20 +503,24 @@ width: 114px !important;
   float: left;
   margin-top: 11%;
 }
+
 .toucheffect {
   display: none;
 }
+
 .slidinghandTahnew {
   float: left;
-margin-left: 0px;
-margin-top: 66px;
+  margin-left: 0px;
+  margin-top: 66px;
   width: 115px;
   display:block;
 
 }
+
 .bigarduinoimg img {
   display: none;
 }
+
 .bigarduinoimg {
   background: url("../img/ardiuno.png") no-repeat scroll left center / 100% auto rgba(0, 0, 0, 0);
   float: left;
@@ -478,12 +529,15 @@ margin-top: 66px;
   margin-top: 102px;
   width: 65%;
 }
+
 .preset5 {
   display: none;
 }
+
 .preset0 {
   display: none;
 }
+
 .arduino > .container > .ar3 {
   border: 0 none;
   bottom: 0;
@@ -496,6 +550,7 @@ margin-top: 66px;
   width: 32%;
   height: 100px;
 }
+
 .ar3txt {
   bottom: 0;
   font-size: 19px;
@@ -515,6 +570,7 @@ width: 200px;
   padding-bottom: 50px;
     width: 100%;
 }
+
 .ar3big {
   bottom: auto !important;
   right: 1% !important;
@@ -526,50 +582,58 @@ width: 200px;
   position: relative;
   width: 100% !important;
 }
+
 .slide6div {
   float: none !important;
   left: 0!important;
   margin: 0 auto !important;
   width: 300px !important;
 }
+
 .infobox h2 {
   font-size: 40px;
   text-align: center;
 }
+
 .contactform-newsletter > p {
    text-align: center;
 }
+
 .slidinghandTahnewrgb {
   display: block;
-float: left;
-margin-left: 0px;
-margin-top: 114px;
-width: 115px;
+  float: left;
+  margin-left: 0px;
+  margin-top: 114px;
+  width: 115px;
 
 }
+
 .motion .infobox h2 {
   font-size: 40px;
   line-height: 35px;
   margin-top: 30px;
 }
+
 .infobox.opa > p {
   text-align: center;
 }
 }
 
-@media only screen and (max-width:605px) and (min-width:300px)
-{
+@media only screen and (max-width:605px) and (min-width:250px){
 .infobox.opa > p {
   text-align: center;
 }
+
 .contactform-newsletter > h2 {
   padding-left: 0px;
 }
+
 .motion .infobox h2 {
    font-size: 40px;
   line-height: 35px;
   margin-top: 30px;
 }
+
 .rgbamonitor {
   background: url("../img/11.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
   border: 0 none;
@@ -578,6 +642,7 @@ width: 115px;
   width: 200px;
   margin-top: 4%;
 }
+
 .rgbamonitor1
 
 {
@@ -588,13 +653,16 @@ width: 115px;
   width: 104px;
   margin-top: 29px;
 }
+
 .infobox h2 {
   font-size: 40px;
   text-align: center;
 }
+
 .motion {
   border-bottom: 4px solid #112f41;
 }
+
 .infobox.opa {
   float: none;
   width: 100%!important;
@@ -602,12 +670,14 @@ width: 115px;
    opacity: 1!important;
    position:relative;
 }
+
 .slide6div {
   float: none !important;
   left: 0!important;
   margin: 0 auto !important;
   width: 300px !important;
 }
+
 .canvas {
     float: left;
   height: auto;
@@ -617,6 +687,7 @@ width: 115px;
   width: 100%;
   z-index: 1;
 }
+
 .canvas-mini {
   background: url("../img/cartoon.png") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
   float: none;
@@ -632,6 +703,7 @@ width: 115px;
    #slide1 {
   background: none repeat scroll 0 0 #B0E1FF !important;
 }
+
 .container {
   float: left;
   height: 100%;
@@ -648,6 +720,7 @@ width: 115px;
   width: 100%;
   z-index: 1000;
 }
+
 .landinglogo {
   float: left;
   left: auto;
@@ -656,7 +729,10 @@ width: 115px;
   text-align: center;
   top: auto;
   width: 100%;
+  padding: 0px;
+  /*margin-top: -15px;*/
 }
+
 .playbg {
   background: url("../img/playBG.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
   float: left;
@@ -676,6 +752,7 @@ width: 115px;
   width: 100%;
   z-index: 999;
 }
+
 .rgbaoverlay {
    height: 100%;
   max-height: 434px;
@@ -684,6 +761,7 @@ width: 115px;
   width: 100%;
   z-index: 999;
 }
+
 .rgbaoverlay1 {
     position: relative;
   }
@@ -713,11 +791,13 @@ width: 115px;
   top: auto;
   width: 100%;
 }
+
 .Arduinoimgdiv {
   position: relative;
   right: 10%;
   vertical-align: bottom;
 }
+
 .arduino > .container > .ar3 {
     position: relative;
  }
@@ -727,23 +807,32 @@ width: 115px;
   right: 0;
   top: auto;
 }
+
 .tagline1 {
   left: 0;
   position: relative;
   right: 0;
   top: auto;
+  padding: 0px 15px 0px 15px !important;
 }
+
+.tagline1 p {
+  font-size: 18px !important;
+}
+
 .opa {
   opacity: 1;
 }
 #slide1 {
   margin-top: 30px;
 }
+
 .infobox {
   width: 260px!important;
   z-index: 1002;
   float: left;
 }
+
 .infobox h2 {
   font-size: 40px;
   }
@@ -755,15 +844,18 @@ width: 115px;
 .light_bulb{
   display: none;
 }
+
 .monitor{
   display: none;
 }
+
 .slidinghandTah {
   float: right;
   margin-left:200px;
   margin-top: 40px;
   width: 115px;
 }
+
 .slidinghandTah1 {
   display: none;
   }
@@ -782,14 +874,17 @@ width: 115px;
   background: none repeat scroll 0 0 #0c3040 !important;
   padding-top: 3%;
 }
+
 .bottomhands .img-responsive {
   float: none;
   margin: 20px auto 0;
   width: 250px;
 }
+
 .motionbottomhands .img-responsive {
   width: 180px !important;
 }
+
 .rgbamonitor
 {
 display:block;
@@ -798,6 +893,7 @@ display:block;
 #slide3 {
   background-color: #b0e1ff !important;
 }
+
 .motionbottomhands .img-responsive {
   width: 150px;
 }
@@ -805,6 +901,7 @@ display:block;
   background-color: #b0e1ff !important;
   padding-top: 7%;
 }
+
 .sensor > .container > .bottomhands .toucheffect {
   display: none;
   }
@@ -812,30 +909,36 @@ display:block;
   padding-left: 0px;
   text-align: center;
 }
+
 .sensor > .container > .infobox > p
 {
   padding-left: 0px;
   text-align: center;
 }
+
 .sensor > .container > .bottomhands img {
   float: left !important;
   margin-bottom: 0;
   margin-left: 14% !important;
   width: 40% !important;
 }
+
 .sensor .bottomhands.opa > img {
   width: 168px !important;
 }
-  .sensor > .container > .bottomhands .clickhand {
+
+.sensor > .container > .bottomhands .clickhand {
   margin-left: -35px !important;
-margin-top: 65px;
-right: auto;
-width: 114px !important;
+  margin-top: 65px;
+  right: auto;
+  width: 114px !important;
 }
+
 .clickhand {
   bottom: 0;
   position: relative;
 }
+
 .canvas-mini-sensor {
   float: none;
   height: auto;
@@ -847,6 +950,7 @@ width: 114px !important;
   top: auto !important;
   width: 360px;
 }
+
 .leftsection {
   bottom: 0;
   box-sizing: border-box;
@@ -858,6 +962,7 @@ width: 114px !important;
   position: relative;
   width: 360px;
 }
+
 .middlesection {
    position: relative;
   width: 100px;
@@ -873,6 +978,7 @@ width: 114px !important;
 #slide5 {
   margin-top: 6%;
 }
+
 .Arduinoimgdiv {
   position: relative;
   right: auto;
@@ -881,43 +987,49 @@ width: 114px !important;
   bottom: auto;
   float: left;
   margin-top: 11%;
+  margin-bottom: 30px;
 }
+
 .toucheffect {
   display: none;
 }
+
 .slidinghandTahnew {
   float: left;
   margin-left: 0px;
   margin-top: 100px;
   width: 115px;
   display:block;
-
 }
+
 .slidinghandTahnewrgb {
   float: left;
   margin-left: 0px;
   margin-top: 154px;
   width: 115px;
   display:block;
-
 }
+
 .bigarduinoimg img {
   display: none;
 }
-.bigarduinoimg {
-    
+
+.bigarduinoimg {    
   background: url("../img/ardiuno.png") no-repeat scroll left center / 100% auto rgba(0, 0, 0, 0);
-float: none;
-height: 200px;
-margin: 0 auto;
-width: 293px;
+  float: none;
+  height: 200px;
+  margin: 0 auto;
+  width: 293px;
 }
+
 .preset5 {
   display: none;
 }
+
 .preset0 {
   display: none;
 }
+
 .arduino > .container > .ar3 {
   border: 0 none;
 bottom: 0;
@@ -929,20 +1041,26 @@ right: 0 !important;
 text-align: center;
 width: 200px;
 }
+
 .ar3txt {
   bottom: 0;
-  font-size: 19px;
+  font-size: 16px;
   right: 5%;
   position: relative;
-   float: none !important;
+  float: none !important;
   margin-top: 3px !important;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 } 
 .arduino > .container > .ar3 > img {
   float: none;
-margin-left: -40px !important;
-width: 200px;
+  margin-left: -80px;
+  width: 200px;
 }
+
+.presetimgdiv-exception > img {
+  margin-left: -20px !important;
+}
+
 .handapp {
   margin-left: 102px !important;
   width: 200px !important;
@@ -953,6 +1071,7 @@ width: 200px;
   margin-bottom: 50px;
     width: 100%;
 }
+
 .ar3big {
   bottom: auto !important;
   right: 1% !important;
@@ -964,82 +1083,82 @@ width: 200px;
   position: relative;
   width: 100% !important;
 }
+
 .rgbaouterdiv {
   float: left;
   margin: 40px 0 20px 100px;
 }
 }
 
+@media only screen and (max-width:800px) and (min-width:250px){
+  #offset {
+    left: 0;
+    right: auto !important;
+  }
 
+  .nav-toggler.toggle-push-left {
+    border: 0 none !important;
+    height: auto !important;
+    padding: 0 !important;
+    position: fixed !important;
+    right: 0;
+    top: 0;
+    left:auto!important;
+    bottom: auto !important;
+  }
 
-@media only screen and (max-width:800px) and (min-width:300px)
-{
-#offset {
-  left: 0;
-  right: auto !important;
-}
-.nav-toggler.toggle-push-left {
-  border: 0 none !important;
-  height: auto !important;
-  padding: 0 !important;
-  position: fixed !important;
-  right: 0;
-  top: 0;
-  left:auto!important;
-  bottom: auto !important;
-}
-.buttons {
-  background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
-  border-left: 0 none !important;
- }
-.close-menu {
-  bottom: auto !important;
-  float: right;
-  margin-right: -52px !important;
-  margin-top: -1px !important;
-  position: absolute;
-  top: 0 !important;
-}
-}
-
-
-@media only screen and (max-width:359px) and (min-width:200px)
-{
-.close-menu 
-{
-  float: right;
-  margin-right: 0px !important;
- margin-left: 0px !important;
-  margin-top: -1px !important;
-
+  .buttons {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border-left: 0 none !important;
+   }
+  .close-menu {
+    bottom: auto !important;
+    float: right;
+    margin-right: -52px !important;
+    margin-top: -1px !important;
+    position: absolute;
+    top: 0 !important;
+  }
 }
 
+@media only screen and (max-width:359px) and (min-width:200px){
+  .close-menu {
+    float: right;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-top: -1px !important;
+  }
 }
 
-@media only screen and (max-width:359px) and (min-width:299px)
-{
-nav.push-menu-left button.close-menu {
-  border: 0 none;
-  margin-left: 30px !important;
-  padding: 0 !important;
-}
-#musicsystem 
-{
-  width: 290px;
-}
+@media only screen and (max-width:359px) and (min-width:250px){
+  nav.push-menu-left button.close-menu {
+    border: 0 none;
+    margin-left: 30px !important;
+    padding: 0 !important;
+  }
+
+  .arduino-appstore {
+    height: 33px;
+  }
+
+  #musicsystem {
+    width: 290px;
+  }
+
 .slidinghandTahnew {
-   float: none;
+  float: none;
+  margin-left: 75%;
   }
 .slidinghandTahnewrgb {
-    float: none;
-margin-top: 160px;
+  float: none;
+  margin-top: 160px;
  }
 
 .canvas-mini {
    margin-left: 0;
   }
 .sensor > .container > .bottomhands img {
-    margin-left: 0px!important;
+  margin-left: 0px!important;
   width: 40% !important;
 }
 .sensor > .container > .bottomhands .clickhand
@@ -1049,30 +1168,34 @@ margin-top: 160px;
   right: auto;
   width: 75px !important;
 }
-.slidinghandTahnew
- {
-    width: 91px;
+.slidinghandTahnew {
+  width: 85px;
 }
-.slidinghandTah
- {
-    width: 91px;
+
+.slidinghandTah {
+  width: 85px;
 }
+
 .handapp {
   margin-left: 53px !important;
-  }
+}
+
 #slide4 {
-   margin: 0 auto !important;
+  margin: 0 auto !important;
   padding-top: 7%;
   width: 100% !important;
 }
+
 .sensor > .container > .bottomhands {
   padding-left: 50px !important;
   width: 100% !important;
   padding-bottom: 41px;
 }
+
 .sensor > .container > .bottomhands img {
-    width: 110px!important;
+  width: 110px!important;
 }
+
 #menu-one {
   max-height: 480px;
   overflow-x: scroll !important;
