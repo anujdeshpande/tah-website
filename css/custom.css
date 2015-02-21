@@ -28,12 +28,11 @@
   top: 3%;
 }
 
-@media only screen and (max-width:500px) and (min-width: 250px){
-  .cta-buy {
-    left: 79%;
-    top: 13%;
-    width: 60px;
-  }
+.play-store {
+  cursor: default;
+}
+
+@media only screen and (max-width:700px) and (min-width: 250px){
 
   #logo {
   background-color: rgba(0, 0, 0, 0);

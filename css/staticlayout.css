@@ -146,34 +146,35 @@ nav#nav-mobile a:hover {
     display: block; 
   }
 }
+
 /* SOURABH CHANGES 18-02-15  ENDS HERE 
 -------------------------------------------------------------- */
 
-
 @media only screen and (max-width:670px) and (min-width:600px){
 .rgbamonitor {
-  height: 136px!important;
-  width: 164px!important;
+  /*height: 136px!important;*/
+  /*width: 164px!important;*/
   }
 }
 
-@media only screen and (max-width:480px) and (min-width:410px){
+@media only screen and (max-width:480px) and (min-width:416px){
   .rgbaouterdiv {
     float: left;
-    margin: 40px 0 20px 36px !important;
+    margin: 40px 0 20px 55px !important;
   }
   .rgbamonitor1 {
     margin-left: 78px;
   }
 }
 
-@media only screen and (max-width:409px) and (min-width:250px){
-  .rgbaouterdiv {
-    float: left;
-    margin: 40px 0 20px 30px !important;
-  }
+@media only screen and (max-width:415px) and (min-width:250px){
+
   .rgbamonitor1 {
     margin-left: 78px;
+  }
+
+  .moodlamp {
+    margin-left: 60px !important;
   }
 }
 
@@ -384,12 +385,12 @@ nav#nav-mobile a:hover {
 
 .bottomhands .img-responsive {
   float: right;
-  width: 250px;
+  width: 200px;
   margin-top: 5%;
 }
 
 .motionbottomhands .img-responsive {
-  width: 180px !important;
+  width: 160px !important;
 }
 
 .rgbamonitor
@@ -603,9 +604,8 @@ width: 200px;
   display: block;
   float: left;
   margin-left: 0px;
-  margin-top: 114px;
+  margin-top: 152px;
   width: 115px;
-
 }
 
 .motion .infobox h2 {
@@ -1004,7 +1004,6 @@ display:block;
 
 .slidinghandTahnewrgb {
   float: left;
-  margin-left: 0px;
   margin-top: 154px;
   width: 115px;
   display:block;
@@ -1084,10 +1083,6 @@ width: 200px;
   width: 100% !important;
 }
 
-.rgbaouterdiv {
-  float: left;
-  margin: 40px 0 20px 100px;
-}
 }
 
 @media only screen and (max-width:800px) and (min-width:250px){
@@ -1119,6 +1114,10 @@ width: 200px;
     position: absolute;
     top: 0 !important;
   }
+
+  .arduino-appstore {
+    height: 33px;
+  }
 }
 
 @media only screen and (max-width:359px) and (min-width:200px){
@@ -1127,6 +1126,10 @@ width: 200px;
     margin-right: 0px !important;
     margin-left: 0px !important;
     margin-top: -1px !important;
+  }
+
+  .arduino-appstore {
+    height: 33px;
   }
 }
 
@@ -1145,17 +1148,14 @@ width: 200px;
     width: 290px;
   }
 
-.slidinghandTahnew {
-  float: none;
-  margin-left: 75%;
-  }
 .slidinghandTahnewrgb {
   float: none;
   margin-top: 160px;
+  margin-left: 190px;
  }
 
 .canvas-mini {
-   margin-left: 0;
+  margin-left: 0;
   }
 .sensor > .container > .bottomhands img {
   margin-left: 0px!important;
@@ -1167,9 +1167,6 @@ width: 200px;
   margin-top: 39px;
   right: auto;
   width: 75px !important;
-}
-.slidinghandTahnew {
-  width: 85px;
 }
 
 .slidinghandTah {
@@ -1200,4 +1197,98 @@ width: 200px;
   max-height: 480px;
   overflow-x: scroll !important;
 }
+}
+
+@media only screen and (max-width:800px) and (min-width:651px){
+  .cta-buy {
+    left: 85%;
+    top: 10%;
+    width: 90px;
+  }
+
+  #logo {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width:650px) and (min-width:360px){
+  .cta-buy {
+    left: 85%;
+    top: 13%;
+    width: 60px;
+  }
+}
+
+@media only screen and (max-width:359px) and (min-width:250px){
+  .cta-buy {
+    left: 79%;
+    top: 13%;
+    width: 60px;
+  }
+}
+
+@media only screen and (max-width:320px) and (min-width:250px){
+  .rgbaouterdiv {
+  float: left;
+  margin: 40px 0 20px 0px !important;
+  }
+
+  .slidinghandTahnew {
+    float: none;
+    margin-left: 166px;
+    width: 85px;
+  }
+
+  .slidinghandTahMotion {
+    float: none;
+    margin-left: 202px;
+    width: 60px;
+  }
+}
+
+@media only screen and (max-width:415px) and (min-width:321px){
+  .rgbaouterdiv {
+    float: left;
+    margin: 40px 0 20px 15px !important;
+  }
+
+  .slidinghandTahnew {
+    float: none;
+    margin-left: 182px;
+    width: 85px;
+  }
+
+  .slidinghandTahMotion {
+    float: none;
+    margin-left: 217px;
+    width: 73px;
+  }
+}
+
+@media only screen and (max-width:800px) and (min-width:481px){
+  .rgbaouterdiv {
+    float: left;
+    margin: 40px 0 20px 70px !important;
+  }
+}
+
+@media only screen and (max-width:800px) and (min-width:606px){
+  .slidinghandTahMotion {
+    float: none;
+    margin-left: 475px;
+    margin-top: 100px;  
+    width: 100px;
+  }
+
+  .rgbaouterdivmotion {
+    float: left;
+    margin: 40px 0 20px 15px !important;
+  }
+} 
+
+@media only screen and (max-width:800px) and (min-width:700px){
+  .storebuttons {
+    /*float: none!important;*/
+    margin-left: 10%;
+  }
 }

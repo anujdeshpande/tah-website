@@ -15,15 +15,15 @@
   <link rel="stylesheet" href="css/base.css" />
   <link rel="stylesheet" href="css/custom.css" />
   <link rel="stylesheet" href="css/staticlayout.css" />
-  <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'>
+  <!-- <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'> -->
   <link rel="stylesheet" href="css/slicknav.css">
 
   <script src="js/widgets.min.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="/js/bootstrap.js"></script>
   <script src="/js/modernizr.min.js"></script>
-  <script src="js/jquery.onepage-scroll.min.js"></script>
-  <script src="js/jquery-scrollTo.js"></script>
+  <!-- // <script src="js/jquery.onepage-scroll.min.js"></script> -->
+  <!-- // <script src="js/jquery-scrollTo.js"></script> -->
   <script src="js/main.js"></script>
 
   <script>
@@ -51,7 +51,8 @@
       <p>We’re a very young and small startup based out of Pune</p>
     </div>
 
-    <ul>        
+    <ul>
+      <li><a href="/start.html" style="text-decoration:none;"><span></span> Getting Started</a></li>        
       <li><a href="http://docs.tah.io" style="text-decoration:none;"><span></span> Docs</a></li>
       <li><a href="http://blog.tah.io" style="text-decoration:none;"><span></span> Blog</a></li>
       <li><a href="http://discuss.tah.io" style="text-decoration:none;"><span></span> Forum</a></li>
@@ -179,8 +180,8 @@
           data--400-top="opacity:0; "
           data--800-top="opacity:1; "
           >
-            <li><a href="#"><img src="img/apple-store-button.png"></a></li>
-            <li><a href="#"><img src="img/android-button.png"></a></li>
+            <li><a href="https://itunes.apple.com/us/app/tah-play/id945578953?mt=8"><img src="img/apple-store-button.png"></a></li>
+            <li><a href="#" class="play-store"><img src="img/android-button.png"></a></li>
           </ul>
         </div>
 
@@ -331,13 +332,13 @@
           <p>Make a mood lamp and change the lighting on a bunch of LEDs with the Tah RGB app.</p>
             
           <ul class="storebuttons">
-            <li><a href="#"><img src="img/apple-store-button.png"></a></li>
-            <li><a href="#"><img src="img/android-button.png"></a></li>
+            <li><a href="https://itunes.apple.com/us/app/tah-rgb/id925250365?mt=8"><img src="img/apple-store-button.png"></a></li>
+            <li><a href="#" class="play-store"><img src="img/android-button.png"></a></li>
           </ul>
         </div>
 
         <div class="rgbaouterdiv">
-          <div class="rgbamonitor1">
+          <div class="rgbamonitor1 moodlamp">
           </div>
         </div>
 
@@ -370,7 +371,6 @@
       </div>
     </section>
   
-    <!-- Tah Motion Control -->
     <section id="slide3" class="motion">
       <div class="container">
         <div class="infobox opa"
@@ -382,17 +382,17 @@
           <h2>motion</h2>
           <p>Use swipe gestures to control your mac's desktop and audio</p>
           <ul class="storebuttons">
-            <li><a href="#"><img src="img/apple-store-button.png"></a></li>
-            <li><a href="#"><img src="img/android-button.png"></a></li>
+            <li><a href="https://itunes.apple.com/us/app/tah-motion/id923858114?mt=8"><img src="img/apple-store-button.png"></a></li>
+            <li><a href="#" class="play-store"><img src="img/android-button.png"></a></li>
           </ul>
         </div>
 
-        <div class="rgbaouterdiv">
+        <div class="rgbaouterdiv rgbaouterdivmotion">
           <div class="rgbamonitor motionmonitor">
           </div>
         </div>
 
-        <div class="slidinghandTahnew">
+        <div class="slidinghandTahnew slidinghandTahMotion">
           <img src="img/hand-with-tah.png" class="img-responsive" />
         </div>
 
@@ -432,8 +432,8 @@
           view the data relayed from various
           sensors directly on your phone.</p>
           <ul class="storebuttons">
-            <li><a href="#"><img src="img/apple-store-button.png"></a></li>
-            <li><a href="#"><img src="img/android-button.png"></a></li>
+            <li><a href="https://itunes.apple.com/us/app/tah-sensor/id911694655?mt=8"><img src="img/apple-store-button.png"></a></li>
+            <li><a href="#" class="play-store"><img src="img/android-button.png"></a></li>
           </ul>
         </div>
 
@@ -517,36 +517,36 @@
         >
           <h2>Arduino</h2>
           <p>Use your existing Arduino shields with the help of the Breakout Shield </p>
-          <ul class="storebuttons">
+          <!-- <ul class="storebuttons">
             <li><a href="#"><img src="img/apple-store-button.png" width="172" height="55" class="arduino-appstore"></a></li>
-            <li><a href="#"><img src="img/android-button.png"></a></li>
-          </ul>
+            <li><a href="#"><img src="img/android-button.png" class="play-store"></a></li>
+          </ul> -->
         </div>
 
         <div class="Arduinoimgdiv ar2 opa bigarduinoimg"
-        data-top="opacity:0; transform:translateY(-2000px)         translateX(-100px)"
-        data--20000-top="opacity:0; transform:translateY(-2000px)  translateX(-100px)"
-        data--21000-top="opacity:1; transform:translateY(0px)      translateX(-100px)"
-        data--30200-top="opacity:1; transform:translateY(0px)     translateX(-100px)"
+        data-top="opacity:0; transform:translateY(-2000px)        translateX(-100px)"
+        data--20000-top="opacity:0; transform:translateY(-2000px) translateX(-100px)"
+        data--21000-top="opacity:1; transform:translateY(-15px)   translateX(-100px)"
+        data--30200-top="opacity:1; transform:translateY(-15px)   translateX(-100px)"
         data--31100-top="opacity:0; transform:translateY(-1000px) translateX(-100px)"
         >
           <img src="img/main-image-2.png" />
         </div>
 
         <div class="Arduinoimgdiv ar2 opa presetimgdiv preset0"
-        data-top="opacity:0; transform:translateY(-2000px)         translateX(-100px)"
-        data--20300-top="opacity:0; transform:translateY(-2000px)  translateX(-100px)"
-        data--21300-top="opacity:1; transform:translateY(0px)      translateX(-100px)"
-        data--30200-top="opacity:1; transform:translateY(0px)     translateX(-100px)"
+        data-top="opacity:0; transform:translateY(-2000px)         translateX(-50px)"
+        data--20300-top="opacity:0; transform:translateY(-2000px)  translateX(-50px)"
+        data--21300-top="opacity:1; transform:translateY(0px)      translateX(-50px)"
+        data--30200-top="opacity:1; transform:translateY(0px)     translateX(-50px)"
         data--31100-top="opacity:0; transform:translateY(-1000px) translateX(-100px)"
         >
           <img src="img/preset-0.png" />
         </div>
         
         <div class="ar3 opa ar3big presetimgdiv"
-        data--21000-top="opacity:0; transform:translateY(-2000px) translateX(-140px)  scale(1)"
-        data--22600-top="opacity:1; transform:translateY(-10px)   translateX(-140px)  scale(1)"
-        data--23000-top="opacity:1; transform:translateY(-10px)   translateX(-140px)  scale(1)"
+        data--21000-top="opacity:0; transform:translateY(-2000px) translateX(-100px)  scale(1)"
+        data--22600-top="opacity:1; transform:translateY(-20px)   translateX(-100px)  scale(1)"
+        data--23000-top="opacity:1; transform:translateY(-20px)   translateX(-100px)  scale(1)"
         data--23300-top="opacity:1; transform:translateY(150px)   translateX(250px)  scale(0.5)"
         data--30000-top="opacity:1; transform:translateY(150px)   translateX(250px)  scale(0.5)"        
         data--31000-top="opacity:1; transform:translateY(150px)   translateX(1000px) scale(0.5)"
@@ -565,9 +565,9 @@
 
         <!-- Small Chip -->
         <div class="ar3 opa presetimgdiv presetimgdiv-exception"
-        data--23000-top="opacity:0; transform:translateY(-2000px) translateX(-90px)   scale(1)"
-        data--24500-top="opacity:1; transform:translateY(0px)     translateX(-90px)   scale(1)" 
-        data--25000-top="opacity:1; transform:translateY(0px)     translateX(-90px)   scale(1)"
+        data--23000-top="opacity:0; transform:translateY(-2000px) translateX(-40px)   scale(1)"
+        data--24500-top="opacity:1; transform:translateY(0px)     translateX(-40px)   scale(1)" 
+        data--25000-top="opacity:1; transform:translateY(0px)     translateX(-40px)   scale(1)"
         data--25500-top="opacity:1; transform:translateY(-30px)   translateX(300px) scale(0.5)"
         data--30000-top="opacity:1; transform:translateY(-30px)   translateX(300px) scale(0.5)"
         data--31000-top="opacity:1; transform:translateY(-30px)   translateX(900px) scale(0.5)"
@@ -586,9 +586,9 @@
         
         <!-- Small Chip -->
         <div class="ar3 opa ar3big"
-        data--25500-top="opacity:0; transform:translateY(-2000px) translateX(-100px) scale(1)"
-        data--27000-top="opacity:1; transform:translateY(-10px)   translateX(-100px) scale(1)"
-        data--27500-top="opacity:1; transform:translateY(-10px)   translateX(-100px) scale(1)"
+        data--25500-top="opacity:0; transform:translateY(-2000px) translateX(-50px) scale(1)"
+        data--27000-top="opacity:1; transform:translateY(-10px)   translateX(-50px) scale(1)"
+        data--27500-top="opacity:1; transform:translateY(-10px)   translateX(-50px) scale(1)"
         data--28000-top="opacity:1; transform:translateY(-230px)  translateX(250px)  scale(0.5)"
         data--30000-top="opacity:1; transform:translateY(-230px)  translateX(250px)  scale(0.5)"
         data--31000-top="opacity:1; transform:translateY(-230px)  translateX(900px)  scale(0.5)"
@@ -597,9 +597,9 @@
         </div>
 
         <div class="ar3 ar3txt opa"        
-        data--26000-top="opacity:0; transform:translateY(-470px) translateX(70px)"
-        data--26500-top="opacity:1; transform:translateY(-470px) translateX(70px)"
-        data--29700-top="opacity:1; transform:translateY(-470px) translateX(70px)"
+        data--26000-top="opacity:0; transform:translateY(-470px) translateX(20px)"
+        data--26500-top="opacity:1; transform:translateY(-470px) translateX(20px)"
+        data--29700-top="opacity:1; transform:translateY(-470px) translateX(20px)"
         data--30700-top="opacity:1; transform:translateY(-470px) translateX(900px)"
         >
           Ethernet Shield
@@ -607,10 +607,10 @@
         
         <!-- Small Chip -->
         <div class="ar3 opa ar3big preset5"
-        data--28000-top="opacity:0; transform:translateY(-1000px) translateX(-100px) "
-        data--29500-top="opacity:1; transform:translateY(0px)     translateX(-100px) "
-        data--30200-top="opacity:1; transform:translateY(0px)     translateX(-100px)"
-        data--31100-top="opacity:0; transform:translateY(-1000px) translateX(-100px)"
+        data--28000-top="opacity:0; transform:translateY(-1000px) translateX(-50px) "
+        data--29500-top="opacity:1; transform:translateY(-10px)   translateX(-50px) "
+        data--30200-top="opacity:1; transform:translateY(-10px)   translateX(-50px)"
+        data--31100-top="opacity:0; transform:translateY(-1000px) translateX(-50px)"
 
         >
           <img src="img/preset-5.png" />

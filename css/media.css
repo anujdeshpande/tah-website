@@ -183,10 +183,7 @@
     }
 }
 
-
-
-@media only screen and (max-width:1053px) and (min-width:700px)
-{
+@media only screen and (max-width:1053px) and (min-width:700px){
 .storebuttons li 
 {
   float: left!important;
