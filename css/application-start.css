@@ -1991,7 +1991,7 @@ nav.menu {
 }
 .sensor > .container > .bottomhands .clickhand {
     right: 35%;
-  width: 19% !important;
+    width: 19% !important;
 }
 
 .sensor > .container > .bottomhands .toucheffect {
@@ -2009,57 +2009,63 @@ nav.menu {
     top: 6%;
 }
 }
-@media only screen and (max-width:498px) and (min-width:200px)
-{
-.leftsection {
-  bottom: 0;
-  box-sizing: border-box;
-  height: 100%;
-  left: -23px;
-  max-width: 395px;
-  position: absolute;
-  width: 172px;
-}
-.sensor > .container > .infobox h2 {
-  font-size: 45px;
-   line-height: 39px;
-}
-.sensor > .container > .infobox{
-  margin-top:39px;
-}
-.sensor .storebuttons li img {
-  width: 28%!important;
-}
-.sensor > .container > .bottomhands img {
-  width: 40%!important;
-  margin-bottom: 0px;
-  margin-left: 14%!important;
-}
-.sensor > .container > .bottomhands {
-  width: 100%!important;
-}
-.sensor > .container > .bottomhands .clickhand {
-    right: 35%;
-  bottom: -9px;
-  width: 19% !important;
-}
 
-.sensor > .container > .bottomhands .toucheffect {
-  position: absolute;
-  right: 23%;
-  top: -12%;
-}
-.sensor > .container > .infobox > p {
-  font-size: 14px !important;
+@media only screen and (max-width:498px) and (min-width:200px){
+  .leftsection {
+    bottom: 0;
+    box-sizing: border-box;
+    height: 100%;
+    left: -23px;
+    max-width: 395px;
+    position: absolute;
+    width: 172px;
+  }
+  
+  .sensor > .container > .infobox h2 {
+    font-size: 45px;
+    line-height: 39px;
+  }
+  
+  .sensor > .container > .infobox{
+    margin-top:39px;
+  }
+  
+  .sensor .storebuttons li img {
+    width: 28%!important;
+  }
+  
+  .sensor > .container > .bottomhands img {
+    width: 40%!important;
+    margin-bottom: 0px;
+    margin-left: 14%!important;
+  }
+  
+  .sensor > .container > .bottomhands {
+    width: 100%!important;
+  }
+  
+  .sensor > .container > .bottomhands .clickhand {
+    right: 35%;
+    bottom: -9px;
+    width: 19% !important;
+  }
+
+  .sensor > .container > .bottomhands .toucheffect {
+    position: absolute;
+    right: 23%;
+    top: -12%;
+  }
+
+  .sensor > .container > .infobox > p {
+    font-size: 14px !important;
     line-height: 25px;
     padding-bottom:0px;
-}
+  }
 }
 
 
 /* ============================= ARDUINO ========================================= */
-@media only screen and (max-width:1250px) and (min-width:780px)
-{
+@media only screen and (max-width:1250px) and (min-width:780px){
 .Arduinoimgdiv 
 {
   bottom: 50px;
@@ -2085,8 +2091,8 @@ nav.menu {
   right: 1% !important;
 }
 }
-@media only screen and (max-width:779px) and (min-width:550px)
-{
+
+@media only screen and (max-width:779px) and (min-width:550px){
 .arduino > .container > .infobox {
   left: 0;
   margin: 0 auto;
