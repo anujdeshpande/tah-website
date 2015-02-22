@@ -1235,7 +1235,7 @@ width: 200px;
 
 @media only screen and (max-width:650px) and (min-width:360px){
   .cta-buy {
-    left: 85%;
+    left: 82%;
     top: 13%;
     width: 60px;
   }
@@ -1243,7 +1243,7 @@ width: 200px;
 
 @media only screen and (max-width:359px) and (min-width:250px){
   .cta-buy {
-    left: 79%;
+    left: 76%;
     top: 13%;
     width: 60px;
   }

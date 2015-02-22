@@ -42,7 +42,7 @@ $(document).ready(function() {
         if (e.originalEvent.wheelDelta && e.originalEvent.wheelDelta >= 0) {
           //Up
           if (!$('*').is(':animated')) {
-            $('body').stop().scrollTo(call_prev_frame(), { duration: frame_durations[i], easing : 'swing' });
+            $('html, body').stop().scrollTo(call_prev_frame(), { duration: frame_durations[i], easing : 'swing' });
             // console.log(' Up i = ' + i + ' ' + frame_durations[i]);
           } else {
             // console.log ('Up Scroll Stopped');
@@ -52,7 +52,7 @@ $(document).ready(function() {
         } else if (e.originalEvent.detail && e.originalEvent.detail <= 0) {
           //Up
           if (!$('*').is(':animated')) {
-            $('body').stop().scrollTo(call_prev_frame(), { duration: frame_durations[i], easing : 'swing' });
+            $('html, body').stop().scrollTo(call_prev_frame(), { duration: frame_durations[i], easing : 'swing' });
             // console.log(' Up i = ' + i + ' ' + frame_durations[i]);
           } else {
             // console.log ('Up Scroll Stopped 2');
@@ -62,7 +62,7 @@ $(document).ready(function() {
         } else {
           //Down
           if (!$('*').is(':animated')) {
-            $('body').stop().scrollTo(call_next_frame(), { duration: frame_durations[i-1], easing : 'swing' });
+            $('html, body').stop().scrollTo(call_next_frame(), { duration: frame_durations[i-1], easing : 'swing' });
             // console.log('Down i = ' + (i-1) + ' ' + frame_durations[i -1]);
           } else {
             // console.log ('Down Scroll Stopped');
