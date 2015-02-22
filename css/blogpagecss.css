@@ -57,15 +57,18 @@
   font-size: 14px;
   font-weight: 300;
 }
+
 abbr, acronym {
   border-bottom: 0px dotted #333 !important;
   cursor: alias;
 }
+
 #nav-below a {
   color: #3e3e3e;
   font-size: 16px;
   text-decoration: none;
 }
+
 #content {
   padding: 0;
   width: 100%;
@@ -106,6 +109,7 @@ code {
   font-weight: 300;
   letter-spacing: 0;
 }
+
 html {
   margin-top: 0 !important;
 }
@@ -121,17 +125,16 @@ html {
 }
 
 .form-submit #submit {
- background: url("../img/3.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
- border: medium none;
- border-radius: 0;
- color: white !important;
- font-size: 18px !important;
- font-weight: normal;
- letter-spacing: 0;
- padding: 4px 10px!important;
- margin-right: 30%;
- float:right;
-
+  background: url("../img/3.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+  border: medium none;
+  border-radius: 0;
+  color: white !important;
+  font-size: 18px !important;
+  font-weight: normal;
+  letter-spacing: 0;
+  padding: 4px 10px!important;
+  margin-right: 30%;
+  float:right;
 }
 
 .comment-form-comment > input {
@@ -155,19 +158,20 @@ html {
   padding: 4px 3px !important;
   width: 450px !important;
 }
+
 body {
   background-color: #fff;
 }
 
 #comments h6 {
- background: none repeat scroll 0 0 #f0f0f0;
- color: #0e7582;
- font-size: 18px;
- font-weight: 300;
- letter-spacing: normal;
- margin: 10px 0;
- padding: 4px 10px;
- text-transform: capitalize;
+  background: none repeat scroll 0 0 #f0f0f0;
+  color: #0e7582;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: normal;
+  margin: 10px 0;
+  padding: 4px 10px;
+  text-transform: capitalize;
 }
 
 .comment-meta.commentmetadata > p {
@@ -294,6 +298,11 @@ a:hover, a:focus, a:active {
   /*border: 1px solid #e0e0e0;*/
 }
 
+.text-docs .row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .text-docs img {
   width: 100%;
   margin: 10px 0px 10px 0px;
@@ -328,7 +337,7 @@ body {
   padding: 0;
 }
 
-.text-docs > p {
+.text-docs p {
   color: #393737;
   font-size: 15px;
 }
