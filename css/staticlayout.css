@@ -9,7 +9,7 @@ display:none;
 /* SOURABH CHANGES 18-02-15  START HERE 
 -------------------------------------------------------------- */
 *{
-outline:none;
+  outline:none;
 }
 
 @media only screen and (max-width:800px) {
@@ -162,8 +162,16 @@ nav#nav-mobile a:hover {
     float: left;
     margin: 40px 0 20px 55px !important;
   }
+
   .rgbamonitor1 {
     margin-left: 78px;
+  }
+
+  .rgb-click {
+    z-index: 1;
+    top: -125px;
+    left: 60px;
+    width: 100px !important;
   }
 }
 
@@ -202,6 +210,7 @@ nav#nav-mobile a:hover {
   width: 94.7%;
   padding: 0 10px;
 }
+
 #main section {
    float: left;
   height: 100%;
@@ -425,15 +434,16 @@ display:block;
 .motionbottomhands .img-responsive {
   width: 150px;
 }
+
 #slide4 {
   background-color: #b0e1ff !important;
   padding-top: 7%;
 }
 
 .sensor > .container > .bottomhands .toucheffect {
-  display: none;
- 
-  }
+  display: none; 
+}
+
 .sensor > .container > .bottomhands img {
   float: left !important;
   margin-bottom: 0;
@@ -444,11 +454,12 @@ display:block;
 .sensor .bottomhands.opa > img {
   width: 168px !important;
 }
-  .sensor > .container > .bottomhands .clickhand {
+
+.sensor > .container > .bottomhands .clickhand {
   margin-left: -35px !important;
-margin-top: 65px;
-right: auto;
-width: 114px !important;
+  margin-top: 65px;
+  right: auto;
+  width: 114px !important;
 }
 
 .clickhand {
@@ -483,14 +494,17 @@ width: 114px !important;
    position: relative;
   width: 100px;
 }
+
 #secBG {
   bottom: 0;
   position: relative;
   width: 100%;
 }
+
 #ac-waves {
   display: none;
 }
+
 #slide5 {
   margin-top: 6%;
 }
@@ -576,6 +590,7 @@ width: 200px;
   bottom: auto !important;
   right: 1% !important;
 }
+
 #slide6 > .container > .infobox {
   float: none !important;
   margin: 0 auto !important;
@@ -616,6 +631,13 @@ width: 200px;
 
 .infobox.opa > p {
   text-align: center;
+}
+
+.rgb-click {
+  z-index: 1;
+  top: 50px;
+  left: 220px;
+  width: 100px !important;
 }
 }
 
@@ -1244,6 +1266,21 @@ width: 200px;
     margin-left: 202px;
     width: 60px;
   }
+
+  .rgb-click {
+    z-index: 1;
+    top: -125px;
+    left: 90px;
+    width: 100px !important;
+  }
+
+  .speaker2, .speaker3, .speaker4 {
+    display: none;
+  }
+
+  .secbg {
+    width:90% !important;
+  }
 }
 
 @media only screen and (max-width:415px) and (min-width:321px){
@@ -1262,6 +1299,13 @@ width: 200px;
     float: none;
     margin-left: 217px;
     width: 73px;
+  }
+
+  .rgb-click {
+    z-index: 1;
+    top: -125px;
+    left: 90px;
+    width: 100px !important;
   }
 }
 
@@ -1288,7 +1332,15 @@ width: 200px;
 
 @media only screen and (max-width:800px) and (min-width:700px){
   .storebuttons {
-    /*float: none!important;*/
     margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width:605px) and (min-width:481px){
+  .rgb-click {
+    z-index: 1;
+    top: -125px;
+    left: 60px;
+    width: 100px !important;
   }
 }
