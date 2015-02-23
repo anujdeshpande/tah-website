@@ -86,9 +86,9 @@ margin:0 auto;
 /* =General */
 #logo {
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../img/tah-new-logo-for-nav.png");
+  background-image: url("../img/TahLogo.png");
   background-repeat: no-repeat;
-  background-size: 61% auto;
+  background-size: 90px;
   height: 90px;
   left: 5.208%;
   position: fixed;
@@ -300,7 +300,7 @@ margin:0 auto;
 }
 
 .infobox {
-  margin-right: 3.47%;
+  /*margin-right: 3.47%;*/
   max-width: 400px;
   position: fixed;
   top: 31.5%;
@@ -1198,12 +1198,14 @@ nav.push-menu-left button.close-menu {
   height: 32px;
   margin-top: 20px;
   width: 81px;
+  margin-top: 26px;
 }
 .share:hover {
   background: url("../img/share-icon-hover-position.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
   height: 32px;
   margin-top: 20px;
   width: 81px;
+  margin-top: 26px;
 }
 .follow {
   background: url("../img/follow-button.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
@@ -1413,6 +1415,13 @@ display:block!important;
    Media Queries
    ========================================================================== */
 
+@media only screen and (max-width: 480px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
+
 @media only screen and (min-width: 480px) {
 
 /* =General */
@@ -1587,10 +1596,7 @@ display:block!important;
     }
 }
 
-
-
-@media only screen and (max-width:1053px) and (min-width:700px)
-{
+@media only screen and (max-width:1053px) and (min-width:700px){
 .storebuttons li 
 {
   float: left!important;
@@ -2239,20 +2245,18 @@ display:block!important;
 }
 }
 /* =============== Newsletter===================================== */
-@media only screen and (max-width:1100px) and (min-width:300px)
-{
+@media only screen and (max-width:1100px) and (min-width:300px){
 #slide6 > .container >.infobox {
   width: 100%;
   margin: 0 auto!important;
 }
 }
-@media only screen and (max-width:550px) and (min-width:300px)
-{
+@media only screen and (max-width:550px) and (min-width:300px){
 .contactform-newsletter {
   margin-top: 26% !important;
   float: left;
   width: 83%;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 }
 
@@ -2398,51 +2402,252 @@ body {
 {
 display:none !important;
 }
-.rgbamonitor
-{
-display:none;
+.newsletter-heading {
+  text-align: center;
 }
-.slidinghandTahnew
-{
+
+#mc_embed_signup_scroll p {
+  font-size: 18px;
+  border-bottom: none;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.emaildiv {
+  background: none;
+}
+
+.response-custom {
+  color: rgb(22, 140, 158);
+}
+
+.mce-responses-custom {
+  width: 100% !important;
+}
+
+.cta-buy {
+  z-index: 1102;
+  position: fixed;
+  left: 88%;
+  top: 3%;
+}
+
+.play-store {
+  cursor: default;
+}
+
+@media only screen and (max-width:700px) and (min-width: 250px){
+
+  #logo {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../img/TahLogo.png");
+  background-repeat: no-repeat;
+  background-size: 60px;
+  height: 60px;
+  left: 5.208%;
+  position: fixed;
+  top: 13%;
+  width: 60px;
+  z-index: 1101;
+  visibility: hidden;
+  }
+}
+
+.rgbamonitor {
+  display:none;
+}
+
+.slidinghandTahnew {
 display:none;
 }
 
+/* SOURABH CHANGES 18-02-15  START HERE
+-------------------------------------------------------------- */
+*{
+  outline:none;
+}
 
-@media only screen and (max-width:670px) and (min-width:600px)
-{
-.rgbamonitor
- {
-height: 136px!important;
-width: 164px!important;
+@media only screen and (max-width:800px) {
+  #bigMenu{
+    display:none;
+  }
 }
+
+nav#nav-mobile {
+  z-index: 20000;
 }
-@media only screen and (max-width:480px) and (min-width:410px)
-{
-.rgbaouterdiv {
-  float: left;
-  margin: 40px 0 20px 36px!important;
+.border-menu:before {
+  border-bottom: 0.125em solid #000;
+  border-top: 0.375em double #000;
+  content: "";
+  height: 0.125em;
+  left: 0;
+  position: absolute;
+  top: 0.25em;
+  width: 1em;
 }
-.rgbamonitor1 {
-  margin-left: 78px;
+.border-menu {
+  padding-left: 1.25em;
+  position: relative;
 }
+#nav-trigger {
+  display: none;
+  text-align: right; 
+  background-color: #112f41;
+  border-bottom: 2px solid #168fa0;
 }
-@media only screen and (max-width:409px) and (min-width:300px)
-{
-.rgbaouterdiv {
-  float: left;
-  margin: 40px 0 20px 0px!important;
+#nav-trigger span {
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 25px;
+  text-transform: uppercase;
 }
-.rgbamonitor1 {
-  margin-left: 78px;
+
+#nav-trigger span:hover {
+  background-color: 03626e;
 }
+
+nav {
+  margin-bottom: 30px; 
 }
-@media only screen and (max-width:800px) and (min-width:606px)
-{
+
+nav#nav-main {
+  background-color: #167581;
+  padding: 10px 0; 
+}
+
+nav#nav-main ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav#nav-main li {
+  display: inline-block;
+  border-right: solid 1px #ccc;
+  padding: 0 5px; 
+}
+
+nav#nav-main li:last-child {
+  border-right: none; 
+}
+
+nav#nav-main a {
+  display: block;
+  color: white;
+  padding: 10px 30px; 
+}
+
+nav#nav-main a:hover {
+  background-color: 03626e;
+  color: #fff; 
+}
+
+nav#nav-mobile {
+  position: relative;
+  display: none; 
+}
+
+nav#nav-mobile ul {
+  display: none;
+  list-style-type: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #112f41; 
+}
+
+nav#nav-mobile li {
+  display: block;
+  padding: 3px 0px 2px 10px;
+  /*border-bottom: solid 1px #168fa0; */
+}
+
+nav#nav-mobile li:last-child {
+  border-bottom: none;
+}
+
+nav#nav-mobile a {
+  color: white;
+  display: block;
+  padding: 0 5px;
+  text-align: left;
+  font-size: 17px;
+  text-decoration:none;
+}
+
+nav#nav-mobile a:hover {
+  background-color: 03626e;
+  color: #fff; 
+}
+
+/* =Media Queries
+-------------------------------------------------------------- */
+@media all and (max-width: 800px) {
+  #nav-trigger {
+    display: block; 
+  }
+
+  nav#nav-main {
+    display: none; 
+  }
+
+  nav#nav-mobile {
+    display: block; 
+  }
+}
+
+/* SOURABH CHANGES 18-02-15  ENDS HERE 
+-------------------------------------------------------------- */
+
+@media only screen and (max-width:670px) and (min-width:600px){
+.rgbamonitor {
+  /*height: 136px!important;*/
+  /*width: 164px!important;*/
+  }
+}
+
+@media only screen and (max-width:480px) and (min-width:416px){
+  .rgbaouterdiv {
+    float: left;
+    margin: 40px 0 20px 55px !important;
+  }
+
+  .rgbamonitor1 {
+    margin-left: 78px;
+  }
+
+  .rgb-click {
+    z-index: 1;
+    top: -125px;
+    left: 60px;
+    width: 100px !important;
+  }
+}
+
+@media only screen and (max-width:415px) and (min-width:250px){
+
+  .rgbamonitor1 {
+    margin-left: 78px;
+  }
+
+  .moodlamp {
+    margin-left: 60px !important;
+  }
+}
+
+@media only screen and (max-width:800px) and (min-width:606px){
 .motion {
   border-bottom: 4px solid #112f41;
 }
+
 .canvas {
-    float: left;
+  float: left;
   height: auto;
   margin: 0;
   padding: 0;
@@ -2450,6 +2655,7 @@ width: 164px!important;
   width: 100%;
   z-index: 1;
 }
+
 .container {
   float: left;
   height: 100%;
@@ -2459,6 +2665,7 @@ width: 164px!important;
   width: 94.7%;
   padding: 0 10px;
 }
+
 #main section {
    float: left;
   height: 100%;
@@ -2466,6 +2673,7 @@ width: 164px!important;
   width: 100%;
   z-index: 1000;
 }
+
 .landinglogo {
   float: left;
   left: auto;
@@ -2474,7 +2682,9 @@ width: 164px!important;
   text-align: center;
   top: auto;
   width: 100%;
+  padding: 0px;
 }
+
 .playbg {
   background: url("../img/playBG.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
   float: left;
@@ -2484,12 +2694,14 @@ width: 164px!important;
   top: auto;
   width: 100%;
 }
+
 .infobox {
   max-width: 400px;
   position: relative;
   width: 27.77%;
   z-index: 1002;
 }
+
 .rgbbg {
   background: url("../img/rgbBG.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
   float: left;
@@ -2499,6 +2711,7 @@ width: 164px!important;
   width: 100%;
   z-index: 999;
 }
+
 .rgbaoverlay {
    height: 100%;
   max-height: 434px;
@@ -2507,6 +2720,7 @@ width: 164px!important;
   width: 100%;
   z-index: 999;
 }
+
 .rgbaoverlay1 {
     position: relative;
   }
@@ -2519,15 +2733,18 @@ width: 164px!important;
   position: relative;
   right: 2.5%;
 }
+
 .infobox {
     opacity: 1!important;
 }
+
 .motion .bottomhands {
   bottom: 0;
   max-width: 490px;
   position: relative;
   right: 0;
 }
+
 .infobox {
    position: relative;
  }
@@ -2540,11 +2757,13 @@ width: 164px!important;
   top: auto;
   width: 100%;
 }
+
 .Arduinoimgdiv {
   position: relative;
   right: 10%;
   vertical-align: bottom;
 }
+
 .arduino > .container > .ar3 {
     position: relative;
  }
@@ -2554,23 +2773,27 @@ width: 164px!important;
   right: 0;
   top: auto;
 }
+
 .tagline1 {
   left: 0;
   position: relative;
   right: 0;
   top: auto;
 }
+
 .opa {
   opacity: 1;
 }
 #slide1 {
   margin-top: 30px;
 }
+
 .infobox {
   width: 260px!important;
   z-index: 1002;
   float: left;
 }
+
 .infobox h2 {
   font-size: 40px;
   }
@@ -2578,6 +2801,7 @@ width: 164px!important;
   font-size: 14px !important;
     line-height: 25px;
 }
+
 .canvas-mini {
   background: url("../img/cartoon.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
   height: 173px;
@@ -2588,18 +2812,22 @@ width: 164px!important;
   width: 200px !important;
   margin-top: 4%;
 }
+
 .light_bulb{
   display: none;
 }
+
 .monitor{
   display: none;
 }
+
 .slidinghandTah {
   float: right;
   margin-left:200px;
   margin-top: 40px;
   width: 115px;
 }
+
 .slidinghandTah1 {
   display: none;
   }
@@ -2618,18 +2846,22 @@ width: 164px!important;
   background: none repeat scroll 0 0 #0c3040 !important;
   padding-top: 3%;
 }
+
 .bottomhands .img-responsive {
   float: right;
-  width: 250px;
+  width: 200px;
   margin-top: 5%;
 }
+
 .motionbottomhands .img-responsive {
-  width: 180px !important;
+  width: 160px !important;
 }
+
 .rgbamonitor
 {
 display:block;
 }
+
 .rgbamonitor {
   background: url("../img/11.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
   border: 0 none;
@@ -2638,6 +2870,7 @@ display:block;
   width: 200px;
   margin-top: 4%;
 }
+
 .rgbamonitor1
 
 {
@@ -2652,35 +2885,43 @@ display:block;
 #slide3 {
   background-color: #b0e1ff !important;
 }
+
 .motionbottomhands .img-responsive {
   width: 150px;
 }
+
 #slide4 {
   background-color: #b0e1ff !important;
   padding-top: 7%;
 }
+
 .sensor > .container > .bottomhands .toucheffect {
-  display: none;
-  }
+  display: none; 
+}
+
 .sensor > .container > .bottomhands img {
   float: left !important;
   margin-bottom: 0;
   margin-left: 14% !important;
   width: 40% !important;
 }
+
 .sensor .bottomhands.opa > img {
   width: 168px !important;
 }
-  .sensor > .container > .bottomhands .clickhand {
+
+.sensor > .container > .bottomhands .clickhand {
   margin-left: -35px !important;
-margin-top: 65px;
-right: auto;
-width: 114px !important;
+  margin-top: 65px;
+  right: auto;
+  width: 114px !important;
 }
+
 .clickhand {
   bottom: 0;
   position: relative;
 }
+
 .canvas-mini-sensor {
   float: left;
   height: auto;
@@ -2691,6 +2932,7 @@ width: 114px !important;
   top: auto !important;
   width: 50%;
 }
+
 .leftsection {
   bottom: 0;
   box-sizing: border-box;
@@ -2702,21 +2944,26 @@ width: 114px !important;
   position: relative;
   width: 250px;
 }
+
 .middlesection {
    position: relative;
   width: 100px;
 }
+
 #secBG {
   bottom: 0;
   position: relative;
   width: 100%;
 }
+
 #ac-waves {
   display: none;
 }
+
 #slide5 {
   margin-top: 6%;
 }
+
 .Arduinoimgdiv {
   position: relative;
   right: auto;
@@ -2726,20 +2973,24 @@ width: 114px !important;
   float: left;
   margin-top: 11%;
 }
+
 .toucheffect {
   display: none;
 }
+
 .slidinghandTahnew {
   float: left;
-margin-left: 0px;
-margin-top: 66px;
+  margin-left: 0px;
+  margin-top: 66px;
   width: 115px;
   display:block;
 
 }
+
 .bigarduinoimg img {
   display: none;
 }
+
 .bigarduinoimg {
   background: url("../img/ardiuno.png") no-repeat scroll left center / 100% auto rgba(0, 0, 0, 0);
   float: left;
@@ -2748,12 +2999,15 @@ margin-top: 66px;
   margin-top: 102px;
   width: 65%;
 }
+
 .preset5 {
   display: none;
 }
+
 .preset0 {
   display: none;
 }
+
 .arduino > .container > .ar3 {
   border: 0 none;
   bottom: 0;
@@ -2766,6 +3020,7 @@ margin-top: 66px;
   width: 32%;
   height: 100px;
 }
+
 .ar3txt {
   bottom: 0;
   font-size: 19px;
@@ -2785,10 +3040,12 @@ width: 200px;
   padding-bottom: 50px;
     width: 100%;
 }
+
 .ar3big {
   bottom: auto !important;
   right: 1% !important;
 }
+
 #slide6 > .container > .infobox {
   float: none !important;
   margin: 0 auto !important;
@@ -2796,50 +3053,64 @@ width: 200px;
   position: relative;
   width: 100% !important;
 }
+
 .slide6div {
   float: none !important;
   left: 0!important;
   margin: 0 auto !important;
   width: 300px !important;
 }
+
 .infobox h2 {
   font-size: 40px;
   text-align: center;
 }
+
 .contactform-newsletter > p {
    text-align: center;
 }
+
 .slidinghandTahnewrgb {
   display: block;
-float: left;
-margin-left: 0px;
-margin-top: 114px;
-width: 115px;
-
+  float: left;
+  margin-left: 0px;
+  margin-top: 152px;
+  width: 115px;
 }
+
 .motion .infobox h2 {
   font-size: 40px;
   line-height: 35px;
   margin-top: 30px;
 }
+
 .infobox.opa > p {
   text-align: center;
+}
+
+.rgb-click {
+  z-index: 1;
+  top: 50px;
+  left: 220px;
+  width: 100px !important;
 }
 }
 
-@media only screen and (max-width:605px) and (min-width:300px)
-{
+@media only screen and (max-width:605px) and (min-width:250px){
 .infobox.opa > p {
   text-align: center;
 }
+
 .contactform-newsletter > h2 {
   padding-left: 0px;
 }
+
 .motion .infobox h2 {
    font-size: 40px;
   line-height: 35px;
   margin-top: 30px;
 }
+
 .rgbamonitor {
   background: url("../img/11.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
   border: 0 none;
@@ -2848,6 +3119,7 @@ width: 115px;
   width: 200px;
   margin-top: 4%;
 }
+
 .rgbamonitor1
 
 {
@@ -2858,13 +3130,16 @@ width: 115px;
   width: 104px;
   margin-top: 29px;
 }
+
 .infobox h2 {
   font-size: 40px;
   text-align: center;
 }
+
 .motion {
   border-bottom: 4px solid #112f41;
 }
+
 .infobox.opa {
   float: none;
   width: 100%!important;
@@ -2872,12 +3147,14 @@ width: 115px;
    opacity: 1!important;
    position:relative;
 }
+
 .slide6div {
   float: none !important;
   left: 0!important;
   margin: 0 auto !important;
   width: 300px !important;
 }
+
 .canvas {
     float: left;
   height: auto;
@@ -2887,6 +3164,7 @@ width: 115px;
   width: 100%;
   z-index: 1;
 }
+
 .canvas-mini {
   background: url("../img/cartoon.png") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
   float: none;
@@ -2902,6 +3180,7 @@ width: 115px;
    #slide1 {
   background: none repeat scroll 0 0 #B0E1FF !important;
 }
+
 .container {
   float: left;
   height: 100%;
@@ -2918,6 +3197,7 @@ width: 115px;
   width: 100%;
   z-index: 1000;
 }
+
 .landinglogo {
   float: left;
   left: auto;
@@ -2926,7 +3206,10 @@ width: 115px;
   text-align: center;
   top: auto;
   width: 100%;
+  padding: 0px;
+  /*margin-top: -15px;*/
 }
+
 .playbg {
   background: url("../img/playBG.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
   float: left;
@@ -2946,6 +3229,7 @@ width: 115px;
   width: 100%;
   z-index: 999;
 }
+
 .rgbaoverlay {
    height: 100%;
   max-height: 434px;
@@ -2954,6 +3238,7 @@ width: 115px;
   width: 100%;
   z-index: 999;
 }
+
 .rgbaoverlay1 {
     position: relative;
   }
@@ -2983,11 +3268,13 @@ width: 115px;
   top: auto;
   width: 100%;
 }
+
 .Arduinoimgdiv {
   position: relative;
   right: 10%;
   vertical-align: bottom;
 }
+
 .arduino > .container > .ar3 {
     position: relative;
  }
@@ -2997,23 +3284,32 @@ width: 115px;
   right: 0;
   top: auto;
 }
+
 .tagline1 {
   left: 0;
   position: relative;
   right: 0;
   top: auto;
+  padding: 0px 15px 0px 15px !important;
 }
+
+.tagline1 p {
+  font-size: 18px !important;
+}
+
 .opa {
   opacity: 1;
 }
 #slide1 {
   margin-top: 30px;
 }
+
 .infobox {
   width: 260px!important;
   z-index: 1002;
   float: left;
 }
+
 .infobox h2 {
   font-size: 40px;
   }
@@ -3025,15 +3321,18 @@ width: 115px;
 .light_bulb{
   display: none;
 }
+
 .monitor{
   display: none;
 }
+
 .slidinghandTah {
   float: right;
   margin-left:200px;
   margin-top: 40px;
   width: 115px;
 }
+
 .slidinghandTah1 {
   display: none;
   }
@@ -3052,14 +3351,17 @@ width: 115px;
   background: none repeat scroll 0 0 #0c3040 !important;
   padding-top: 3%;
 }
+
 .bottomhands .img-responsive {
   float: none;
   margin: 20px auto 0;
   width: 250px;
 }
+
 .motionbottomhands .img-responsive {
   width: 180px !important;
 }
+
 .rgbamonitor
 {
 display:block;
@@ -3068,6 +3370,7 @@ display:block;
 #slide3 {
   background-color: #b0e1ff !important;
 }
+
 .motionbottomhands .img-responsive {
   width: 150px;
 }
@@ -3075,6 +3378,7 @@ display:block;
   background-color: #b0e1ff !important;
   padding-top: 7%;
 }
+
 .sensor > .container > .bottomhands .toucheffect {
   display: none;
   }
@@ -3082,30 +3386,36 @@ display:block;
   padding-left: 0px;
   text-align: center;
 }
+
 .sensor > .container > .infobox > p
 {
   padding-left: 0px;
   text-align: center;
 }
+
 .sensor > .container > .bottomhands img {
   float: left !important;
   margin-bottom: 0;
   margin-left: 14% !important;
   width: 40% !important;
 }
+
 .sensor .bottomhands.opa > img {
   width: 168px !important;
 }
-  .sensor > .container > .bottomhands .clickhand {
+
+.sensor > .container > .bottomhands .clickhand {
   margin-left: -35px !important;
-margin-top: 65px;
-right: auto;
-width: 114px !important;
+  margin-top: 65px;
+  right: auto;
+  width: 114px !important;
 }
+
 .clickhand {
   bottom: 0;
   position: relative;
 }
+
 .canvas-mini-sensor {
   float: none;
   height: auto;
@@ -3117,6 +3427,7 @@ width: 114px !important;
   top: auto !important;
   width: 360px;
 }
+
 .leftsection {
   bottom: 0;
   box-sizing: border-box;
@@ -3128,6 +3439,7 @@ width: 114px !important;
   position: relative;
   width: 360px;
 }
+
 .middlesection {
    position: relative;
   width: 100px;
@@ -3143,6 +3455,7 @@ width: 114px !important;
 #slide5 {
   margin-top: 6%;
 }
+
 .Arduinoimgdiv {
   position: relative;
   right: auto;
@@ -3151,43 +3464,48 @@ width: 114px !important;
   bottom: auto;
   float: left;
   margin-top: 11%;
+  margin-bottom: 30px;
 }
+
 .toucheffect {
   display: none;
 }
+
 .slidinghandTahnew {
   float: left;
   margin-left: 0px;
   margin-top: 100px;
   width: 115px;
   display:block;
-
 }
+
 .slidinghandTahnewrgb {
   float: left;
-  margin-left: 0px;
   margin-top: 154px;
   width: 115px;
   display:block;
-
 }
+
 .bigarduinoimg img {
   display: none;
 }
-.bigarduinoimg {
-    
+
+.bigarduinoimg {    
   background: url("../img/ardiuno.png") no-repeat scroll left center / 100% auto rgba(0, 0, 0, 0);
-float: none;
-height: 200px;
-margin: 0 auto;
-width: 293px;
+  float: none;
+  height: 200px;
+  margin: 0 auto;
+  width: 293px;
 }
+
 .preset5 {
   display: none;
 }
+
 .preset0 {
   display: none;
 }
+
 .arduino > .container > .ar3 {
   border: 0 none;
 bottom: 0;
@@ -3199,20 +3517,26 @@ right: 0 !important;
 text-align: center;
 width: 200px;
 }
+
 .ar3txt {
   bottom: 0;
-  font-size: 19px;
+  font-size: 16px;
   right: 5%;
   position: relative;
-   float: none !important;
+  float: none !important;
   margin-top: 3px !important;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 } 
 .arduino > .container > .ar3 > img {
   float: none;
-margin-left: -40px !important;
-width: 200px;
+  margin-left: -80px;
+  width: 200px;
 }
+
+.presetimgdiv-exception > img {
+  margin-left: -20px !important;
+}
+
 .handapp {
   margin-left: 102px !important;
   width: 200px !important;
@@ -3223,6 +3547,7 @@ width: 200px;
   margin-bottom: 50px;
     width: 100%;
 }
+
 .ar3big {
   bottom: auto !important;
   right: 1% !important;
@@ -3234,57 +3559,247 @@ width: 200px;
   position: relative;
   width: 100% !important;
 }
-.rgbaouterdiv {
-  float: left;
-  margin: 40px 0 20px 100px;
-}
+
 }
 
+@media only screen and (max-width:800px) and (min-width:250px){
+  #offset {
+    left: 0;
+    right: auto !important;
+  }
 
+  .nav-toggler.toggle-push-left {
+    border: 0 none !important;
+    height: auto !important;
+    padding: 0 !important;
+    position: fixed !important;
+    right: 0;
+    top: 0;
+    left:auto!important;
+    bottom: auto !important;
+  }
 
-@media only screen and (max-width:800px) and (min-width:300px)
-{
-#offset {
-  left: 0;
-  right: auto !important;
+  .buttons {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border-left: 0 none !important;
+   }
+  .close-menu {
+    bottom: auto !important;
+    float: right;
+    margin-right: -52px !important;
+    margin-top: -1px !important;
+    position: absolute;
+    top: 0 !important;
+  }
+
+  .arduino-appstore {
+    height: 33px;
+  }
 }
-.nav-toggler.toggle-push-left {
-  border: 0 none !important;
-  height: auto !important;
-  padding: 0 !important;
-  position: fixed !important;
-  right: 0;
-  top: 0;
-  left:auto!important;
-  bottom: auto !important;
+
+@media only screen and (max-width:359px) and (min-width:200px){
+  .close-menu {
+    float: right;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-top: -1px !important;
+  }
+
+  .arduino-appstore {
+    height: 33px;
+  }
 }
-.buttons {
-  background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
-  border-left: 0 none !important;
+
+@media only screen and (max-width:359px) and (min-width:250px){
+  nav.push-menu-left button.close-menu {
+    border: 0 none;
+    margin-left: 30px !important;
+    padding: 0 !important;
+  }
+
+  .arduino-appstore {
+    height: 33px;
+  }
+
+  #musicsystem {
+    width: 290px;
+  }
+
+.slidinghandTahnewrgb {
+  float: none;
+  margin-top: 160px;
+  margin-left: 190px;
  }
-.close-menu {
-  bottom: auto !important;
-  float: right;
-  margin-right: -52px !important;
-  margin-top: -1px !important;
-  position: absolute;
-  top: 0 !important;
+
+.canvas-mini {
+  margin-left: 0;
+  }
+.sensor > .container > .bottomhands img {
+  margin-left: 0px!important;
+  width: 40% !important;
+}
+.sensor > .container > .bottomhands .clickhand
+ {
+  margin-left: -22px !important;
+  margin-top: 39px;
+  right: auto;
+  width: 75px !important;
+}
+
+.slidinghandTah {
+  width: 85px;
+}
+
+.handapp {
+  margin-left: 53px !important;
+}
+
+#slide4 {
+  margin: 0 auto !important;
+  padding-top: 7%;
+  width: 100% !important;
+}
+
+.sensor > .container > .bottomhands {
+  padding-left: 50px !important;
+  width: 100% !important;
+  padding-bottom: 41px;
+}
+
+.sensor > .container > .bottomhands img {
+  width: 110px!important;
+}
+
+#menu-one {
+  max-height: 480px;
+  overflow-x: scroll !important;
 }
 }
 
+@media only screen and (max-width:800px) and (min-width:651px){
+  .cta-buy {
+    left: 85%;
+    top: 10%;
+    width: 90px;
+  }
 
-@media only screen and (max-width:359px) and (min-width:200px)
-{
-.close-menu 
-{
-  float: right;
-  margin-right: 0px !important;
- margin-left: 0px !important;
-  margin-top: -1px !important;
-
+  #logo {
+    top: 10%;
+  }
 }
 
+@media only screen and (max-width:650px) and (min-width:360px){
+  .cta-buy {
+    left: 82%;
+    top: 13%;
+    width: 60px;
+  }
 }
+
+@media only screen and (max-width:359px) and (min-width:250px){
+  .cta-buy {
+    left: 76%;
+    top: 13%;
+    width: 60px;
+  }
+}
+
+@media only screen and (max-width:320px) and (min-width:250px){
+  .rgbaouterdiv {
+  float: left;
+  margin: 40px 0 20px 0px !important;
+  }
+
+  .slidinghandTahnew {
+    float: none;
+    margin-left: 166px;
+    width: 85px;
+  }
+
+  .slidinghandTahMotion {
+    float: none;
+    margin-left: 202px;
+    width: 60px;
+  }
+
+  .rgb-click {
+    z-index: 1;
+    top: -125px;
+    left: 90px;
+    width: 100px !important;
+  }
+
+  .speaker2, .speaker3, .speaker4 {
+    display: none;
+  }
+
+  .secbg {
+    width:90% !important;
+  }
+}
+
+@media only screen and (max-width:415px) and (min-width:321px){
+  .rgbaouterdiv {
+    float: left;
+    margin: 40px 0 20px 15px !important;
+  }
+
+  .slidinghandTahnew {
+    float: none;
+    margin-left: 182px;
+    width: 85px;
+  }
+
+  .slidinghandTahMotion {
+    float: none;
+    margin-left: 217px;
+    width: 73px;
+  }
+
+  .rgb-click {
+    z-index: 1;
+    top: -125px;
+    left: 90px;
+    width: 100px !important;
+  }
+}
+
+@media only screen and (max-width:800px) and (min-width:481px){
+  .rgbaouterdiv {
+    float: left;
+    margin: 40px 0 20px 70px !important;
+  }
+}
+
+@media only screen and (max-width:800px) and (min-width:606px){
+  .slidinghandTahMotion {
+    float: none;
+    margin-left: 475px;
+    margin-top: 100px;  
+    width: 100px;
+  }
+
+  .rgbaouterdivmotion {
+    float: left;
+    margin: 40px 0 20px 15px !important;
+  }
+} 
+
+@media only screen and (max-width:800px) and (min-width:700px){
+  .storebuttons {
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width:605px) and (min-width:481px){
+  .rgb-click {
+    z-index: 1;
+    top: -125px;
+    left: 60px;
+    width: 100px !important;
+  }
+}
+
 /*
     Mobile Menu Core Style
 */
@@ -3470,32 +3985,47 @@ min-height: 82px;
 	}
 	}
 	*/
-.newsletter-heading {
-  text-align: center;
-}
+/* MailChimp Form Embed Code - Classic - 08/17/2011 */
+#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
+#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
+#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
+#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+#mc_embed_signup input:focus {border-color:#333;}
+#mc_embed_signup .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding: 0 22px; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+#mc_embed_signup .button:hover {background-color:#777;}
+#mc_embed_signup .small-meta {font-size: 11px;}
+#mc_embed_signup .nowrap {white-space:nowrap;}
 
-#mc_embed_signup_scroll p {
-  font-size: 18px;
-  border-bottom: none;
-  margin-bottom: 15px;
-  text-align: center;
-}
+#mc_embed_signup .mc-field-group {clear:left; position:relative; width:96%; padding-bottom:3%; min-height:50px;}
+#mc_embed_signup .size1of2 {clear:none; float:left; display:inline-block; width:46%; margin-right:4%;}
+* html #mc_embed_signup .size1of2 {margin-right:2%; /* Fix for IE6 double margins. */}
+#mc_embed_signup .mc-field-group label {display:block; margin-bottom:3px;}
+#mc_embed_signup .mc-field-group input {display:block; width:100%; padding:8px 0; text-indent:2%;}
+#mc_embed_signup .mc-field-group select {display:inline-block; width:99%; padding:5px 0; margin-bottom:2px;}
 
-.emaildiv {
-  background: none;
-}
+#mc_embed_signup .datefield, #mc_embed_signup .phonefield-us{padding:5px 0;}
+#mc_embed_signup .datefield input, #mc_embed_signup .phonefield-us input{display:inline; width:60px; margin:0 2px; letter-spacing:1px; text-align:center; padding:5px 0 2px 0;}
+#mc_embed_signup .phonefield-us .phonearea input, #mc_embed_signup .phonefield-us .phonedetail1 input{width:40px;}
+#mc_embed_signup .datefield .monthfield input, #mc_embed_signup .datefield .dayfield input{width:30px;}
+#mc_embed_signup .datefield label, #mc_embed_signup .phonefield-us label{display:none;}
 
-.response-custom {
-  color: rgb(22, 140, 158);
-}
+#mc_embed_signup .indicates-required {text-align:right; font-size:11px; margin-right:4%;}
+#mc_embed_signup .asterisk {color:#c60; font-size:200%;}
+#mc_embed_signup .mc-field-group .asterisk {position:absolute; top:25px; right:10px;}        
+#mc_embed_signup .clear {clear:both;}
 
-.mce-responses-custom {
-  width: 100% !important;
-}
+#mc_embed_signup .mc-field-group.input-group ul {margin:0; padding:5px 0; list-style:none;}
+#mc_embed_signup .mc-field-group.input-group ul li {display:block; padding:3px 0; margin:0;}
+#mc_embed_signup .mc-field-group.input-group label {display:inline;}
+#mc_embed_signup .mc-field-group.input-group input {display:inline; width:auto; border:none;}
 
-.cta-buy {
-  z-index: 1102;
-  position: fixed;
-  left: 83%;
-  top: 3%;
-}
+#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup #mce-error-response {display:none;}
+#mc_embed_signup #mce-success-response {color:#529214; display:none;}
+#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+
+#mc-embedded-subscribe {clear:both; width:auto; display:block; margin:1em 0 1em 5%;}
+#mc_embed_signup #num-subscribers {font-size:1.1em;}
+#mc_embed_signup #num-subscribers span {padding:.5em; border:1px solid #ccc; margin-right:.5em; font-weight:bold;}
