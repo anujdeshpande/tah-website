@@ -1,8 +1,9 @@
 $(document).ready(function() {
   if (!navigator.userAgent.match(/Mobi/)) {
     var i = 0;
-    var frame_sections = [0, 1950, 8550, 12400, 18900, 30200, 32700];
-    var frame_durations = [3000, 5000, 5000, 8000, 16000, 3000];
+    var frame_sections = [0, 1950, 8550, 12400, 18900, 29200, 31700];
+    var frame_durations_fwd = [3000, 5000, 5000, 8000, 14000, 3000];
+    var frame_durations_bkw = [1000, 1000, 1000, 1000, 1000, 1000];
     var current_frame = frame_sections[i];
     // console.log(current_frame);
 
@@ -42,8 +43,8 @@ $(document).ready(function() {
         if (e.originalEvent.wheelDelta && e.originalEvent.wheelDelta >= 0) {
           //Up
           if (!$("*").is(":animated")) {
-            $("html, body").stop().scrollTo(call_prev_frame(), { duration: frame_durations[i], easing : "swing" });
-            // console.log(' Up i = ' + i + ' ' + frame_durations[i]);
+            $("html, body").stop().scrollTo(call_prev_frame(), { duration: frame_durations_bkw[i], easing : "swing" });
+            // console.log(' Up i = ' + i + ' ' + frame_durations_fwd[i]);
           } else {
             // console.log ('Up Scroll Stopped');
             return;
@@ -52,8 +53,8 @@ $(document).ready(function() {
         } else if (e.originalEvent.detail && e.originalEvent.detail <= 0) {
           //Up
           if (!$("*").is(":animated")) {
-            $("html, body").stop().scrollTo(call_prev_frame(), { duration: frame_durations[i], easing : "swing" });
-            // console.log(" Up i = " + i + " " + frame_durations[i]);
+            $("html, body").stop().scrollTo(call_prev_frame(), { duration: frame_durations_bkw[i], easing : "swing" });
+            // console.log(" Up i = " + i + " " + frame_durations_fwd[i]);
           } else {
             // console.log ("Up Scroll Stopped 2");
             return;
@@ -62,8 +63,8 @@ $(document).ready(function() {
         } else {
           //Down
           if (!$("*").is(":animated")) {
-            $("html, body").stop().scrollTo(call_next_frame(), { duration: frame_durations[i-1], easing : "swing" });
-            // console.log('Down i = ' + (i-1) + ' ' + frame_durations[i -1]);
+            $("html, body").stop().scrollTo(call_next_frame(), { duration: frame_durations_fwd[i-1], easing : "swing" });
+            // console.log('Down i = ' + (i-1) + ' ' + frame_durations_fwd[i -1]);
           } else {
             // console.log ('Down Scroll Stopped');
             return;
@@ -77,7 +78,7 @@ $(document).ready(function() {
           case 37: // left
           case 38: // up
                   if (!$("*").is(":animated")) {
-                    $("html, body").stop().scrollTo(call_prev_frame(), { duration: frame_durations[i], easing : "swing" });
+                    $("html, body").stop().scrollTo(call_prev_frame(), { duration: frame_durations_bkw[i], easing : "swing" });
                   } else {
                     return;
                   }
@@ -86,7 +87,7 @@ $(document).ready(function() {
           case 39: // right
           case 40: // down
                   if (!$("*").is(":animated")) {
-                    $("html, body").stop().scrollTo(call_next_frame(), { duration: frame_durations[i-1], easing : "swing" });
+                    $("html, body").stop().scrollTo(call_next_frame(), { duration: frame_durations_fwd[i-1], easing : "swing" });
                   } else {
                     return;
                   }

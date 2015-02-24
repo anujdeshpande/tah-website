@@ -754,8 +754,7 @@ margin:0 auto;
 .ar3txt {
   bottom: 77px;
   color: #000;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 18px;
   position: fixed;
   text-align: center;
   right: 12%;
@@ -1184,7 +1183,7 @@ nav.push-menu-left button.close-menu {
     border-top: 0 solid !important;
 }
 .menu ul li {
-    list-style: outside url("../img/small-tah-icon-for-navigation-hover-position.png") disc;
+    /*list-style: outside url("../img/small-tah-icon-for-navigation-hover-position.png") disc;*/
     text-align: left !important;
 }
 .socialbtns {
@@ -1345,21 +1344,6 @@ nav.menu {
 .indicates-required {
   display: none !important;
 }
-
-
-
- #menu-one span {
-  background-color: rgba(0, 0, 0, 0);
-  background-image: url("../img/updated-tah-nav-normal-button.png");
-  background-position: left top;
-  background-repeat: no-repeat;
-  float: left;
-  height: 40px;
-  width: 34px;
-}
-#menu-one span:hover {
-  background-image: url("../img/updated-tah-nav-hover-button.png");
- }
 
 #menu-one .contactmenuitem
 {
@@ -2110,77 +2094,74 @@ display:block!important;
 
 
 /* ============================= ARDUINO ========================================= */
-@media only screen and (max-width:1250px) and (min-width:800px)
-{
-.Arduinoimgdiv 
-{
-  bottom: 50px;
-  position: fixed;
-  right: 0;
-  vertical-align: bottom;
+@media only screen and (max-width:1250px) and (min-width:800px){
+  .Arduinoimgdiv {
+    bottom: 50px;
+    position: fixed;
+    right: 0;
+    vertical-align: bottom;
+  }
+  .arduino > .container > .ar3 {
+    bottom: 24px;
+    position: fixed;
+    right: 20%;
+  }
+  .Arduinoimgdiv > img {
+    float: left;
+    width: 69%;
+  }
+  .arduino > .container >  .ar3 > img {
+    float: right;
+    width: 85%;
+  }
+  .ar3big {
+    bottom: 20px !important;
+    right: 20% !important;
+  }
 }
-.arduino > .container > .ar3 {
-  bottom: 24px;
-  position: fixed;
-  right: 20%;
+@media only screen and (max-width:779px) and (min-width:550px){
+  .arduino > .container > .infobox {
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+    top: 25px;
+    width: 100%;
+  }
+  .arduino > .container > .infobox h2 {
+    font-size: 48px;
+    line-height: 52px;
+    padding-bottom: 0;
+  }
+  .Arduinoimgdiv 
+  {
+    bottom: 0px;
+  }
+  .ar3big 
+  { 
+    bottom: -5px !important;
+    right: 13% !important;
+  }
+  .Arduinoimgdiv > img {
+    float: right;
+    width: 85%;
+  }
+  .arduino > .container >  .ar3 > img {
+    float: right;
+    width: 85%;
+  }
+  .ar3txt {
+    bottom: -17% !important;
+    font-size: 19px;
+    right: 5%;
+  }
+  .arduino > .container > .ar3 {
+    bottom: -12px;
+    position: fixed;
+    right: 10%;
+  }
 }
-.Arduinoimgdiv > img {
-  float: left;
-  width: 69%;
-}
-.arduino > .container >  .ar3 > img {
-  float: right;
-  width: 85%;
-}
-.ar3big {
-  bottom: 20px !important;
-  right: 20% !important;
-}
-}
-@media only screen and (max-width:779px) and (min-width:550px)
-{
-.arduino > .container > .infobox {
-  left: 0;
-  margin: 0 auto;
-  right: 0;
-  top: 25px;
-  width: 100%;
-}
-.arduino > .container > .infobox h2 {
-  font-size: 48px;
-  line-height: 52px;
-  padding-bottom: 0;
-}
-.Arduinoimgdiv 
-{
-  bottom: 0px;
-}
- .ar3big 
- {
-  bottom: -5px !important;
-  right: 13% !important;
-}
-.Arduinoimgdiv > img {
-  float: right;
-  width: 85%;
-}
-.arduino > .container >  .ar3 > img {
-  float: right;
-  width: 85%;
-}
-.ar3txt {
-  bottom: -17% !important;
-   font-size: 19px;
-  right: 5%;
- }
- .arduino > .container > .ar3 {
-  bottom: -12px;
-  position: fixed;
-  right: 10%;
-}
-}
-@media only screen and (max-width:549px) and (min-width:300px)
-{
+
+@media only screen and (max-width:549px) and (min-width:300px){
 .arduino > .container > .infobox h2 {
   font-size: 40px;
   line-height: 52px;
@@ -2992,7 +2973,7 @@ display:block;
 }
 
 .bigarduinoimg {
-  background: url("../img/ardiuno.png") no-repeat scroll left center / 100% auto rgba(0, 0, 0, 0);
+  background: url("../img/arduino.png") no-repeat scroll left center / 100% auto rgba(0, 0, 0, 0);
   float: left;
   height: 355px;
   margin-bottom: 135px;
@@ -3491,7 +3472,7 @@ display:block;
 }
 
 .bigarduinoimg {    
-  background: url("../img/ardiuno.png") no-repeat scroll left center / 100% auto rgba(0, 0, 0, 0);
+  background: url("../img/arduino.png") no-repeat scroll left center / 100% auto rgba(0, 0, 0, 0);
   float: none;
   height: 200px;
   margin: 0 auto;

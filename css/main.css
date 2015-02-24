@@ -753,8 +753,7 @@ margin:0 auto;
 .ar3txt {
   bottom: 77px;
   color: #000;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 18px;
   position: fixed;
   text-align: center;
   right: 12%;
@@ -1183,7 +1182,7 @@ nav.push-menu-left button.close-menu {
     border-top: 0 solid !important;
 }
 .menu ul li {
-    list-style: outside url("../img/small-tah-icon-for-navigation-hover-position.png") disc;
+    /*list-style: outside url("../img/small-tah-icon-for-navigation-hover-position.png") disc;*/
     text-align: left !important;
 }
 .socialbtns {
@@ -1344,21 +1343,6 @@ nav.menu {
 .indicates-required {
   display: none !important;
 }
-
-
-
- #menu-one span {
-  background-color: rgba(0, 0, 0, 0);
-  background-image: url("../img/updated-tah-nav-normal-button.png");
-  background-position: left top;
-  background-repeat: no-repeat;
-  float: left;
-  height: 40px;
-  width: 34px;
-}
-#menu-one span:hover {
-  background-image: url("../img/updated-tah-nav-hover-button.png");
- }
 
 #menu-one .contactmenuitem
 {

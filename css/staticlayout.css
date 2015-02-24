@@ -537,7 +537,7 @@ display:block;
 }
 
 .bigarduinoimg {
-  background: url("../img/ardiuno.png") no-repeat scroll left center / 100% auto rgba(0, 0, 0, 0);
+  background: url("../img/arduino.png") no-repeat scroll left center / 100% auto rgba(0, 0, 0, 0);
   float: left;
   height: 355px;
   margin-bottom: 135px;
@@ -1036,7 +1036,7 @@ display:block;
 }
 
 .bigarduinoimg {    
-  background: url("../img/ardiuno.png") no-repeat scroll left center / 100% auto rgba(0, 0, 0, 0);
+  background: url("../img/arduino.png") no-repeat scroll left center / 100% auto rgba(0, 0, 0, 0);
   float: none;
   height: 200px;
   margin: 0 auto;
