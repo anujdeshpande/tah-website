@@ -39,7 +39,7 @@
     </div>
 
     <ul>
-      <li><a href="/specs.html" style="text-decoration:none;"><span></span> Tech Specs</a></li>
+      <li><a href="/specs" style="text-decoration:none;"><span></span> Tech Specs</a></li>
       <li><a href="/start" style="text-decoration:none;"><span></span> Getting Started</a></li>
       <li><a href="http://docs.tah.io" style="text-decoration:none;"><span></span> Docs</a></li>
       <li><a href="http://blog.tah.io" style="text-decoration:none;"><span></span> Blog</a></li>
@@ -71,8 +71,8 @@
   </div>
  
   <div id="logo"
-  data--650-top="opacity:1; "
-  data--300-top="opacity:0; "
+  data--650-top="opacity:1;"
+  data--300-top="opacity:0;"
   ></div>
   <!-- Fixed Logo -->
   <!-- Main Animation canvas starts here -->
@@ -98,7 +98,7 @@
       </span>
       <nav id="nav-mobile">
         <ul class="" style="display: none;">
-          <li><a href="/specs.html" style="text-decoration:none;"><span></span> Tech Specs</a></li>
+          <li><a href="/specs" style="text-decoration:none;"><span></span> Tech Specs</a></li>
           <li><a href="/start" style="text-decoration:none;"><span></span> Getting Started</a></li>
           <li><a href="http://docs.tah.io" style="text-decoration:none;"><span></span> Docs</a></li>
           <li><a href="http://blog.tah.io" style="text-decoration:none;"><span></span> Blog</a></li>
@@ -116,7 +116,7 @@
         <div class="landinglogo"
         data--100-top="transform:translate(0%,0%)"
         >
-          <img class="img-responsive" style="height:300px" src="img/tah-device.png"
+          <img class="img-responsive" style="height:300px" src="img/tah-device.png" id="tah-device-landing"
           data--100-top="opacity:1; transform[swing]:scale(1) "
           data--800-top="opacity:0; transform[swing]:scale(0.1) "
           >
@@ -150,16 +150,18 @@
     </div>
       
     <section id="slide1" class="play opa"
-      data--200-top="opacity:0;"
-      data--1000-top="opacity:1;"
+      data--200-top=" opacity:0; z-index: 1107;"
+      data--1000-top="opacity:1; z-index: 1108;" 
+      data--1850-top="opacity:1; z-index: 1108;"
       >
+      <!-- z-index: 1108;" -->
       <div class="container">
 
         <div class="infobox opa"
         data--400-top="opacity:0;"
         data--800-top="opacity:1;"
-        data--1850-top="opacity:1; transform: translateX(0px)"
-        data--1950-top="opacity:0; transform: translateX(-1500px)"
+        data--1850-top="opacity:1; transform: translateX(0px);"
+        data--1950-top="opacity:0; transform: translateX(-1500px);"
         >
         
           <h2>play</h2>
@@ -168,10 +170,10 @@
           App.</p>
 
           <ul class="storebuttons opa"
-          data--400-top="opacity:0; "
-          data--800-top="opacity:1; "
+          data--400-top="opacity:0;"
+          data--800-top="opacity:1;"
           >
-            <li><a href="https://itunes.apple.com/us/app/tah-play/id945578953?mt=8"><img src="img/apple-store-button.png"></a></li>
+            <li><a class="appstore-links" href="https://itunes.apple.com/us/app/tah-play/id945578953?mt=8"><img src="img/apple-store-button.png"></a></li>
             <li><a href="#" class="play-store"><img src="img/android-button.png"></a></li>
           </ul>
         </div>
@@ -309,21 +311,24 @@
     <section id="slide2" class="rgb opa"
     data--1900-top="opacity:1;"
     data--5900-top="opacity:1;"
+    data--6200-top="z-index: 1107;"
+    data--6400-top="z-index: 1109;"
+    data--11500-top="z-index: 1107;"
     >
       <div class="container">
 
           <!-- Below text slides in and out -->
         <div class="infobox opa"
-        data--2200-top="opacity:0; transform: translateX(0px)"
-        data--2400-top="opacity:1; transform: translateX(0px)"
-        data--8900-top="opacity:1; transform: translateX(0px)"
-        data--9400-top="opacity:0; transform: translateX(0px)"
+        data--6200-top="opacity:0; transform: translateX(0px);"
+        data--6400-top="opacity:1; transform: translateX(0px);"
+        data--8800-top="opacity:1; transform: translateX(0px);"
+        data--9300-top="opacity:0; transform: translateX(0px);"
         >
           <h2>rgb</h2>
           <p>Make a mood lamp and change the lighting on a bunch of LEDs with the Tah RGB app.</p>
             
           <ul class="storebuttons">
-            <li><a href="https://itunes.apple.com/us/app/tah-rgb/id925250365?mt=8"><img src="img/apple-store-button.png"></a></li>
+            <li><a class="appstore-links" href="https://itunes.apple.com/us/app/tah-rgb/id925250365?mt=8"><img src="img/apple-store-button.png"></a></li>
             <li><a href="#" class="play-store"><img src="img/android-button.png"></a></li>
           </ul>
         </div>
@@ -351,29 +356,34 @@
           data--1400-top="opacity:0; transform: translateX(500x) "
           data--1800-top="opacity:1; transform: translateX(70px) "
 
-          data--4200-top="opacity:1; transform: translateX(70px) "
-          data--4400-top="opacity:1; transform: translateX(20px) "
+          data--3800-top="opacity:1; transform: translateX(70px) "
+          data--4000-top="opacity:1; transform: translateX(30px) "
 
-          data--6800-top="opacity:1; transform: translateX(20px) "
-          data--7000-top="opacity:1; transform: translateX(-10px) "
+          data--6300-top="opacity:1; transform: translateX(30px) "
+          data--6500-top="opacity:1; transform: translateX(0px) "
           >
 
         </div>
       </div>
     </section>
   
-    <section id="slide3" class="motion">
+    <section id="slide3" class="motion"
+        data--11200-top="z-index: 1106;"
+        data--11400-top="z-index: 1110;"
+        data--14500-top="z-index: 1106;"
+        >
+
       <div class="container">
         <div class="infobox opa"
-        data--9200-top="opacity:0;  transform:translateX(0px)"
-        data--9400-top="opacity:1;  transform:translateX(0px)"
-        data--12500-top="opacity:1; transform:translateX(0px)"
-        data--13000-top="opacity:0; transform:translateX(0px)"
+        data--11200-top="opacity:0; transform:translateX(0px); z-index:0;"
+        data--11400-top="opacity:1; transform:translateX(0px);"
+        data--12500-top="opacity:1; transform:translateX(0px);"
+        data--13000-top="opacity:0; transform:translateX(0px);"
         >
           <h2>motion</h2>
           <p>Use swipe gestures to control your mac's desktop and audio</p>
           <ul class="storebuttons">
-            <li><a href="https://itunes.apple.com/us/app/tah-motion/id923858114?mt=8"><img src="img/apple-store-button.png"></a></li>
+            <li><a class="appstore-links" href="https://itunes.apple.com/us/app/tah-motion/id923858114?mt=8"><img src="img/apple-store-button.png"></a></li>
             <li><a href="#" class="play-store"><img src="img/android-button.png"></a></li>
           </ul>
         </div>
@@ -410,20 +420,24 @@
       </div>
     </section>
   
-    <section id="slide4" class="sensor">
+    <section id="slide4" class="sensor"
+      data--18000-top="z-index:1105;"
+      data--18200-top="z-index:1111;"
+      data--20000-top="z-index:1105;"
+      >
       <div class="container">
         <div class="infobox opa"
-        data--18000-top="opacity:0; transform:translateY(-30px)"
-        data--18200-top="opacity:1; transform:translateY(-30px)"
-        data--18750-top="opacity:1; transform:translateY(-30px)"
-        data--19000-top="opacity:0; transform:translateY(-30px)"
+        data--18000-top="opacity:0; transform:translateY(-30px); z-index:1105;"
+        data--18200-top="opacity:1; transform:translateY(-30px); z-index:1111;"
+        data--18750-top="opacity:1; transform:translateY(-30px); z-index:1111;"
+        data--19000-top="opacity:0; transform:translateY(-30px); z-index:1105;"
         >
           <h2>sensor</h2>
           <p>The Tah Sensor app makes it easy to
           view the data relayed from various
           sensors directly on your phone.</p>
           <ul class="storebuttons">
-            <li><a href="https://itunes.apple.com/us/app/tah-sensor/id911694655?mt=8"><img src="img/apple-store-button.png"></a></li>
+            <li><a class="appstore-links" href="https://itunes.apple.com/us/app/tah-sensor/id911694655?mt=8"><img src="img/apple-store-button.png"></a></li>
             <li><a href="#" class="play-store"><img src="img/android-button.png"></a></li>
           </ul>
         </div>
@@ -501,10 +515,10 @@
     <section id="slide5" class="arduino">
       <div class="container">
         <div class="infobox opa"
-        data--28300-top="opacity:0; transform:translateX(0px)"
-        data--28500-top="opacity:1; transform:translateX(0px)"
-        data--28900-top="opacity:1; transform:translateX(0px)"
-        data--29200-top="opacity:0; transform:translateX(0px)"
+        data--28300-top="opacity:0; transform:translateX(0px); z-index:1104;"
+        data--28500-top="opacity:1; transform:translateX(0px); z-index:1112;"
+        data--28900-top="opacity:1; transform:translateX(0px); z-index:1112;"
+        data--29200-top="opacity:0; transform:translateX(0px); z-index:1104;"
         >
           <h2>Arduino</h2>
           <p>Use your existing Arduino shields with the help of the Breakout Shield </p>

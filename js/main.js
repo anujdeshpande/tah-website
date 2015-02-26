@@ -7,15 +7,26 @@ $(document).ready(function() {
     var current_frame = frame_sections[i];
     // console.log(current_frame);
 
+    setTimeout(function(){
+      if (i == 0) {
+        if ($("#tah-device-landing").css("opacity") == 1) {
+          $(".appstore-links").css("display", "none");
+        } else {
+          $(".appstore-links").css("display", "inline");
+        }
+      } else {
+        $(".appstore-links").css("display", "inline");
+      }
+    }, 300);
+    
+
     function call_next_frame() {
       var next_frame;
       if (i == frame_sections.length - 1) {
         next_frame = frame_sections[i];
-        // console.log('Next frame is ' + next_frame);
         return next_frame;
       } else { 
         next_frame = frame_sections[++i];
-        // console.log('Next frame is ' + next_frame);
         return next_frame;
       }
     }
@@ -24,11 +35,9 @@ $(document).ready(function() {
       var prev_frame;
       if (i == 0) {
         prev_frame = frame_sections[i];
-        // console.log('Prev frame is ' + prev_frame);
         return prev_frame;
       } else { 
         prev_frame = frame_sections[--i];
-        // console.log('Prev frame is ' + prev_frame);
         return prev_frame;
       }
     }
@@ -41,12 +50,19 @@ $(document).ready(function() {
 
         //Determine Direction
         if (e.originalEvent.wheelDelta && e.originalEvent.wheelDelta >= 0) {
-          //Up
+          // Up
           if (!$("*").is(":animated")) {
             $("html, body").stop().scrollTo(call_prev_frame(), { duration: frame_durations_bkw[i], easing : "swing" });
-            // console.log(' Up i = ' + i + ' ' + frame_durations_fwd[i]);
+            console.log('i is ' + i);
+            if (i != 0) {
+              $(".appstore-links").css("display", "inline");
+            } else {
+              setTimeout(function(){
+                $(".appstore-links").css("display", "none");
+              }, 1000);
+            }
           } else {
-            // console.log ('Up Scroll Stopped');
+            // Up Scroll Stopped
             return;
           }
 
@@ -54,9 +70,16 @@ $(document).ready(function() {
           //Up
           if (!$("*").is(":animated")) {
             $("html, body").stop().scrollTo(call_prev_frame(), { duration: frame_durations_bkw[i], easing : "swing" });
-            // console.log(" Up i = " + i + " " + frame_durations_fwd[i]);
+            console.log('i is ' + i);
+            if (i != 0) {
+              $(".appstore-links").css("display", "inline");
+            } else {
+              setTimeout(function(){
+                $(".appstore-links").css("display", "none");
+              }, 1000);
+            }
           } else {
-            // console.log ("Up Scroll Stopped 2");
+            // Up Scroll Stopped 2
             return;
           }
 
@@ -64,9 +87,13 @@ $(document).ready(function() {
           //Down
           if (!$("*").is(":animated")) {
             $("html, body").stop().scrollTo(call_next_frame(), { duration: frame_durations_fwd[i-1], easing : "swing" });
-            // console.log('Down i = ' + (i-1) + ' ' + frame_durations_fwd[i -1]);
+            if (i != 0) {
+              $(".appstore-links").css("display", "inline");
+            } else {
+              $(".appstore-links").css("display", "none");
+            }
           } else {
-            // console.log ('Down Scroll Stopped');
+            // Down Scroll Stopped
             return;
           }
         }
@@ -79,6 +106,13 @@ $(document).ready(function() {
           case 38: // up
                   if (!$("*").is(":animated")) {
                     $("html, body").stop().scrollTo(call_prev_frame(), { duration: frame_durations_bkw[i], easing : "swing" });
+                    if (i != 0) {
+                      $(".appstore-links").css("display", "inline");
+                    } else {
+                      setTimeout(function(){
+                        $(".appstore-links").css("display", "none");
+                      }, 1000);
+                    }
                   } else {
                     return;
                   }
@@ -88,6 +122,11 @@ $(document).ready(function() {
           case 40: // down
                   if (!$("*").is(":animated")) {
                     $("html, body").stop().scrollTo(call_next_frame(), { duration: frame_durations_fwd[i-1], easing : "swing" });
+                    if (i != 0) {
+                      $(".appstore-links").css("display", "inline");
+                    } else {
+                      $(".appstore-links").css("display", "none");
+                    }
                   } else {
                     return;
                   }
