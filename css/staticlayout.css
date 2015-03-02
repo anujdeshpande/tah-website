@@ -247,6 +247,13 @@ nav#nav-mobile a:hover {
   z-index: 1002;
 }
 
+.featuredbox {
+  max-width: 400px;
+  position: relative;
+  width: 27.77%;
+  z-index: 1002;
+}
+
 .rgbbg {
   background: url("../img/rgbBG.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
   float: left;
@@ -333,7 +340,7 @@ nav#nav-mobile a:hover {
   margin-top: 30px;
 }
 
-.infobox {
+.infobox, .featuredbox {
   width: 260px!important;
   z-index: 1002;
   float: left;
@@ -651,7 +658,7 @@ width: 200px;
 }
 
 .motion .infobox h2 {
-   font-size: 40px;
+  font-size: 40px;
   line-height: 35px;
   margin-top: 30px;
 }
@@ -665,9 +672,7 @@ width: 200px;
   margin-top: 4%;
 }
 
-.rgbamonitor1
-
-{
+.rgbamonitor1 {
   background: url("../img/rgb-2.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0)!important;
    border: 0 none;
   float: left;
@@ -689,8 +694,26 @@ width: 200px;
   float: none;
   width: 100%!important;
   margin: 0 auto!important;
-   opacity: 1!important;
-   position:relative;
+  opacity: 1!important;
+  position:relative;
+}
+
+.featuredbox.opa {
+  float: none;
+  width: 100%!important;
+  margin: 40px auto!important;
+  opacity: 1!important;
+  position:relative;
+}
+
+.featuredbox.opa > h3 {
+  font-size: 20px;
+}
+
+.featuredbox.opa > div {
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
 }
 
 .slide6div {
@@ -701,7 +724,7 @@ width: 200px;
 }
 
 .canvas {
-    float: left;
+  float: left;
   height: auto;
   margin: 0;
   padding: 0;
@@ -849,7 +872,7 @@ width: 200px;
   margin-top: 30px;
 }
 
-.infobox {
+.infobox, .featuredbox {
   width: 260px!important;
   z-index: 1002;
   float: left;
@@ -1327,6 +1350,31 @@ width: 200px;
   .rgbaouterdivmotion {
     float: left;
     margin: 40px 0 20px 15px !important;
+  }
+
+  .featuredbox {
+    max-width: 600px;
+    position: relative;
+    width: 27.77%;
+    z-index: 1002;
+  }
+
+  .featuredbox.opa {
+    float: none;
+    width: 100%!important;
+    margin: 40px auto!important;
+    opacity: 1!important;
+    position:relative;
+  }
+
+  .featuredbox.opa > h3 {
+    font-size: 20px;
+  }
+
+  .featuredbox.opa > div {
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
   }
 } 
 

@@ -1,9 +1,9 @@
 $(document).ready(function() {
   if (!navigator.userAgent.match(/Mobi/)) {
     var i = 0;
-    var frame_sections = [0, 1950, 8550, 12400, 18900, 29200, 31700];
-    var frame_durations_fwd = [3000, 5000, 5000, 8000, 14000, 3000];
-    var frame_durations_bkw = [1000, 1000, 1000, 1000, 1000, 1000];
+    var frame_sections = [0, 1950, 8550, 12400, 18900, 29200, 30650, 31600];
+    var frame_durations_fwd = [3000, 5000, 5000, 8000, 14000, 3000, 2000];
+    var frame_durations_bkw = [1000, 1000, 1000, 1000, 1000, 1000, 1000];
     var current_frame = frame_sections[i];
     // console.log(current_frame);
 
