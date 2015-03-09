@@ -187,217 +187,274 @@ nav#nav-mobile a:hover {
 }
 
 @media only screen and (max-width:800px) and (min-width:606px){
-.motion {
-  border-bottom: 4px solid #112f41;
-}
 
-.canvas {
-  float: left;
-  height: auto;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  width: 100%;
-  z-index: 1;
-}
+  #slide6 {
+    border-bottom: 4px solid #112f41;
+    padding-bottom: 40px;
+  }
 
-.container {
-  float: left;
-  height: 100%;
-  margin: 0 auto;
-  max-width: 100%;
-  position: relative;
-  width: 94.7%;
-  padding: 0 10px;
-}
+  .arduino {
+    border-bottom: 4px solid #112f41;
+  }
 
-#main section {
-   float: left;
-  height: 100%;
+  .motion {
+    border-bottom: 4px solid #112f41;
+  }
+
+  .slidinghandTahMotion {
+    float: none;
+    margin-left: 475px;
+    margin-top: 100px;  
+    width: 100px;
+  }
+
+  .rgbaouterdivmotion {
+    float: left;
+    margin: 40px 0 20px 15px !important;
+  }
+
+  .featuredbox {
+    max-width: 600px;
     position: relative;
-  width: 100%;
-  z-index: 1000;
-}
+    width: 27.77%;
+    z-index: 1002;
+  }
 
-.landinglogo {
-  float: left;
-  left: auto;
-  position: relative;
-  right: 0;
-  text-align: center;
-  top: auto;
-  width: 100%;
-  padding: 0px;
-}
+  .featuredbox.opa {
+    float: none;
+    width: 100%!important;
+    margin: 40px auto!important;
+    opacity: 1!important;
+    position:relative;
+  }
 
-.playbg {
-  background: url("../img/playBG.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
-  float: left;
-  height: 100%;
-  opacity: 1;
-  position: relative;
-  top: auto;
-  width: 100%;
-}
+  .featuredbox.opa > h3 {
+    font-size: 20px;
+  }
 
-.infobox {
-  max-width: 400px;
-  position: relative;
-  width: 27.77%;
-  z-index: 1002;
-}
+  .featuredbox.opa > div {
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
+  }
 
-.featuredbox {
-  max-width: 400px;
-  position: relative;
-  width: 27.77%;
-  z-index: 1002;
-}
+  .canvas {
+    float: left;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
 
-.rgbbg {
-  background: url("../img/rgbBG.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
-  float: left;
-  height: 100%;
-  position: relative;
-  top: auto !important;
-  width: 100%;
-  z-index: 999;
-}
+  .container {
+    float: left;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    position: relative;
+    width: 94.7%;
+    padding: 0 10px;
+  }
 
-.rgbaoverlay {
-   height: 100%;
-  max-height: 434px;
-  position: relative;
-  top: 10%;
-  width: 100%;
-  z-index: 999;
-}
+  #main section {
+    float: left;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+  }
 
-.rgbaoverlay1 {
+  .landinglogo {
+    float: left;
+    left: auto;
+    position: relative;
+    right: 0;
+    text-align: center;
+    top: auto;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .playbg {
+    background: url("../img/playBG.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 100%;
+    opacity: 1;
+    position: relative;
+    top: auto;
+    width: 100%;
+  }
+
+  .infobox {
+    max-width: 400px;
+    position: relative;
+    width: 27.77%;
+    z-index: 1002;
+  }
+
+  .featuredbox {
+    max-width: 400px;
+    position: relative;
+    width: 27.77%;
+    z-index: 1002;
+  }
+
+  .rgbbg {
+    background: url("../img/rgbBG.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 100%;
+    position: relative;
+    top: auto !important;
+    width: 100%;
+    z-index: 999;
+  }
+
+  .rgbaoverlay {
+     height: 100%;
+    max-height: 434px;
+    position: relative;
+    top: 10%;
+    width: 100%;
+    z-index: 999;
+  }
+
+  .rgbaoverlay1 {
     position: relative;
   }
+
   .rgbaoverlay2 {
     position: relative;
   }
+
   .rgb .bottomhands {
-  bottom: 0;
-  max-width: 490px;
-  position: relative;
-  right: 2.5%;
-}
-
-.infobox {
-    opacity: 1!important;
-}
-
-.motion .bottomhands {
-  bottom: 0;
-  max-width: 490px;
-  position: relative;
-  right: 0;
-}
-
-.infobox {
-   position: relative;
- }
- .arduino > .container > .infobox {
-  float: left;
-  left: 0;
-  margin: 0 auto;
-  position: relative;
-  right: 0;
-  top: auto;
-  width: 100%;
-}
-
-.Arduinoimgdiv {
-  position: relative;
-  right: 10%;
-  vertical-align: bottom;
-}
-
-.arduino > .container > .ar3 {
+    bottom: 0;
+    max-width: 490px;
     position: relative;
- }
+    right: 2.5%;
+  }
+
+  .infobox {
+    opacity: 1!important;
+  }
+
+  .motion .bottomhands {
+    bottom: 0;
+    max-width: 490px;
+    position: relative;
+    right: 0;
+  }
+
+  .infobox {
+    position: relative;
+  }
+
+  .arduino > .container > .infobox {
+    float: left;
+    left: 0;
+    margin: 0 auto;
+    position: relative;
+    right: 0;
+    top: auto;
+    width: 100%;
+  }
+
+  .Arduinoimgdiv {
+    position: relative;
+    right: 10%;
+    vertical-align: bottom;
+  }
+
+  .arduino > .container > .ar3 {
+    position: relative;
+  }
+
  .logo-text1 {
-  left: 0;
-  position: relative;
-  right: 0;
-  top: auto;
-}
-
-.tagline1 {
-  left: 0;
-  position: relative;
-  right: 0;
-  top: auto;
-}
-
-.opa {
-  opacity: 1;
-}
-#slide1 {
-  margin-top: 30px;
-}
-
-.infobox, .featuredbox {
-  width: 260px!important;
-  z-index: 1002;
-  float: left;
-}
-
-.infobox h2 {
-  font-size: 40px;
+    left: 0;
+    position: relative;
+    right: 0;
+    top: auto;
   }
+
+  .tagline1 {
+    left: 0;
+    position: relative;
+    right: 0;
+    top: auto;
+  }
+
+  .opa {
+    opacity: 1;
+  }
+
+  #slide1 {
+    margin-top: 30px;
+  }
+
+  .infobox, .featuredbox {
+    width: 260px!important;
+    z-index: 1002;
+    float: left;
+  }
+
+  .infobox h2 {
+    font-size: 40px;
+  }
+
   .infobox > p {
-  font-size: 14px !important;
+    font-size: 14px !important;
     line-height: 25px;
-}
-
-.canvas-mini {
-  background: url("../img/cartoon.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
-  height: 173px;
-  margin-top: 4% !important;
-  max-width: none;
-  position: relative;
-  top: auto !important;
-  width: 200px !important;
-  margin-top: 4%;
-}
-
-.light_bulb{
-  display: none;
-}
-
-.monitor{
-  display: none;
-}
-
-.slidinghandTah {
-  float: right;
-  margin-left:200px;
-  margin-top: 40px;
-  width: 115px;
-}
-
-.slidinghandTah1 {
-  display: none;
   }
+
+  .canvas-mini {
+    background: url("../img/cartoon.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+    height: 173px;
+    margin-top: 4% !important;
+    max-width: none;
+    position: relative;
+    top: auto !important;
+    width: 200px !important;
+    margin-top: 4%;
+  }
+
+  .light_bulb{
+    display: none;
+  }
+
+  .monitor{
+    display: none;
+  }
+
+  .slidinghandTah {
+    float: right;
+    margin-left:200px;
+    margin-top: 40px;
+    width: 115px;
+  }
+
+  .slidinghandTah1 {
+    display: none;
+  }
+
   .storebuttons li img {
-  width: 100px!important;
-}
-#main section {
+    width: 100px!important;
+  }
+
+  #main section {
     padding-left: 0;
  }
- .bottomhands.opa {
-  float: right;
-  position: relative;
-  width: 100%;
-}
-#slide2 {
-  background: none repeat scroll 0 0 #0c3040 !important;
-  padding-top: 3%;
-}
+
+  .bottomhands.opa {
+    float: right;
+    position: relative;
+    width: 100%;
+  }
+
+  #slide2 {
+    background: none repeat scroll 0 0 #0c3040 !important;
+    padding-top: 3%;
+  }
 
 .bottomhands .img-responsive {
   float: right;
@@ -409,9 +466,8 @@ nav#nav-mobile a:hover {
   width: 160px !important;
 }
 
-.rgbamonitor
-{
-display:block;
+.rgbamonitor {
+  display:block;
 }
 
 .rgbamonitor {
@@ -423,9 +479,7 @@ display:block;
   margin-top: 4%;
 }
 
-.rgbamonitor1
-
-{
+.rgbamonitor1 {
   background: url("../img/rgb-2.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0)!important;
    border: 0 none;
   float: left;
@@ -578,19 +632,20 @@ display:block;
   font-size: 19px;
   right: 5%;
   position: relative;
-    margin-top: 3px !important;
+  margin-top: 3px !important;
   padding-bottom: 25px;
 } 
+
 .arduino > .container > .ar3 > img {
   float: none;
-margin-left: -40px !important;
-width: 200px;
+  margin-left: -40px !important;
+  width: 200px;
 }
 
 #main {
   float: left;
   padding-bottom: 50px;
-    width: 100%;
+  width: 100%;
 }
 
 .ar3big {
@@ -619,7 +674,7 @@ width: 200px;
 }
 
 .contactform-newsletter > p {
-   text-align: center;
+  text-align: center;
 }
 
 .slidinghandTahnewrgb {
@@ -649,6 +704,16 @@ width: 200px;
 }
 
 @media only screen and (max-width:605px) and (min-width:250px){
+
+.arduino {
+  border-bottom: 4px solid #112f41;
+}
+
+#slide6 {
+  border-bottom: 4px solid #112f41;
+  padding-bottom: 30px;
+}
+
 .infobox.opa > p {
   text-align: center;
 }
@@ -743,9 +808,9 @@ width: 200px;
   top: auto !important;
   width: 200px !important;
   margin-top: 40px !important;
-   }
+}
    
-   #slide1 {
+#slide1 {
   background: none repeat scroll 0 0 #B0E1FF !important;
 }
 
@@ -758,10 +823,11 @@ width: 200px;
   width: 94.7%;
   padding: 0 10px;
 }
+
 #main section {
-   float: left;
+  float: left;
   height: 100%;
-    position: relative;
+  position: relative;
   width: 100%;
   z-index: 1000;
 }
@@ -775,7 +841,6 @@ width: 200px;
   top: auto;
   width: 100%;
   padding: 0px;
-  /*margin-top: -15px;*/
 }
 
 .playbg {
@@ -807,45 +872,48 @@ width: 200px;
   z-index: 999;
 }
 
-.rgbaoverlay1 {
+  .rgbaoverlay1 {
     position: relative;
   }
+
   .rgbaoverlay2 {
     position: relative;
   }
+
   .rgb .bottomhands {
-  bottom: 0;
-  max-width: 490px;
-  position: relative;
-  right: 2.5%;
-}
-
-.motion .bottomhands {
-  bottom: 0;
-  max-width: 490px;
-  position: relative;
-  right: 0;
-}
-
- .arduino > .container > .infobox {
-  float: none;
-  left: 0;
-  margin: 0 auto;
-  position: relative;
-  right: 0;
-  top: auto;
-  width: 100%;
-}
-
-.Arduinoimgdiv {
-  position: relative;
-  right: 10%;
-  vertical-align: bottom;
-}
-
-.arduino > .container > .ar3 {
+    bottom: 0;
+    max-width: 490px;
     position: relative;
- }
+    right: 2.5%;
+  }
+
+  .motion .bottomhands {
+    bottom: 0;
+    max-width: 490px;
+    position: relative;
+    right: 0;
+  }
+
+  .arduino > .container > .infobox {
+    float: none;
+    left: 0;
+    margin: 0 auto;
+    position: relative;
+    right: 0;
+    top: auto;
+    width: 100%;
+  }
+
+  .Arduinoimgdiv {
+    position: relative;
+    right: 10%;
+    vertical-align: bottom;
+  }
+
+  .arduino > .container > .ar3 {
+    position: relative;
+   }
+
  .logo-text1 {
   left: 0;
   position: relative;
@@ -853,24 +921,25 @@ width: 200px;
   top: auto;
 }
 
-.tagline1 {
-  left: 0;
-  position: relative;
-  right: 0;
-  top: auto;
-  padding: 0px 15px 0px 15px !important;
-}
+  .tagline1 {
+    left: 0;
+    position: relative;
+    right: 0;
+    top: auto;
+    padding: 0px 15px 0px 15px !important;
+  }
 
-.tagline1 p {
-  font-size: 18px !important;
-}
+  .tagline1 p {
+    font-size: 18px !important;
+  }
 
-.opa {
-  opacity: 1;
-}
-#slide1 {
-  margin-top: 30px;
-}
+  .opa {
+    opacity: 1;
+  }
+
+  #slide1 {
+    margin-top: 30px;
+  }
 
 .infobox, .featuredbox {
   width: 260px!important;
@@ -1076,14 +1145,16 @@ display:block;
 
 .arduino > .container > .ar3 {
   border: 0 none;
-bottom: 0;
-clear: both;
-float: none;
-margin: 0 auto!important;
-position: relative;
-right: 0 !important;
-text-align: center;
-width: 200px;
+  bottom: 0;
+  clear: both;
+  float: none;
+  margin: 0 auto!important;
+  margin-top: -15px !important;
+  margin-bottom: 15px !important;
+  position: relative;
+  right: 0 !important;
+  text-align: center;
+  width: 200px;
 }
 
 .ar3txt {
@@ -1270,6 +1341,11 @@ width: 200px;
     top: 13%;
     width: 60px;
   }
+
+  .arduino {
+    border-bottom: 4px solid #112f41;
+    padding-bottom: 20px !important;
+  }
 }
 
 @media only screen and (max-width:320px) and (min-width:250px){
@@ -1338,45 +1414,6 @@ width: 200px;
     margin: 40px 0 20px 70px !important;
   }
 }
-
-@media only screen and (max-width:800px) and (min-width:606px){
-  .slidinghandTahMotion {
-    float: none;
-    margin-left: 475px;
-    margin-top: 100px;  
-    width: 100px;
-  }
-
-  .rgbaouterdivmotion {
-    float: left;
-    margin: 40px 0 20px 15px !important;
-  }
-
-  .featuredbox {
-    max-width: 600px;
-    position: relative;
-    width: 27.77%;
-    z-index: 1002;
-  }
-
-  .featuredbox.opa {
-    float: none;
-    width: 100%!important;
-    margin: 40px auto!important;
-    opacity: 1!important;
-    position:relative;
-  }
-
-  .featuredbox.opa > h3 {
-    font-size: 20px;
-  }
-
-  .featuredbox.opa > div {
-    font-size: 16px;
-    padding: 20px;
-    text-align: center;
-  }
-} 
 
 @media only screen and (max-width:800px) and (min-width:700px){
   .storebuttons {
