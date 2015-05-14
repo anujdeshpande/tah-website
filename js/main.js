@@ -53,7 +53,7 @@ $(document).ready(function() {
           // Up
           if (!$("*").is(":animated")) {
             $("html, body").stop().scrollTo(call_prev_frame(), { duration: frame_durations_bkw[i], easing : "swing" });
-            console.log('i is ' + i);
+            // console.log('i is ' + i);
             if (i != 0) {
               $(".appstore-links").css("display", "inline");
             } else {
@@ -70,7 +70,7 @@ $(document).ready(function() {
           //Up
           if (!$("*").is(":animated")) {
             $("html, body").stop().scrollTo(call_prev_frame(), { duration: frame_durations_bkw[i], easing : "swing" });
-            console.log('i is ' + i);
+            // console.log('i is ' + i);
             if (i != 0) {
               $(".appstore-links").css("display", "inline");
             } else {
