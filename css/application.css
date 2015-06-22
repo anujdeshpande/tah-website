@@ -2459,7 +2459,7 @@ display:none !important;
 }
 
 .play-store {
-  cursor: default;
+  cursor: pointer;
 }
 
 @media only screen and (max-width:700px) and (min-width: 250px){

@@ -21,6 +21,7 @@ $(document).ready(function() {
     
 
     function call_next_frame() {
+      // console.log('next frame');
       var next_frame;
       if (i == frame_sections.length - 1) {
         next_frame = frame_sections[i];
@@ -32,6 +33,7 @@ $(document).ready(function() {
     }
 
     function call_prev_frame() {
+      // console.log('prev frame');
       var prev_frame;
       if (i == 0) {
         prev_frame = frame_sections[i];
@@ -53,7 +55,6 @@ $(document).ready(function() {
           // Up
           if (!$("*").is(":animated")) {
             $("html, body").stop().scrollTo(call_prev_frame(), { duration: frame_durations_bkw[i], easing : "swing" });
-            // console.log('i is ' + i);
             if (i != 0) {
               $(".appstore-links").css("display", "inline");
             } else {
@@ -70,7 +71,6 @@ $(document).ready(function() {
           //Up
           if (!$("*").is(":animated")) {
             $("html, body").stop().scrollTo(call_prev_frame(), { duration: frame_durations_bkw[i], easing : "swing" });
-            // console.log('i is ' + i);
             if (i != 0) {
               $(".appstore-links").css("display", "inline");
             } else {
@@ -86,6 +86,7 @@ $(document).ready(function() {
         } else {
           //Down
           if (!$("*").is(":animated")) {
+            // console.log('called');
             $("html, body").stop().scrollTo(call_next_frame(), { duration: frame_durations_fwd[i-1], easing : "swing" });
             if (i != 0) {
               $(".appstore-links").css("display", "inline");
